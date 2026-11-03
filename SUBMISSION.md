@@ -20,6 +20,15 @@ I deliberately left out exhaustive exchange pagination, continuous notification 
 
 [ADD YOUR NAME]
 
+# Three-minute demo route
+
+1. Open the briefing: 21 prioritised items, 9 disclosures in view, 13 market-move alerts and 5 filing previews. Point out the coverage notices (snapshot date, fallback-feed holdings, stale sources).
+2. Expand "Inside the filing" on an ITC disclosure and follow "Verify original page" to the exchange PDF.
+3. Open Preferences, lower the price threshold, save, and confirm the digest changes; reload to show preferences persist.
+4. Open INFY research → Overview, then Management memory. Show the FY27 guidance revisions and the FY26 Revenue Growth **MET** card: promise quote, delivery quote, annual-report scope citation and the scope note.
+5. Open the Annual report p.78 citation, show "Quotation matched against this extracted page", and expand the full page extract.
+6. Show FY26 margin **NOT COMPARABLE** and FY27 **PENDING** to make the judgment call explicit, then open an evidence-only company (HCLTECH or TCS) and an invalid ticker error.
+
 # Before sending
 
 - Replace every placeholder above.
