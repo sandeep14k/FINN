@@ -2,6 +2,10 @@
 
 FINN is a mobile-first portfolio attention desk plus a primary-source management memory. It includes verified guidance revision timelines, delivery checks, filing previews and a persistent reviewed/unreviewed feed. The deliberate scope is two connected workflows: identify a disclosure worth attention, then inspect management's promises and the reported evidence.
 
+Live demo: https://finn-attention-desk-13oolrbrhrs.qoder.website · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
+
+The hosted demo is a static export of the saved snapshot and six cached research briefs. Live new-ticker research and scheduled refresh run in the local/Docker build described below, not in the static demo.
+
 ## Run locally
 
 Use Python 3.13 and Node 20.9+ (the supplied environment uses Python 3.13 / Node 20).

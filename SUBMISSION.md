@@ -6,9 +6,9 @@ Hello ENAM team,
 
 I built FINN around one investor workflow: a prioritised portfolio disclosure desk connected to an evidence-backed management promise check.
 
-Prototype: [ADD DEPLOYED URL]
-Repository: [ADD DEDICATED GITHUB URL]
-AI build history: [ADD ACTUAL EXPORT OR SHARE LINKS]
+Prototype: https://finn-attention-desk-13oolrbrhrs.qoder.website
+Repository: https://github.com/sandeep14k/FINN
+AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md) and [ADD QODER SHARE LINK]
 
 The workspace tracks 18 Indian listed companies. Investors can change the digest window (24h / 3d / 7d / all), filter by holding or category, set price and volume thresholds, mark items reviewed, and inspect original filings. The briefing states its own coverage: the saved snapshot date, holdings on a limited fallback feed, and any sources that could not refresh. Five material filings expose a verbatim "Inside the filing" preview with a page number and a link to the original PDF.
 
@@ -16,9 +16,11 @@ The research side starts from an NSE symbol, discovers recent earnings-call tran
 
 Research uses Groq with bounded extraction, strict structured outputs, shared rate pacing and response caching to control cost. Numeric comparisons, period matching and citation verification are deterministic; explicit guidance patterns and filing previews need no model tokens. Every quotation is checked against the extracted page before it is published. An interim quarter never counts as annual delivery. The saved snapshot keeps the demo usable without model access, and a missing key or provider failure falls back to clearly labelled verbatim evidence with no verdict.
 
+The hosted demo is a static export of the saved snapshot, six cached research briefs and their page extracts. It deliberately disables live new-ticker research and server-side refresh; the same repository runs the full Node + Python pipeline locally or in the included Docker image, where those are enabled. I made that trade-off so the assessment link is fast, stable and cannot fail because of a free-tier model quota during review.
+
 I deliberately left out exhaustive exchange pagination, continuous notification delivery, OCR for scanned filings, automated quarterly financial tables and executive biographies. Next I would widen exchange coverage, make research a durable worker queue, and add authentication plus shared rate limits for multi-user use.
 
-[ADD YOUR NAME]
+Sandeep Kumar Jha
 
 # Three-minute demo route
 
@@ -31,13 +33,11 @@ I deliberately left out exhaustive exchange pagination, continuous notification 
 
 # Before sending
 
-- Replace every placeholder above.
-- Run the documented integrity, lint and production-build checks; `TEST_RESULTS.md` records the checks actually run.
-- Create the dedicated repository rooted at Finn and confirm `.env`, `venv/`, `node_modules/` and `.next/` are not committed.
-- Deploy on a host that supports a persistent Node/Python process and external source access; serverless functions cannot run the research job.
-- Open the deployed URL from a fresh browser session and on an actual phone.
+- Replace `[ADD QODER SHARE LINK]` with the actual session share/export link if one is created; `BUILD_HISTORY.md` is committed as a curated export.
+- `TEST_RESULTS.md` records the checks actually run: 66 Python tests, ESLint, production build, static build and browser verification.
+- The dedicated repository is public and its tracked files exclude `.env`, `venv/`, `node_modules/`, `.next/`, `out/` and internal planning notes.
+- The live demo is public and was verified in a fresh browser session. A real-phone check is still recommended.
 - Confirm the displayed snapshot date and coverage notices match the refreshed data.
-- Attach or link the actual AI build conversations.
 
 Extended deadline confirmed by the user: 3 November 2026 EOD.
 
@@ -46,4 +46,5 @@ Extended deadline confirmed by the user: 3 November 2026 EOD.
 To: assessment@enam.com
 Subject: ENAM - IIT screening - 2027
 
-Body: the covering note above, with the deployed URL, repository URL and build-history links, sent from the candidate's email address.
+Body: the covering note above, with the deployed URL, repository URL and build-history link, sent from the candidate's email address.
+
