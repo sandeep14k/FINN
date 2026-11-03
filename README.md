@@ -2,9 +2,9 @@
 
 FINN is a mobile-first portfolio attention desk plus a primary-source management memory. It includes verified guidance revision timelines, delivery checks, filing previews and a persistent reviewed/unreviewed feed. The deliberate scope is two connected workflows: identify a disclosure worth attention, then inspect management's promises and the reported evidence.
 
-Live demo: https://finn-attention-desk-13oolrbrhrs.qoder.website · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
+Live demo: https://finn-fs9d.vercel.app/ · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
 
-The hosted demo is a static export of the saved snapshot and six cached research briefs. Live new-ticker research and scheduled refresh run in the local/Docker build described below, not in the static demo.
+The hosted demo serves the saved snapshot and six cached research briefs. Live new-ticker research and scheduled refresh run in the local/Docker build described below, not on the hosted demo.
 
 ## Run locally
 
@@ -110,7 +110,7 @@ Manual acceptance checks at a 390px mobile width:
 
 Build with `npm run build` inside `finn-app/`, then run `npm start` on a persistent Node/Python host. Keep the complete root directory and virtual environment alongside the app. Set `FINN_ENABLE_RESEARCH=1` and the root API key server-side; never use a `NEXT_PUBLIC_` key. `FINN_ROOT` and `FINN_PYTHON` support custom absolute paths.
 
-For static hosting, run `npm run build:static` inside `finn-app/`. It exports `out/` with the saved snapshot, cached research and published page extracts; the build temporarily parks `app/api`, and the client reads `/data/*.json` directly. Live research, refresh and server-saved preferences are unavailable in this mode, and preferences fall back to `localStorage`. The static build is what the Qoder Sites demo uses.
+For static hosting, run `npm run build:static` inside `finn-app/`. It exports `out/` with the saved snapshot, cached research and published page extracts; the build temporarily parks `app/api`, and the client reads `/data/*.json` directly. Live research, refresh and server-saved preferences are unavailable in this mode, and preferences fall back to `localStorage`. The hosted demo serves the same saved snapshot and cached briefs.
 
 Alternatively use the included Dockerfile. Supply `GROQ_API_KEY`, `GROQ_FAST_MODEL` and `GROQ_REASONING_MODEL` at runtime. Persist `/app/data` and generated public research if you need it across container replacements. The included job queue is single-process; use one application instance for this prototype.
 
@@ -126,7 +126,7 @@ Alternatively use the included Dockerfile. Supply `GROQ_API_KEY`, `GROQ_FAST_MOD
 
 ## Submission
 
-Prototype: https://finn-attention-desk-13oolrbrhrs.qoder.website · Repository: https://github.com/sandeep14k/FINN · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
+Prototype: https://finn-fs9d.vercel.app/ · Repository: https://github.com/sandeep14k/FINN · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
 
 ### Covering note
 

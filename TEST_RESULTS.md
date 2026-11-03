@@ -18,14 +18,14 @@
 - **Console**: no browser console messages or exceptions.
 - **Static deployment build**: `npm --prefix finn-app run build:static` produces a static `out/` export. Served locally, it renders the same 16/9/13/5 briefing, the ITC results table, all six saved research briefs, the INFY MET card and scope note, and the verified annual-report page extract. Research entry uses a picker of the six saved briefs; an unsaved holding shows a notice with a "Browse saved briefs" action instead of a retry that cannot succeed. Live research and server-saved preferences are intentionally unavailable in that build; preferences stay in `localStorage`.
 
-## Hosted deployment (Qoder Sites, public)
+## Hosted deployment (Vercel, public)
 
-- **URL reachable**: `https://finn-attention-desk-13oolrbrhrs.qoder.website` returns HTTP 200 in a session with no Qoder sign-in, and the served HTML contains the product copy ("Less noise").
+- **URL reachable**: `https://finn-fs9d.vercel.app/` returns HTTP 200 in a fresh browser session, and the served HTML contains the product copy ("Less noise").
 - **Same data as local**: the hosted briefing renders 16 priority items (3 disclosures plus 13 market-move alerts), 9 disclosures in the feed, 13 market-move alerts and 5 filing previews from the committed snapshot, including the ITC consolidated results table.
-- **Research**: all six saved briefs load from static JSON through the saved-brief picker; INFY shows the **MET** FY26 revenue verdict with the scope note, FY26 margin **NOT COMPARABLE** and both FY27 targets **PENDING**.
-- **Citations**: the annual-report citation opens the extracted page from `/data/docs/INFY/` and shows "Quotation matched against this extracted page".
-- **No console errors** and no horizontal overflow at a 568px viewport.
-- **Disabled by design on this host**: live new-ticker research, server-side refresh and server-saved preferences (preferences persist in `localStorage`). The same repository runs them locally and in the Docker image.
+- **Research**: all six saved briefs load from the deployed data; INFY shows the **MET** FY26 revenue verdict with the scope note, FY26 margin **NOT COMPARABLE** and both FY27 targets **PENDING**.
+- **Citations**: the annual-report citation opens the extracted page from the deployed page extract and shows "Quotation matched against this extracted page".
+- **No console errors** and no horizontal overflow at a 453px mobile viewport.
+- **Disabled by design on this host**: live new-ticker research and server-side refresh. Vercel cannot run the Python research pipeline; the local/Docker build enables it. Server-saved preferences also require a persistent host. The same repository runs them locally and in the Docker image.
 
 ## Real source validation
 

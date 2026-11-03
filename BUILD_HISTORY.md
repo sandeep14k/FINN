@@ -51,7 +51,7 @@ The agent then worked autonomously through verification, product fixes, the subm
 
 ## Artifacts
 
-- Live demo: https://finn-attention-desk-13oolrbrhrs.qoder.website
+- Live demo: https://finn-fs9d.vercel.app/
 - Repository: https://github.com/sandeep14k/FINN
 - Verification log: [TEST_RESULTS.md](TEST_RESULTS.md)
 - Architecture: [ARCHITECTURE.md](ARCHITECTURE.md)
