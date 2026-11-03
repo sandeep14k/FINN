@@ -114,6 +114,16 @@ For static hosting, run `npm run build:static` inside `finn-app/`. It exports `o
 
 Alternatively use the included Dockerfile. Supply `GROQ_API_KEY`, `GROQ_FAST_MODEL` and `GROQ_REASONING_MODEL` at runtime. Persist `/app/data` and generated public research if you need it across container replacements. The included job queue is single-process; use one application instance for this prototype.
 
+### Live deployment (Railway)
+
+The live build runs the same container as the local setup, so research, refresh and preferences are real rather than pre-computed. It needs a host that keeps one Node + Python process alive; serverless platforms cannot run the research worker.
+
+1. Create a Railway project from this repository. Railway builds the root `Dockerfile` (configured in `railway.json`).
+2. Add variables: `GROQ_API_KEY`, `GROQ_FAST_MODEL`, `GROQ_REASONING_MODEL`, `GROQ_TOKENS_PER_MINUTE=7000` and `FINN_ENABLE_RESEARCH=1`.
+3. Generate a public domain under Settings → Networking. The app reads Railway's `PORT` automatically.
+4. Choose the refresh behaviour: `FINN_MONITOR=1` (default) refreshes prices and announcements every `FINN_REFRESH_INTERVAL` seconds, while `FINN_MONITOR=0` serves the committed snapshot and runs research only on demand. Set `FINN_ENRICH_FILINGS=1` only when the token budget allows background filing enrichment; it is off by default.
+5. The container writes new research and preferences into its own filesystem, so a redeploy resets them to the committed snapshot and the six saved briefs. That is safe for a review window; a persistent volume would need the committed data seeded into it first.
+
 ## Known scope limits
 
 - The checked-in feed is a saved snapshot, not a claim of live market coverage.
@@ -142,7 +152,7 @@ The research side starts from an NSE symbol, discovers recent earnings-call tran
 
 Research uses Groq with bounded extraction, strict structured outputs, shared rate pacing and response caching to control cost. Numeric comparisons, period matching and citation verification are deterministic; explicit guidance patterns and filing previews need no model tokens. Every quotation is checked against the extracted page before it is published. An interim quarter never counts as annual delivery. The saved snapshot keeps the demo usable without model access, and a missing key or provider failure falls back to clearly labelled verbatim evidence with no verdict.
 
-The hosted demo is a static export of the saved snapshot, six cached research briefs and their page extracts. It deliberately disables live new-ticker research and server-side refresh; the same repository runs the full Node + Python pipeline locally or in the included Docker image, where those are enabled. I made that trade-off so the assessment link is fast, stable and cannot fail because of a free-tier model quota during review.
+The hosted demo serves the saved snapshot and six cached research briefs with their page extracts. Live new-ticker research and scheduled refresh run in the local/Docker build described above, not on the hosted demo. I made that trade-off so the assessment link is fast, stable and cannot fail because of a free-tier model quota during review.
 
 I deliberately left out exhaustive exchange pagination, continuous notification delivery and OCR for scanned filings. Quarterly tables and management profiles exist only for filings that passed extraction and page verification, not for every holding. Next I would widen exchange coverage, make research a durable worker queue, and add authentication plus shared rate limits for multi-user use.
 

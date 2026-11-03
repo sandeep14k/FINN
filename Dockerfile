@@ -10,7 +10,7 @@ COPY finn-app/package*.json ./finn-app/
 RUN cd finn-app && npm ci
 COPY . .
 RUN cd finn-app && npm run build
-ENV NODE_ENV=production FINN_ROOT=/app FINN_PYTHON=/app/venv/bin/python FINN_ENABLE_RESEARCH=1 FINN_ENRICH_FILINGS=1
+ENV NODE_ENV=production FINN_ROOT=/app FINN_PYTHON=/app/venv/bin/python FINN_ENABLE_RESEARCH=1 FINN_ENRICH_FILINGS=0 FINN_MONITOR=1
 WORKDIR /app/finn-app
 EXPOSE 3000
 CMD ["sh", "/app/start.sh"]
