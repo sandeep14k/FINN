@@ -171,12 +171,3 @@ Sandeep Kumar Jha
 5. Open INFY research → Overview, then Management memory. Show the FY27 guidance revisions and the FY26 Revenue Growth **MET** card: promise quote, delivery quote, annual-report scope citation and the scope note.
 6. Open the Annual report p.78 citation, show "Quotation matched against this extracted page", and expand the full page extract.
 7. Show FY26 margin **NOT COMPARABLE** and FY27 **PENDING** to make the judgment call explicit, then return to the running symbol to show its progress (a full run takes several minutes; the six saved briefs open instantly).
-
-### Before sending
-
-- [TEST_RESULTS.md](TEST_RESULTS.md) records the checks actually run: 68 Python tests, ESLint, production build, static build, and verification of the live deployment.
-- The dedicated repository is public and its tracked files exclude `.env`, `venv/`, `node_modules/`, `.next/`, `out/` and internal planning notes.
-- The live demo was verified against the deployed container: API responses, the briefing, preferences, a live research run and the citation extract. A real-phone check is still recommended, and the first visit after idle takes about a minute on a free instance.
-- Confirm the displayed snapshot date and coverage notices match the refreshed data.
-
-To submit, send the covering note above to `assessment@enam.com` with subject `ENAM - IIT screening - 2027`. The deadline is **3 November 2026, end of day**.
