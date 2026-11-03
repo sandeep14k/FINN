@@ -188,5 +188,38 @@
         }
       ]
     }
+  },
+  "4af2ce9d5e1a3713": {
+    "results": {
+      "scope": "consolidated",
+      "unit": "Crores",
+      "current_period": "2026-09-30",
+      "previous_period": "2026-06-30",
+      "year_ago_period": "2025-09-30",
+      "header_quote": "Statement  of  Unaudited  Consolidated  Financial  Results  for  the  Quarter  and  Six  Months  ended  30th  September,  2026\nIf  in  Crores)\nCorresponding  Preceding\nParticulars  3  Months  3  Months  3  Months  6  Months  6  Months  Twelve  Months\nended  ended  ended  ended  ended  ended\n30.09.2026  30.09.2025  30.06.2026  30.09.2026  30.09.2025  31.03.2026\n(Unaudrted)  (Unaudited)  (Unaudited)  (Unaudited)  (Unaudited)  (Audited)",
+      "header_page": 9,
+      "rows": [
+        {
+          "metric": "Revenue",
+          "current": 30578.4,
+          "previous": 29523.3,
+          "year_ago": 21255.86,
+          "quote": "REVENUE  FROM  OPERATIONS  [(i)+(ii)]  1  30578.40  21255.86  29523.30  60101.70  44385.21  89913.33",
+          "page": 9,
+          "qoq": 3.57,
+          "yoy": 43.86
+        },
+        {
+          "metric": "PBT",
+          "current": 5694.62,
+          "previous": 5860.85,
+          "year_ago": 6978.68,
+          "quote": "PROFIT  BEFORE  TAX  (6+7)  8  5694.62  6978.68  5860.85  11555.47  14106.69  28033.39",
+          "page": 9,
+          "qoq": -2.84,
+          "yoy": -18.4
+        }
+      ]
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generation": "fb9d1183d16f4324af96f0e9edd861b8",
+  "generation": "db6774e0914f423d9addc989847b2c6e",
   "as_of": "2026-11-03",
   "feed": [
     {
@@ -21,89 +21,54 @@
       }
     },
     {
-      "id": "fbc8a765c824d04b",
-      "ticker": "ITC",
-      "timestamp": "2026-11-02T18:31:10+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Unaudited Financial Results - Media Statement And Presentation 2 Nov - ITC announced Q2 FY27 unaudited results, with 19% revenue growth and segment updates.",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff62231c-b3bd-48d1-a643-8b379a46cb57.pdf",
-      "enrichment": {},
-      "filing_evidence": {
-        "quote": "PERFORMANCE HIGHLIGHTS3 • FMCG Segment sustains strong double-digit growth momentum - Biscuits, Snacks, Noodles, Spices, Salt, Frozen Snacks, Homecare & Notebooks led with 20%+ growth, supplemented by high-teens growth in Dairy & Personal wash - Seg.",
-        "page": 3,
-        "verified": true,
-        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff62231c-b3bd-48d1-a643-8b379a46cb57.pdf"
-      }
-    },
-    {
       "id": "4af2ce9d5e1a3713",
       "ticker": "ITC",
       "timestamp": "2026-11-02T18:24:48+05:30",
       "date_precision": "time",
-      "type": "M&A",
+      "type": "results",
       "priority": 5,
       "headline": "Unaudited Financial Results Of The Company For The Quarter And Six Months Ended 30Th September, 2026 2 Nov - ITC Q2 FY27 results approved; Sproutlife amalgamation and Century Pulp acquisition disclosed.",
-      "one_line_why": "Ownership or business perimeter may change; inspect terms and funding.",
+      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ad82347-ac2d-4385-ae80-3cd07c428f69.pdf",
-      "enrichment": {},
+      "enrichment": {
+        "results": {
+          "scope": "consolidated",
+          "unit": "Crores",
+          "current_period": "2026-09-30",
+          "previous_period": "2026-06-30",
+          "year_ago_period": "2025-09-30",
+          "header_quote": "Statement  of  Unaudited  Consolidated  Financial  Results  for  the  Quarter  and  Six  Months  ended  30th  September,  2026\nIf  in  Crores)\nCorresponding  Preceding\nParticulars  3  Months  3  Months  3  Months  6  Months  6  Months  Twelve  Months\nended  ended  ended  ended  ended  ended\n30.09.2026  30.09.2025  30.06.2026  30.09.2026  30.09.2025  31.03.2026\n(Unaudrted)  (Unaudited)  (Unaudited)  (Unaudited)  (Unaudited)  (Audited)",
+          "header_page": 9,
+          "rows": [
+            {
+              "metric": "Revenue",
+              "current": 30578.4,
+              "previous": 29523.3,
+              "year_ago": 21255.86,
+              "quote": "REVENUE  FROM  OPERATIONS  [(i)+(ii)]  1  30578.40  21255.86  29523.30  60101.70  44385.21  89913.33",
+              "page": 9,
+              "qoq": 3.57,
+              "yoy": 43.86
+            },
+            {
+              "metric": "PBT",
+              "current": 5694.62,
+              "previous": 5860.85,
+              "year_ago": 6978.68,
+              "quote": "PROFIT  BEFORE  TAX  (6+7)  8  5694.62  6978.68  5860.85  11555.47  14106.69  28033.39",
+              "page": 9,
+              "qoq": -2.84,
+              "yoy": -18.4
+            }
+          ]
+        }
+      },
       "filing_evidence": {
         "quote": "Exceptional Items for the quarter and six months ended 30th September, 2026 of t 25.66 crores represent expenses incurred in relation to the acquisition of the pulp and paper business of Aditya Birla Real Estate Limited, operated under the name of 'Century Pulp and Paper' (Refer Note 4 above).",
         "page": 4,
         "verified": true,
         "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ad82347-ac2d-4385-ae80-3cd07c428f69.pdf"
       }
-    },
-    {
-      "id": "91bc61957a4b153f",
-      "ticker": "ITC",
-      "timestamp": "2026-11-02T18:18:23+05:30",
-      "date_precision": "time",
-      "type": "M&A",
-      "priority": 5,
-      "headline": "Board Meeting Outcome for Unaudited Financial Results Of The Company For The Quarter And Six Months Ended 30Th September, 2026 2 Nov - ITC reported Q2/H1 FY27 results, completed Century Pulp acquisition, and approved Sproutlife amalgamation.",
-      "one_line_why": "Ownership or business perimeter may change; inspect terms and funding.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9251c692-ccfd-44b9-8720-4a5a42e808ba.pdf",
-      "enrichment": {},
-      "filing_evidence": {
-        "quote": "Exceptional Items for the quarter and six months ended 30th September, 2026 of t 25.66 crores represent expenses incurred in relation to the acquisition of the pulp and paper business of Aditya Birla Real Estate Limited, operated under the name of 'Century Pulp and Paper' (Refer Note 4 above).",
-        "page": 4,
-        "verified": true,
-        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9251c692-ccfd-44b9-8720-4a5a42e808ba.pdf"
-      }
-    },
-    {
-      "id": "75b0d9344c52dc19",
-      "ticker": "TRENT",
-      "timestamp": "2026-11-02T13:27:38+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 2 Nov - Newspaper Publication on Unaudited Financial Results(Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=773ac0af-b53b-4ef9-9866-32dac67c2935.pdf",
-      "enrichment": {},
-      "filing_evidence": {
-        "quote": "M um U i 900 001 T e l: (91-22)6700 9000 E-mail: iflve$iot<ehlicn$@itefli-iau com I W e b tllr w w ^ i^nllimiled com STATEMENT OF UNAUDITED STANDALONE & CONSOLIDATED FINANCIAL RESULTS FOR THE QUARTER AND SIX MONTHS ENDED 30™ SEPTEMBER, 2026 Rs In Crore SR.",
-        "page": 2,
-        "verified": true,
-        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=773ac0af-b53b-4ef9-9866-32dac67c2935.pdf"
-      }
-    },
-    {
-      "id": "3d1d91789af71363",
-      "ticker": "RELIANCE",
-      "timestamp": "2026-11-01T23:05:17+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 1 Nov - Transcript of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, …",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e997741-4d35-4188-933a-cf020fb9c816.pdf",
-      "enrichment": {},
-      "filing_evidence": null
     },
     {
       "id": "6eb494f876305c3f",
@@ -141,84 +106,6 @@
           }
         ]
       },
-      "filing_evidence": null
-    },
-    {
-      "id": "7a0149d9834c0bc6",
-      "ticker": "CDSL",
-      "timestamp": "2026-11-01T14:40:47+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Copy of Newspaper Publication 1 Nov - Published audited Q2 and H1 FY2026 financial results on November 1, 2026.",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_01112026143902_Newspaper_31102026_Final_Signed.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "2552d78f4f1bd6c5",
-      "ticker": "ICICIBANK",
-      "timestamp": "2026-11-01T09:35:06+05:30",
-      "date_precision": "time",
-      "type": "litigation",
-      "priority": 5,
-      "headline": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015 1 Nov - Telangana GST appellate order confirms ₹6,95,418 penalty; ICICI Bank will appeal.",
-      "one_line_why": "Potential legal or regulatory exposure; inspect amount and next steps.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b2bb991-d0b5-491a-ab93-08cd260db05e.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "b453d9104b257ff9",
-      "ticker": "DIXON",
-      "timestamp": "2026-10-31T19:34:28+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - Announcement under Regulation 30 of SEBI LODR- Copy of Newspaper publication of Un-audited Financial Results (Standalone & Consolidated) of the Company for the quarter and …",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2336e442-6dfb-4af9-81c4-09a8770d2c94.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "5362f640fcf2a90b",
-      "ticker": "CDSL",
-      "timestamp": "2026-10-31T14:16:32+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Outcome of Board Meeting 31 Oct - CDSL approved audited Q2 FY27 results; standalone PAT ₹163.34 crore, consolidated PAT ₹173.30 crore.",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "501ed17db2ca84c4",
-      "ticker": "RKFORGE",
-      "timestamp": "2026-10-31T12:48:33+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - We enclose herewith the copies of Extract of Statement of the Unaudited (Standalone & Consolidated) Financial Results of the Company for the Quater and Half …",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ae010ba-d59d-426d-894c-7928084a879b.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "a9bd338aa298b228",
-      "ticker": "RELIANCE",
-      "timestamp": "2026-10-30T19:48:21+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Announcement under Regulation 30 (LODR)-Investor Presentation 30 Oct - Please find attached presentation on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026.",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0dc8ebe7-5e2d-4946-85ee-1e536c461a71.pdf",
-      "enrichment": {},
       "filing_evidence": null
     },
     {
@@ -332,74 +219,6 @@
       }
     },
     {
-      "id": "72eec9faeaff26bc",
-      "ticker": "RELIANCE",
-      "timestamp": "2026-10-30",
-      "date_precision": "day",
-      "type": "results",
-      "priority": 5,
-      "headline": "Board Meeting Outcome for Board Meeting Outcome For Unaudited Financial Results (Consolidated And Standalone) For The Quarter And Half Year Ended September 30, 2026 And Issuance Non-Convertible Debentures.",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d4cb3ed-a184-4662-91fc-f4112ce354b7.pdf",
-      "enrichment": {
-        "results": {
-          "scope": "consolidated",
-          "unit": "INR crore",
-          "current_period": "2026-09-30",
-          "previous_period": "2026-06-30",
-          "year_ago_period": "2025-09-30",
-          "header_quote": "UNAUDITED  CONSOLIDATED  FINANCIAL  RESULTS  FOR  THE  QUARTER  /  HALF  YEAR  ENDED  30TH  SEPTEMBER,  2026\n{t  in  crore,  except  per  share  data  and  ratios)\nYear  Ended\nQuarter  Ended  Half  Year  Ended\nParticulars  (Audited)\n30th  Sep'26  30th  Jun'26  30th  Seo'25  30th  Sep'26  30th  Sep'25  31st  Mar'26",
-          "header_page": 10,
-          "rows": [
-            {
-              "metric": "Revenue",
-              "current": 332861.0,
-              "previous": 311850.0,
-              "year_ago": 258898.0,
-              "quote": "Revenue  from  Operations  332,861  311,850  258,898  644,711  507,558  1,075,675",
-              "page": 10,
-              "qoq": 6.74,
-              "yoy": 28.57
-            },
-            {
-              "metric": "PBT",
-              "current": 38613.0,
-              "previous": 30630.0,
-              "year_ago": 29124.0,
-              "quote": "Profit  Before  Tax  38,613  30,630  29,124  69,243  66,270  123,162",
-              "page": 10,
-              "qoq": 26.06,
-              "yoy": 32.58
-            },
-            {
-              "metric": "PAT",
-              "current": 29550.0,
-              "previous": 23196.0,
-              "year_ago": 22092.0,
-              "quote": "Profit  After  Tax  and  Share  of  Profit/  (Loss)  of\n29,550  23,196  22,092  52,746  52,875  95,754\nAssociates  and  Joint  Ventures",
-              "page": 10,
-              "qoq": 27.39,
-              "yoy": 33.76
-            }
-          ]
-        }
-      },
-      "filing_evidence": null
-    },
-    {
-      "id": "e5b11c0f1174323f",
-      "ticker": "TRENT",
-      "timestamp": "2026-10-29T16:39:36+05:30",
-      "date_precision": "time",
-      "type": "results",
-      "priority": 5,
-      "headline": "Announcement under Regulation 30 (LODR)-Investor Presentation 29 Oct - Investors'' Presentation on Unaudited Financial Results (Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5634f899-a008-45ab-b930-2b74cf08e566.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
       "id": "d2ee3900f0e73448",
       "ticker": "PRAJIND",
       "timestamp": "2026-10-29T16:34:49+05:30",
@@ -500,32 +319,6 @@
       "filing_evidence": null
     },
     {
-      "id": "fffd5b3bc72da478",
-      "ticker": "BHARTIARTL",
-      "timestamp": "2026-10-29T13:42:32+05:30",
-      "date_precision": "time",
-      "type": "litigation",
-      "priority": 5,
-      "headline": "Disclosure Under Regulation 30 Of SEBI (LODR), Regulations, 2015 29 Oct - DoT Karnataka imposed Rs 2.14 lakh penalty on Airtel for alleged subscriber verification norm violations.",
-      "one_line_why": "Potential legal or regulatory exposure; inspect amount and next steps.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af0f8622-1854-4424-96bf-3e22856f1470.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "42cf3cfeba21f616",
-      "ticker": "CUMMINSIND",
-      "timestamp": "2026-10-28T17:35:04+05:30",
-      "date_precision": "time",
-      "type": "litigation",
-      "priority": 5,
-      "headline": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations, 2015. 28 Oct - Jaipur GST authority levies ₹5.19 crore demand and ₹5.19 crore penalty for 2020-21 to 2023-24.",
-      "one_line_why": "Potential legal or regulatory exposure; inspect amount and next steps.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=137a3735-fe3b-4e0b-8a21-5b8a8962e279.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
       "id": "5778fe3e2350afd0",
       "ticker": "POLYCAB",
       "timestamp": "2026-10-28T10:21:03+05:30",
@@ -539,15 +332,28 @@
       "filing_evidence": null
     },
     {
-      "id": "ab2480b53a10a2d4",
-      "ticker": "INDHOTEL",
-      "timestamp": "2026-10-22T13:10:09+05:30",
+      "id": "d3f4e277247934b8",
+      "ticker": "TATASTEEL",
+      "timestamp": "2026-10-15T19:10:15+05:30",
       "date_precision": "time",
-      "type": "results",
+      "type": "M&A",
       "priority": 5,
-      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 22 Oct - The newspaper publication of the Un-Audited ( Reviewed) Standalone and Consolidated Financial Results for the quarter ended September 30 , 2026 published in Financial ....",
-      "one_line_why": "Published financial results: inspect performance, margins and comparison periods.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7bd73fcc-253e-4f47-a8dd-768b44c3f478.pdf",
+      "headline": "Receipt Of Certified True Copy Of The Order Of The Hon'Ble National Company Law Tribunal, Mumbai Bench In The Matter Of The Scheme Of Amalgamation Of Rujuvalika Investments Limited And Tata Steel Limited And Their Respective Shareholder 15 Oct - Received certified NCLT order sanctioning Rujuvalika Investments amalgamation into Tata Steel on October 15, 2026.",
+      "one_line_why": "Ownership or business perimeter may change; inspect terms and funding.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed58c27c-5a50-4923-b54c-652a6e715f3c.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "0fd7195e5061e8cf",
+      "ticker": "TATASTEEL",
+      "timestamp": "2026-10-15T19:01:31+05:30",
+      "date_precision": "time",
+      "type": "M&A",
+      "priority": 5,
+      "headline": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement 15 Oct - Tata Steel received certified NCLT order on October 15, 2026 approving Rujuvalika Investments amalgamation.",
+      "one_line_why": "Ownership or business perimeter may change; inspect terms and funding.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c83c3dd-87e9-48c8-97fe-e7ad20f62800.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -561,19 +367,6 @@
       "headline": "Announcement under Regulation 30 (LODR)-Acquisition",
       "one_line_why": "Ownership or business perimeter may change; inspect terms and funding.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8eac2987-9924-4131-b4da-af66c3b06041.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "75d841284ed1c12a",
-      "ticker": "LT",
-      "timestamp": "2026-11-02T10:16:54+05:30",
-      "date_precision": "time",
-      "type": "press_release",
-      "priority": 4,
-      "headline": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contract(s) 2 Nov - L&T wins significant residential and commercial building orders in Mumbai, Bengaluru and Hyderabad.",
-      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86cb66bf-7e97-4d77-a803-40ae7750d8f2.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -614,32 +407,6 @@
       }
     },
     {
-      "id": "3d3ee4df943bdb53",
-      "ticker": "RKFORGE",
-      "timestamp": "2026-10-30T17:23:34+05:30",
-      "date_precision": "time",
-      "type": "fund_raise",
-      "priority": 4,
-      "headline": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report 30 Oct - India Ratings report shows no deviation in Q2 FY27 utilization of Rs 199.92 crore preferential warrant proceeds.",
-      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=986a927f-5533-413e-8056-d8617461ad9e.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "d282c86c5050e714",
-      "ticker": "JYOTHYLAB",
-      "timestamp": "2026-10-30T16:42:15+05:30",
-      "date_precision": "time",
-      "type": "fund_raise",
-      "priority": 4,
-      "headline": "Update on board meeting 30 Oct - Board will meet on November 4, 2026 to consider equity share buyback proposal.",
-      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0642663-2c46-4acb-bc3f-9a65b85e265e.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
       "id": "26738f9a2493618f",
       "ticker": "ICICIBANK",
       "timestamp": "2026-10-24T13:38:34+05:30",
@@ -666,32 +433,6 @@
       "filing_evidence": null
     },
     {
-      "id": "ee189a1d11dce9f0",
-      "ticker": "ONGC",
-      "timestamp": "2026-11-02T19:07:54+05:30",
-      "date_precision": "time",
-      "type": "earnings_call",
-      "priority": 3,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2 Nov - ONGC to hold Q2 FY27 earnings conference call on 6 November 2026 at 15:30 IST.",
-      "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16888a0a-cea2-431d-806f-27c15e8ed251.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "86a46edba3edaa95",
-      "ticker": "CDSL",
-      "timestamp": "2026-11-02T17:54:30+05:30",
-      "date_precision": "time",
-      "type": "earnings_call",
-      "priority": 3,
-      "headline": "Analysts/Institutional Investor Meet/Con. Call Updates 2 Nov - CDSL uploaded audio recording of its November 2, 2026 conference call.",
-      "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_02112026174345_NSEIntimation_Concall_02Nov2026_sd.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
       "id": "c080950f3067e713",
       "ticker": "LT",
       "timestamp": "2026-11-02T17:53:21+05:30",
@@ -705,80 +446,15 @@
       "filing_evidence": null
     },
     {
-      "id": "8b2f0708c92878b4",
-      "ticker": "CDSL",
-      "timestamp": "2026-10-31T15:56:44+05:30",
+      "id": "3d1d91789af71363",
+      "ticker": "RELIANCE",
+      "timestamp": "2026-11-01T23:05:17+05:30",
       "date_precision": "time",
       "type": "earnings_call",
       "priority": 3,
-      "headline": "Analysts/Institutional Investor Meet/Con. Call Updates 31 Oct - CDSL released Q2 and H1 FY2026-27 investor presentation ahead of November 2 conference call.",
+      "headline": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 1 Nov - Transcript of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, …",
       "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026155542_CDSL_InvestorPresentation_Signed.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "e42d8f77fbd5aa68",
-      "ticker": "RKFORGE",
-      "timestamp": "2026-10-31T12:03:41+05:30",
-      "date_precision": "time",
-      "type": "earnings_call",
-      "priority": 3,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 31 Oct - Audio link for Q2 and H1 FY27 earnings conference call posted on 31 October 2026.",
-      "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa62b302-b65b-4e99-b0ce-0a6ff71ae7ad.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "97fe57cc7feef58e",
-      "ticker": "DIXON",
-      "timestamp": "2026-10-30T20:32:54+05:30",
-      "date_precision": "time",
-      "type": "earnings_call",
-      "priority": 3,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 30 Oct - Audio recording of Dixon’s Q2 FY2027 results conference call uploaded on website.",
-      "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=082ec2fb-f975-4058-aadb-d27d3e69a02d.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "6e8364d0262e7f38",
-      "ticker": "RKFORGE",
-      "timestamp": "2026-10-30T20:03:19+05:30",
-      "date_precision": "time",
-      "type": "dividend",
-      "priority": 3,
-      "headline": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association 30 Oct - Board approved Q2 results, ₹2 interim dividend, new independent directors, MOA change, and ₹56.76 crore JV investment.",
-      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae71cff2-8cba-4bf9-8074-d7bc00c03b3a.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "32aa6d241d853780",
-      "ticker": "ONGC",
-      "timestamp": "2026-10-30T19:29:54+05:30",
-      "date_precision": "time",
-      "type": "dividend",
-      "priority": 3,
-      "headline": "Intimation Of Record Date 30 Oct - ONGC fixed 12 November 2026 record date for 1st interim dividend FY27, if declared on 5 November 2026.",
-      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33d79eff-255e-4450-b96d-805ced1889b4.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "6214475289fb3738",
-      "ticker": "BHARTIARTL",
-      "timestamp": "2026-10-28T19:18:05+05:30",
-      "date_precision": "time",
-      "type": "earnings_call",
-      "priority": 3,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 28 Oct - Pursuant to Regulation 30 of the SEBI (LODR) Regulations, 2015, we are enclosing herewith the schedule of Earnings Call to be held on Friday, ....",
-      "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfa80ddb-f524-419d-b71e-d3c606e27c93.pdf",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e997741-4d35-4188-933a-cf020fb9c816.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -809,19 +485,6 @@
       "filing_evidence": null
     },
     {
-      "id": "711c7f448a3daeb5",
-      "ticker": "LT",
-      "timestamp": "2026-10-27T22:09:20+05:30",
-      "date_precision": "time",
-      "type": "earnings_call",
-      "priority": 3,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 27 Oct - L&T uploaded Q2/H1 FY27 earnings call audio recording on its investor website on October 27, 2026.",
-      "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e4c11c6-4c96-42c0-ac94-b2cb928c4f4f.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
       "id": "ef27b5a93a13365f",
       "ticker": "ICICIBANK",
       "timestamp": "2026-10-23",
@@ -835,15 +498,64 @@
       "filing_evidence": null
     },
     {
-      "id": "fa0069cdf24a2b7b",
-      "ticker": "INDHOTEL",
-      "timestamp": "2026-10-21T21:00:37+05:30",
+      "id": "fbc8a765c824d04b",
+      "ticker": "ITC",
+      "timestamp": "2026-11-02T18:31:10+05:30",
       "date_precision": "time",
-      "type": "earnings_call",
-      "priority": 3,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 21 Oct - IHCL posted the audio recording of its global earnings call on October 21, 2026.",
-      "one_line_why": "Management commentary is available in the primary source.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db00ef64-affe-4fc4-a7db-892ceea95c8b.pdf",
+      "type": "results",
+      "priority": 2,
+      "headline": "Unaudited Financial Results - Media Statement And Presentation 2 Nov - ITC announced Q2 FY27 unaudited results, with 19% revenue growth and segment updates.",
+      "one_line_why": "Companion filing to the results announcement from ITC shown above.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff62231c-b3bd-48d1-a643-8b379a46cb57.pdf",
+      "enrichment": {},
+      "filing_evidence": {
+        "quote": "PERFORMANCE HIGHLIGHTS3 • FMCG Segment sustains strong double-digit growth momentum - Biscuits, Snacks, Noodles, Spices, Salt, Frozen Snacks, Homecare & Notebooks led with 20%+ growth, supplemented by high-teens growth in Dairy & Personal wash - Seg.",
+        "page": 3,
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff62231c-b3bd-48d1-a643-8b379a46cb57.pdf"
+      }
+    },
+    {
+      "id": "91bc61957a4b153f",
+      "ticker": "ITC",
+      "timestamp": "2026-11-02T18:18:23+05:30",
+      "date_precision": "time",
+      "type": "results",
+      "priority": 2,
+      "headline": "Board Meeting Outcome for Unaudited Financial Results Of The Company For The Quarter And Six Months Ended 30Th September, 2026 2 Nov - ITC reported Q2/H1 FY27 results, completed Century Pulp acquisition, and approved Sproutlife amalgamation.",
+      "one_line_why": "Companion filing to the results announcement from ITC shown above.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9251c692-ccfd-44b9-8720-4a5a42e808ba.pdf",
+      "enrichment": {},
+      "filing_evidence": {
+        "quote": "Exceptional Items for the quarter and six months ended 30th September, 2026 of t 25.66 crores represent expenses incurred in relation to the acquisition of the pulp and paper business of Aditya Birla Real Estate Limited, operated under the name of 'Century Pulp and Paper' (Refer Note 4 above).",
+        "page": 4,
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9251c692-ccfd-44b9-8720-4a5a42e808ba.pdf"
+      }
+    },
+    {
+      "id": "75d841284ed1c12a",
+      "ticker": "LT",
+      "timestamp": "2026-11-02T10:16:54+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contract(s) 2 Nov - L&T wins significant residential and commercial building orders in Mumbai, Bengaluru and Hyderabad.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86cb66bf-7e97-4d77-a803-40ae7750d8f2.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "2552d78f4f1bd6c5",
+      "ticker": "ICICIBANK",
+      "timestamp": "2026-11-01T09:35:06+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015 1 Nov - Telangana GST appellate order confirms ₹6,95,418 penalty; ICICI Bank will appeal.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b2bb991-d0b5-491a-ab93-08cd260db05e.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -861,6 +573,19 @@
       "filing_evidence": null
     },
     {
+      "id": "5362f640fcf2a90b",
+      "ticker": "CDSL",
+      "timestamp": "2026-10-31T14:16:32+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Outcome of Board Meeting 31 Oct - CDSL approved audited Q2 FY27 results; standalone PAT ₹163.34 crore, consolidated PAT ₹173.30 crore.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
       "id": "a9da2be8ff456c46",
       "ticker": "LT",
       "timestamp": "2026-10-31T12:49:28+05:30",
@@ -870,6 +595,32 @@
       "headline": "Business Transfer Agreement With Vyoma.AI Limited (Vyoma), Wholly Owned Subsidiary Of The Company And Share Purchase Agreement Towards Sale Of Entire Stake Held In L&T Network Services Private Limited To Vyoma - Extension Of Timeline Of Completion 31 Oct - L&T extends completion of Vyoma.ai transaction to March 31, 2027.",
       "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13e50739-50e7-4b5a-8dba-ac92ece6d35f.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "89048c801552da27",
+      "ticker": "BHARTIARTL",
+      "timestamp": "2026-10-30T22:40:14+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Disclosure Under Regulation 30 Of SEBI (LODR), Regulations, 2015 30 Oct - TRAI levies ₹54.06 lakh financial disincentive for alleged December 2024 non-compliance.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff271f28-80be-4329-a556-8ecc1cc7684f.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "6e8364d0262e7f38",
+      "ticker": "RKFORGE",
+      "timestamp": "2026-10-30T20:03:19+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association 30 Oct - Board approved Q2 results, ₹2 interim dividend, new independent directors, MOA change, and ₹56.76 crore JV investment.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae71cff2-8cba-4bf9-8074-d7bc00c03b3a.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -887,6 +638,19 @@
       "filing_evidence": null
     },
     {
+      "id": "a9bd338aa298b228",
+      "ticker": "RELIANCE",
+      "timestamp": "2026-10-30T19:48:21+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Announcement under Regulation 30 (LODR)-Investor Presentation 30 Oct - Please find attached presentation on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0dc8ebe7-5e2d-4946-85ee-1e536c461a71.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
       "id": "c5d7fa87508a5996",
       "ticker": "RELIANCE",
       "timestamp": "2026-10-30T19:46:01+05:30",
@@ -896,6 +660,45 @@
       "headline": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 30 Oct - Reliance reported record Q2 FY27 PAT of ₹29,550 crore; Jio Platforms IPO completed on 28 Oct 2026.",
       "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aacc5fc7-25e5-4901-b682-d9911fe1d21b.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "32aa6d241d853780",
+      "ticker": "ONGC",
+      "timestamp": "2026-10-30T19:29:54+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Intimation Of Record Date 30 Oct - ONGC fixed 12 November 2026 record date for 1st interim dividend FY27, if declared on 5 November 2026.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33d79eff-255e-4450-b96d-805ced1889b4.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "3d3ee4df943bdb53",
+      "ticker": "RKFORGE",
+      "timestamp": "2026-10-30T17:23:34+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report 30 Oct - India Ratings report shows no deviation in Q2 FY27 utilization of Rs 199.92 crore preferential warrant proceeds.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=986a927f-5533-413e-8056-d8617461ad9e.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "d282c86c5050e714",
+      "ticker": "JYOTHYLAB",
+      "timestamp": "2026-10-30T16:42:15+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Update on board meeting 30 Oct - Board will meet on November 4, 2026 to consider equity share buyback proposal.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0642663-2c46-4acb-bc3f-9a65b85e265e.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -939,6 +742,61 @@
       "filing_evidence": null
     },
     {
+      "id": "72eec9faeaff26bc",
+      "ticker": "RELIANCE",
+      "timestamp": "2026-10-30",
+      "date_precision": "day",
+      "type": "results",
+      "priority": 2,
+      "headline": "Board Meeting Outcome for Board Meeting Outcome For Unaudited Financial Results (Consolidated And Standalone) For The Quarter And Half Year Ended September 30, 2026 And Issuance Non-Convertible Debentures.",
+      "one_line_why": "Companion filing to the results announcement from RELIANCE shown above.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d4cb3ed-a184-4662-91fc-f4112ce354b7.pdf",
+      "enrichment": {
+        "results": {
+          "scope": "consolidated",
+          "unit": "INR crore",
+          "current_period": "2026-09-30",
+          "previous_period": "2026-06-30",
+          "year_ago_period": "2025-09-30",
+          "header_quote": "UNAUDITED  CONSOLIDATED  FINANCIAL  RESULTS  FOR  THE  QUARTER  /  HALF  YEAR  ENDED  30TH  SEPTEMBER,  2026\n{t  in  crore,  except  per  share  data  and  ratios)\nYear  Ended\nQuarter  Ended  Half  Year  Ended\nParticulars  (Audited)\n30th  Sep'26  30th  Jun'26  30th  Seo'25  30th  Sep'26  30th  Sep'25  31st  Mar'26",
+          "header_page": 10,
+          "rows": [
+            {
+              "metric": "Revenue",
+              "current": 332861.0,
+              "previous": 311850.0,
+              "year_ago": 258898.0,
+              "quote": "Revenue  from  Operations  332,861  311,850  258,898  644,711  507,558  1,075,675",
+              "page": 10,
+              "qoq": 6.74,
+              "yoy": 28.57
+            },
+            {
+              "metric": "PBT",
+              "current": 38613.0,
+              "previous": 30630.0,
+              "year_ago": 29124.0,
+              "quote": "Profit  Before  Tax  38,613  30,630  29,124  69,243  66,270  123,162",
+              "page": 10,
+              "qoq": 26.06,
+              "yoy": 32.58
+            },
+            {
+              "metric": "PAT",
+              "current": 29550.0,
+              "previous": 23196.0,
+              "year_ago": 22092.0,
+              "quote": "Profit  After  Tax  and  Share  of  Profit/  (Loss)  of\n29,550  23,196  22,092  52,746  52,875  95,754\nAssociates  and  Joint  Ventures",
+              "page": 10,
+              "qoq": 27.39,
+              "yoy": 33.76
+            }
+          ]
+        }
+      },
+      "filing_evidence": null
+    },
+    {
       "id": "30ced949315e0d77",
       "ticker": "CDSL",
       "timestamp": "2026-10-30",
@@ -961,6 +819,19 @@
       "headline": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 29 Oct - Praj Industries announced Q2 FY27 results: revenue Rs 8,490 million, PAT Rs 232 million.",
       "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c4387b6-3b5a-4731-a2b0-e4109fa684e6.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "e5b11c0f1174323f",
+      "ticker": "TRENT",
+      "timestamp": "2026-10-29T16:39:36+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Announcement under Regulation 30 (LODR)-Investor Presentation 29 Oct - Investors'' Presentation on Unaudited Financial Results (Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5634f899-a008-45ab-b930-2b74cf08e566.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -1004,6 +875,19 @@
       "filing_evidence": null
     },
     {
+      "id": "fffd5b3bc72da478",
+      "ticker": "BHARTIARTL",
+      "timestamp": "2026-10-29T13:42:32+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Disclosure Under Regulation 30 Of SEBI (LODR), Regulations, 2015 29 Oct - DoT Karnataka imposed Rs 2.14 lakh penalty on Airtel for alleged subscriber verification norm violations.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af0f8622-1854-4424-96bf-3e22856f1470.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
       "id": "ba3e6ac5773da3eb",
       "ticker": "TRENT",
       "timestamp": "2026-10-29",
@@ -1017,32 +901,6 @@
       "filing_evidence": null
     },
     {
-      "id": "a3d069e2821703e2",
-      "ticker": "LT",
-      "timestamp": "2026-10-28T19:44:03+05:30",
-      "date_precision": "time",
-      "type": "results_notice",
-      "priority": 2,
-      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 28 Oct - Intimation to Stock Exchanges regarding publication of Financial Results in Newspapers",
-      "one_line_why": "A results meeting has been announced; this is not the published financial outcome.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=498df898-abfc-4569-b288-56622aa74bef.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "5dbbfa5b41f51655",
-      "ticker": "CUMMINSIND",
-      "timestamp": "2026-10-28T17:45:52+05:30",
-      "date_precision": "time",
-      "type": "results_notice",
-      "priority": 2,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 28 Oct - Intimation regarding schedule of investors and analysts results conference call for the quarter and half-year ended September 30, 2026.",
-      "one_line_why": "A results meeting has been announced; this is not the published financial outcome.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcd7496f-88a8-478b-a53c-cbfd961bb9c4.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
       "id": "706c500b2345f458",
       "ticker": "POLYCAB",
       "timestamp": "2026-10-28T17:41:24+05:30",
@@ -1052,6 +910,19 @@
       "headline": "Announcement Under Regulation 30 (LODR) - Analyst(S) / Investor(S) Meet - Intimation 28 Oct - Polycab to meet William Blair & Company on November 3, 2026, virtually in Mumbai.",
       "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26cdd582-7e95-4019-88b5-fdff3d5e60e1.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "42cf3cfeba21f616",
+      "ticker": "CUMMINSIND",
+      "timestamp": "2026-10-28T17:35:04+05:30",
+      "date_precision": "time",
+      "type": "other",
+      "priority": 2,
+      "headline": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations, 2015. 28 Oct - Jaipur GST authority levies ₹5.19 crore demand and ₹5.19 crore penalty for 2020-21 to 2023-24.",
+      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=137a3735-fe3b-4e0b-8a21-5b8a8962e279.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -1225,32 +1096,6 @@
       "filing_evidence": null
     },
     {
-      "id": "d3f4e277247934b8",
-      "ticker": "TATASTEEL",
-      "timestamp": "2026-10-15T19:10:15+05:30",
-      "date_precision": "time",
-      "type": "other",
-      "priority": 2,
-      "headline": "Receipt Of Certified True Copy Of The Order Of The Hon'Ble National Company Law Tribunal, Mumbai Bench In The Matter Of The Scheme Of Amalgamation Of Rujuvalika Investments Limited And Tata Steel Limited And Their Respective Shareholder 15 Oct - Received certified NCLT order sanctioning Rujuvalika Investments amalgamation into Tata Steel on October 15, 2026.",
-      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed58c27c-5a50-4923-b54c-652a6e715f3c.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "0fd7195e5061e8cf",
-      "ticker": "TATASTEEL",
-      "timestamp": "2026-10-15T19:01:31+05:30",
-      "date_precision": "time",
-      "type": "other",
-      "priority": 2,
-      "headline": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement 15 Oct - Tata Steel received certified NCLT order on October 15, 2026 approving Rujuvalika Investments amalgamation.",
-      "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c83c3dd-87e9-48c8-97fe-e7ad20f62800.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
       "id": "35e617b2c7858407",
       "ticker": "NEULANDLAB",
       "timestamp": "2026-10-14T21:43:19+05:30",
@@ -1260,19 +1105,6 @@
       "headline": "Intimation Under Regulation 30 Of The SEBI (LODR) Regulations, 2015 14 Oct - USFDA issued EIR and closed Unit 3 inspection conducted August 10-14, 2026.",
       "one_line_why": "Company disclosure available. Open the filing to assess its impact.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f0fea89-5bb2-45c4-847f-988460958472.pdf",
-      "enrichment": {},
-      "filing_evidence": null
-    },
-    {
-      "id": "1d8822e67034e896",
-      "ticker": "JYOTHYLAB",
-      "timestamp": "2026-10-14T10:26:37+05:30",
-      "date_precision": "time",
-      "type": "results_notice",
-      "priority": 2,
-      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 14 Oct - Jyothy Labs schedules Q2FY27 results conference call on November 4, 2026 at 16:00 IST.",
-      "one_line_why": "A results meeting has been announced; this is not the published financial outcome.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42452e3d-ded1-4bc4-8851-7d69873be239.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -1316,6 +1148,76 @@
       "filing_evidence": null
     },
     {
+      "id": "ee189a1d11dce9f0",
+      "ticker": "ONGC",
+      "timestamp": "2026-11-02T19:07:54+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2 Nov - ONGC to hold Q2 FY27 earnings conference call on 6 November 2026 at 15:30 IST.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16888a0a-cea2-431d-806f-27c15e8ed251.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "86a46edba3edaa95",
+      "ticker": "CDSL",
+      "timestamp": "2026-11-02T17:54:30+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Analysts/Institutional Investor Meet/Con. Call Updates 2 Nov - CDSL uploaded audio recording of its November 2, 2026 conference call.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_02112026174345_NSEIntimation_Concall_02Nov2026_sd.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "75b0d9344c52dc19",
+      "ticker": "TRENT",
+      "timestamp": "2026-11-02T13:27:38+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 2 Nov - Newspaper Publication on Unaudited Financial Results(Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=773ac0af-b53b-4ef9-9866-32dac67c2935.pdf",
+      "enrichment": {},
+      "filing_evidence": {
+        "quote": "M um U i 900 001 T e l: (91-22)6700 9000 E-mail: iflve$iot<ehlicn$@itefli-iau com I W e b tllr w w ^ i^nllimiled com STATEMENT OF UNAUDITED STANDALONE & CONSOLIDATED FINANCIAL RESULTS FOR THE QUARTER AND SIX MONTHS ENDED 30™ SEPTEMBER, 2026 Rs In Crore SR.",
+        "page": 2,
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=773ac0af-b53b-4ef9-9866-32dac67c2935.pdf"
+      }
+    },
+    {
+      "id": "7a0149d9834c0bc6",
+      "ticker": "CDSL",
+      "timestamp": "2026-11-01T14:40:47+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Copy of Newspaper Publication 1 Nov - Published audited Q2 and H1 FY2026 financial results on November 1, 2026.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_01112026143902_Newspaper_31102026_Final_Signed.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "b453d9104b257ff9",
+      "ticker": "DIXON",
+      "timestamp": "2026-10-31T19:34:28+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - Announcement under Regulation 30 of SEBI LODR- Copy of Newspaper publication of Un-audited Financial Results (Standalone & Consolidated) of the Company for the quarter and …",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2336e442-6dfb-4af9-81c4-09a8770d2c94.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
       "id": "507d00d90c2ef0c1",
       "ticker": "RELIANCE",
       "timestamp": "2026-10-31T18:33:56+05:30",
@@ -1329,15 +1231,54 @@
       "filing_evidence": null
     },
     {
-      "id": "89048c801552da27",
-      "ticker": "BHARTIARTL",
-      "timestamp": "2026-10-30T22:40:14+05:30",
+      "id": "8b2f0708c92878b4",
+      "ticker": "CDSL",
+      "timestamp": "2026-10-31T15:56:44+05:30",
       "date_precision": "time",
       "type": "routine",
       "priority": 1,
-      "headline": "Disclosure Under Regulation 30 Of SEBI (LODR), Regulations, 2015 30 Oct - TRAI levies ₹54.06 lakh financial disincentive for alleged December 2024 non-compliance.",
+      "headline": "Analysts/Institutional Investor Meet/Con. Call Updates 31 Oct - CDSL released Q2 and H1 FY2026-27 investor presentation ahead of November 2 conference call.",
       "one_line_why": "Routine disclosure, kept for completeness.",
-      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff271f28-80be-4329-a556-8ecc1cc7684f.pdf",
+      "source_url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026155542_CDSL_InvestorPresentation_Signed.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "501ed17db2ca84c4",
+      "ticker": "RKFORGE",
+      "timestamp": "2026-10-31T12:48:33+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - We enclose herewith the copies of Extract of Statement of the Unaudited (Standalone & Consolidated) Financial Results of the Company for the Quater and Half …",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ae010ba-d59d-426d-894c-7928084a879b.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "e42d8f77fbd5aa68",
+      "ticker": "RKFORGE",
+      "timestamp": "2026-10-31T12:03:41+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 31 Oct - Audio link for Q2 and H1 FY27 earnings conference call posted on 31 October 2026.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa62b302-b65b-4e99-b0ce-0a6ff71ae7ad.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "97fe57cc7feef58e",
+      "ticker": "DIXON",
+      "timestamp": "2026-10-30T20:32:54+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 30 Oct - Audio recording of Dixon’s Q2 FY2027 results conference call uploaded on website.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=082ec2fb-f975-4058-aadb-d27d3e69a02d.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -1433,6 +1374,45 @@
       "filing_evidence": null
     },
     {
+      "id": "a3d069e2821703e2",
+      "ticker": "LT",
+      "timestamp": "2026-10-28T19:44:03+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 28 Oct - Intimation to Stock Exchanges regarding publication of Financial Results in Newspapers",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=498df898-abfc-4569-b288-56622aa74bef.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "6214475289fb3738",
+      "ticker": "BHARTIARTL",
+      "timestamp": "2026-10-28T19:18:05+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 28 Oct - Pursuant to Regulation 30 of the SEBI (LODR) Regulations, 2015, we are enclosing herewith the schedule of Earnings Call to be held on Friday, ....",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfa80ddb-f524-419d-b71e-d3c606e27c93.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "5dbbfa5b41f51655",
+      "ticker": "CUMMINSIND",
+      "timestamp": "2026-10-28T17:45:52+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 28 Oct - Intimation regarding schedule of investors and analysts results conference call for the quarter and half-year ended September 30, 2026.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcd7496f-88a8-478b-a53c-cbfd961bb9c4.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
       "id": "6f8defab2dc9d289",
       "ticker": "NEULANDLAB",
       "timestamp": "2026-10-28T12:55:56+05:30",
@@ -1442,6 +1422,19 @@
       "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 28 Oct",
       "one_line_why": "Routine disclosure, kept for completeness.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d2a923b-8b51-468c-9b12-3eea3acda12e.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "711c7f448a3daeb5",
+      "ticker": "LT",
+      "timestamp": "2026-10-27T22:09:20+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 27 Oct - L&T uploaded Q2/H1 FY27 earnings call audio recording on its investor website on October 27, 2026.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e4c11c6-4c96-42c0-ac94-b2cb928c4f4f.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -1498,6 +1491,19 @@
       "filing_evidence": null
     },
     {
+      "id": "ab2480b53a10a2d4",
+      "ticker": "INDHOTEL",
+      "timestamp": "2026-10-22T13:10:09+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 22 Oct - The newspaper publication of the Un-Audited ( Reviewed) Standalone and Consolidated Financial Results for the quarter ended September 30 , 2026 published in Financial ....",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7bd73fcc-253e-4f47-a8dd-768b44c3f478.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
       "id": "89cce3e5fb5b182e",
       "ticker": "ICICIBANK",
       "timestamp": "2026-10-22",
@@ -1507,6 +1513,19 @@
       "headline": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
       "one_line_why": "Routine disclosure, kept for completeness.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74fe2093-fb65-447c-b37a-4c94e860f509.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "fa0069cdf24a2b7b",
+      "ticker": "INDHOTEL",
+      "timestamp": "2026-10-21T21:00:37+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 21 Oct - IHCL posted the audio recording of its global earnings call on October 21, 2026.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db00ef64-affe-4fc4-a7db-892ceea95c8b.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -1546,6 +1565,19 @@
       "headline": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
       "one_line_why": "Routine disclosure, kept for completeness.",
       "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b57d5926-290d-4936-a8b7-3f7495bc27b0.pdf",
+      "enrichment": {},
+      "filing_evidence": null
+    },
+    {
+      "id": "1d8822e67034e896",
+      "ticker": "JYOTHYLAB",
+      "timestamp": "2026-10-14T10:26:37+05:30",
+      "date_precision": "time",
+      "type": "routine",
+      "priority": 1,
+      "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 14 Oct - Jyothy Labs schedules Q2FY27 results conference call on November 4, 2026 at 16:00 IST.",
+      "one_line_why": "Routine disclosure, kept for completeness.",
+      "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42452e3d-ded1-4bc4-8851-7d69873be239.pdf",
       "enrichment": {},
       "filing_evidence": null
     },
@@ -1789,7 +1821,7 @@
       "JYOTHYLAB",
       "RKFORGE"
     ],
-    "generated_at": "2026-11-03T10:49:03.542001+05:30",
+    "generated_at": "2026-11-03T11:48:55.113013+05:30",
     "stale_announcements": [],
     "stale_prices": [
       "KPITTECH.NS",

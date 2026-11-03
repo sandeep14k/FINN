@@ -9,12 +9,15 @@ from config import DATA_DIR, ROOT_DIR, PUSH_TICKERS
 from storage import atomic_json
 
 PUBLIC_DATA_DIR = ROOT_DIR / 'finn-app/public/data'
+# Headlines are "<filing title> <date> - <model summary>". A summary mentioning an
+# acquisition must not relabel a results filing, so classification reads the title only.
+SUMMARY_SUFFIX = re.compile(r'\s+\d{1,2}\s+[A-Z][a-z]{2}\s+-\s+')
 CATEGORIES = [
     ('management_change', r'(?:resign|appointment|cessation|change).*(?:director|ceo|cfo|chief|management)|chief executive|chief financial|managing director', 5),
-    ('M&A', r'acquisition|merger|demerger|joint venture', 5),
-    ('litigation', r'litigation|penalty|regulatory order|insolvency', 5),
     ('results_notice', r'board meeting intimation|intimation of board|board meeting.*(?:scheduled|to be held|will be)|intimation.*(?:result|financial)', 2),
     ('results', r'financial results|quarterly results|audited.*results|unaudited.*results', 5),
+    ('M&A', r'acquisition|merger|demerger|amalgamation|scheme of arrangement|joint venture', 5),
+    ('litigation', r'litigation|penalty|regulatory order|insolvency', 5),
     ('earnings_call', r'earnings call|conference call|transcript', 3),
     ('credit_rating', r'credit rating|downgrade|upgrade', 4),
     ('capex', r'capacity|expansion|new plant', 4),
@@ -27,10 +30,30 @@ CATEGORIES = [
 ]
 
 def classify(headline):
+    title = SUMMARY_SUFFIX.split(headline, maxsplit=1)[0]
     for category, pattern, priority in CATEGORIES:
-        if re.search(pattern, headline, re.I):
+        if re.search(pattern, title, re.I):
             return category, priority
     return 'other', 2
+
+def collapse_result_duplicates(digest):
+    """One results event can arrive as several filings; keep the filings, tuck the companions."""
+    groups = {}
+    for item in digest:
+        if item['type'] == 'results':
+            groups.setdefault((item['ticker'], (item.get('timestamp') or '')[:10]), []).append(item)
+    for items in groups.values():
+        if len(items) < 2:
+            continue
+        def rank(item):
+            title = SUMMARY_SUFFIX.split(item['headline'], maxsplit=1)[0].lower()
+            canonical = 2 if title.startswith('unaudited financial results') and 'media statement' not in title else 1 if 'board meeting outcome' in title else 0
+            return (bool(item.get('enrichment', {}).get('results')), canonical)
+        items.sort(key=rank, reverse=True)
+        primary = items[0]
+        for companion in items[1:]:
+            companion['priority'] = 2
+            companion['one_line_why'] = f'Companion filing to the results announcement from {primary["ticker"]} shown above.'
 
 def generate_digest(failed_sources=()):
     PUBLIC_DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -75,6 +98,8 @@ def generate_digest(failed_sources=()):
     for item in digest:
         item['filing_evidence'] = evidence.get(item['id'])
         item['enrichment'] = analysis.get(item['id'], {})
+    collapse_result_duplicates(digest)
+    digest.sort(key=lambda x: (x['priority'], x.get('timestamp') or ''), reverse=True)
     histories = json.loads((DATA_DIR / 'eod_history.json').read_text())
     holdings = {'tickers': [t.removesuffix('.NS') for t in PUSH_TICKERS],
                                            'generated_at': datetime.now().astimezone().isoformat(),

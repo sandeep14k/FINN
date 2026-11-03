@@ -135,12 +135,18 @@ def analyse(limit=6, refresh_layout=False):
                 selected = [{**page, 'text': page.get('layout_text', page['text'])} for page in selected]
                 rows, metadata = [], None
                 for chunk in page_chunks(selected)[:2]:
-                    result = cache_and_retry(AI_FAST_MODEL,
-                        'Read this actual results filing. Extract the QUARTERLY (never half-year/YTD) Revenue from operations, EBITDA if explicitly disclosed, PBT after exceptional items, and PAT after share of associates but before attribution to owners/non-controlling interests. Prefer consolidated results. '
-                        'Use three quarter-end dates YYYY-MM-DD: current, immediately previous quarter, same quarter last year. All amounts must have the same scope and unit. '
-                        'Do not calculate EBITDA. If absent leave its values null. header_quote must be verbatim with scope, quarter/date headings and units; retain page. '
-                        'Each row quote must be verbatim and contain all extracted row values. Do not invent or repair numbers.\n' + chunk,
-                        Results, 'Extract only the supplied company filing; no external financial knowledge.')
+                    try:
+                        result = cache_and_retry(AI_FAST_MODEL,
+                            'Read this actual results filing. Extract the QUARTERLY (never half-year/YTD) Revenue from operations, EBITDA if explicitly disclosed, PBT after exceptional items, and PAT after share of associates but before attribution to owners/non-controlling interests. Prefer consolidated results. '
+                            'Use three quarter-end dates YYYY-MM-DD: current, immediately previous quarter, same quarter last year. All amounts must have the same scope and unit. '
+                            'Do not calculate EBITDA. If absent leave its values null. Always return one row for each of Revenue, EBITDA, PBT and PAT; if a figure is illegible in the extract, null only that value rather than dropping the row. '
+                            'header_quote must be verbatim with scope, quarter/date headings and units; retain page. '
+                            'Each row quote must be verbatim and contain all extracted row values. Do not invent or repair numbers.\n' + chunk,
+                            Results, 'Extract only the supplied company filing; no external financial knowledge.')
+                    except Exception as error:
+                        # One unusable chunk must not discard rows already verified from another.
+                        print(f"{item['ticker']}: skipped a results chunk ({type(error).__name__}).", flush=True)
+                        continue
                     if result['scope'] == 'unknown' or not period_dates(result['current_period'], result['previous_period'], result['year_ago_period']):
                         continue
                     if not verified(result['header_quote'], result['header_page'], pages):
@@ -168,12 +174,16 @@ def analyse(limit=6, refresh_layout=False):
                 selected = sorted(pages, key=lambda page: -len(re.findall(r'brief profile|experience|qualification|appointment|resignation|expertise', page['text'], re.I)))[:3]
                 people = []
                 for chunk in page_chunks(selected)[:2]:
-                    result = cache_and_retry(AI_FAST_MODEL,
-                        'Extract people joining or leaving management. Name, role, effective date, change type. '
-                        'For incoming people add a short professional background ONLY if disclosed here, with a separate verbatim quote and page. '
-                        'The main quote must establish the name and role. Use empty strings/null for unknown fields, never outside knowledge. '
-                        'Return at most 2 people, exact quotes and real page numbers.\n' + chunk,
-                        Management, 'Use only supplied primary-source disclosures.')
+                    try:
+                        result = cache_and_retry(AI_FAST_MODEL,
+                            'Extract people joining or leaving management. Name, role, effective date, change type. '
+                            'For incoming people add a short professional background ONLY if disclosed here, with a separate verbatim quote and page. '
+                            'The main quote must establish the name and role. Use empty strings/null for unknown fields, never outside knowledge. '
+                            'Return at most 2 people, exact quotes and real page numbers.\n' + chunk,
+                            Management, 'Use only supplied primary-source disclosures.')
+                    except Exception as error:
+                        print(f"{item['ticker']}: skipped a management chunk ({type(error).__name__}).", flush=True)
+                        continue
                     for person in result['people']:
                         if not verified(person['quote'], person['page'], pages):
                             continue

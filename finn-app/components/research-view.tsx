@@ -5,7 +5,7 @@ import { companyNames, titleCase } from '../lib/format';
 import type { Citation, Research } from '../lib/types';
 import { CompanyMark, SourceButton } from './primitives';
 
-export default function ResearchView({ symbol, data, progress, error, back, retry, inspect }: { symbol: string; data: Research | null; progress: string; error: string; back: () => void; retry: () => void; inspect: (citation: Citation) => void }) {
+export default function ResearchView({ symbol, data, progress, error, canRetry, back, retry, inspect }: { symbol: string; data: Research | null; progress: string; error: string; canRetry: boolean; back: () => void; retry: () => void; inspect: (citation: Citation) => void }) {
   const [tab, setTab] = useState('overview');
   const histories = data?.guidance_history || [];
   const sections = data?.sections || [];
@@ -15,7 +15,7 @@ export default function ResearchView({ symbol, data, progress, error, back, retr
     <div className="research-heading"><CompanyMark symbol={symbol}/><div><p className="eyebrow">COMPANY RESEARCH · {symbol}</p><h1>{companyNames[symbol] || symbol}</h1></div></div>
     <div className="research-tabs" role="tablist" aria-label="Research sections">{[['overview', 'Overview'], ['guidance', 'Management memory'], ['sources', 'Evidence room']].map(([key, text]) => <button key={key} role="tab" aria-selected={tab === key} onClick={() => setTab(key)}>{text}{key === 'guidance' && histories.length > 0 && <span>{histories.length}</span>}</button>)}</div>
     {progress && <div className="research-loading" role="status"><LoaderCircle className="spin" size={24}/><h3>{progress}</h3><p>Building a view from company reports and earnings calls. This can take several minutes. You can return to the briefing while research continues.</p></div>}
-    {error && <div role="alert" className="error-panel"><h3>Research isn’t ready yet</h3><p>{error}</p><button className="primary-button" onClick={retry}>Try again <ArrowUpRight size={15}/></button></div>}
+    {error && <div role="alert" className="error-panel"><h3>{canRetry ? 'Research isn’t ready yet' : 'No saved brief for this company'}</h3><p>{error}</p><button className="primary-button" onClick={canRetry ? retry : back}>{canRetry ? 'Try again' : 'Browse saved briefs'} <ArrowUpRight size={15}/></button></div>}
     {data && <>
       <div className="research-context"><span><ShieldCheck size={14}/> Primary sources only</span><span>{data.coverage?.transcripts || 0} earnings calls</span><span>{data.coverage?.annual_reports || 0} annual reports</span>{data.mode === 'evidence_only' && <span className="coverage-note">Source excerpts · analysis unavailable</span>}</div>
       {tab === 'overview' && <div className="research-overview"><section className="research-summary"><p className="eyebrow">THE RESEARCH BRIEF</p><p>{data.executive_summary}</p></section>

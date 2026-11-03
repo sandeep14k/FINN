@@ -55,13 +55,15 @@ From the repository root:
 venv/bin/python refresh.py
 # Optional: attach verbatim previews from five material exchange filings.
 venv/bin/python enrich_push.py --limit 5
+# Optional: extract page-verified quarterly tables and management changes.
+venv/bin/python filing_analysis.py --limit 6
 venv/bin/python run_pull.py INFY
 venv/bin/python run_pull.py KPITTECH
 venv/bin/python run_pull.py ETERNAL
 venv/bin/python run_pull.py LAURUSLABS
 ```
 
-Refresh fetches EOD prices, announcements and republishes the portfolio digest. Saved research includes INFY, KPITTECH, ETERNAL, LAURUSLABS, TCS and HCLTECH. INFY shows verified FY27 revenue and operating-margin guidance histories. Its FY26 revenue guidance (3–3.5% constant currency) is **MET** by the reported 3.1%; both sides cite the Q3/Q4 FY26 transcripts and a separately verified annual-report page that fixes consolidated reporting scope. FY26 operating margin remains **NOT COMPARABLE** because the reported observation covers a quarter, not the full year, and FY27 targets remain **PENDING**. KPITTECH currently has annual-report facts but no extracted comparisons. ETERNAL, LAURUSLABS and TCS show verbatim evidence only. TCS was ingested as an unseen-ticker generalisation check. The API returns saved research until it is explicitly regenerated.
+Refresh fetches EOD prices, announcements and republishes the portfolio digest. Classification reads only the filing title, not the appended exchange summary, so a results filing cannot be relabelled by words inside its summary. When one results event arrives as several filings, `generate_push.py` keeps the richest filing in the priority desk and demotes its companions with a "Companion filing" reason. Saved research includes INFY, KPITTECH, ETERNAL, LAURUSLABS, TCS and HCLTECH. INFY shows verified FY27 revenue and operating-margin guidance histories. Its FY26 revenue guidance (3–3.5% constant currency) is **MET** by the reported 3.1%; both sides cite the Q3/Q4 FY26 transcripts and a separately verified annual-report page that fixes consolidated reporting scope. FY26 operating margin remains **NOT COMPARABLE** because the reported observation covers a quarter, not the full year, and FY27 targets remain **PENDING**. KPITTECH currently has annual-report facts but no extracted comparisons. ETERNAL, LAURUSLABS and TCS show verbatim evidence only. TCS was ingested as an unseen-ticker generalisation check. The API returns saved research until it is explicitly regenerated.
 
 Run it after market close using your host's scheduler. No browser push notifications or continuous polling service is included.
 
@@ -118,7 +120,7 @@ Alternatively use the included Dockerfile. Supply `GROQ_API_KEY`, `GROQ_FAST_MOD
 - Screener's latest-announcement list is limited; full exchange pagination and exhaustive window coverage are not implemented.
 - Real source hosts can rate-limit or block downloads. Scanned PDFs need OCR, which is not included.
 - Partial refresh failures retain prior company records and publish stale-source indicators. Announcement ingestion still cannot distinguish every empty feed from upstream failure.
-- No fabricated quarterly financial widgets: results are linked to their actual filings. Automated Revenue/EBITDA/PBT/PAT tables and incoming-executive bios remain out of scope.
+- Quarterly tables and management profiles exist only for filings that passed page and verbatim-value checks; unreadable figures are shown as unavailable rather than repaired. Every other filing is linked to its actual source instead of being summarised into numbers.
 - Cached research is available only for successfully generated tickers. If model access fails, the pipeline explicitly falls back to verified verbatim excerpts; these carry no promise-delivery verdict.
 - Public multi-user research needs durable jobs, shared rate limits and authentication. The current queue is intended for an assessment demo.
 

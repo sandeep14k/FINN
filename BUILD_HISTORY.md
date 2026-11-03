@@ -10,8 +10,10 @@ FINN was built in a single AI-assisted session on **3 November 2026** using the 
 | 04:47 | "now read all code files(all python and frontend ) all first and check how much work has done except deployment in % also check perfection or grading point of view how much is done" |
 | 05:00 | "make a plan for perfection and completion of assigment according to get highest grading" |
 | 05:05 | "now work and complete this assigmnet" |
+| 06:04 | "is all done check at grading scope" |
+| 06:15 | "so i have time so improve it also frontend should not content any thing not working should be good simple to use easy and all functionable if not then remove" |
 
-The agent then worked autonomously through verification, product fixes, the submission pack and deployment.
+The agent then worked autonomously through verification, product fixes, the submission pack and deployment, followed by a grading audit and a second improvement pass.
 
 ## Milestones reported during the build
 
@@ -30,6 +32,11 @@ The agent then worked autonomously through verification, product fixes, the subm
 | 05:31 | Re-ran the full suite (66 tests), lint and build; wrote the dedicated submission repository with secrets excluded. |
 | 05:34 | Added a static export path for Qoder Sites; verified the saved briefing, all six research briefs and citation extracts in the static build. |
 | 05:40 | Published the public demo and dedicated repository. |
+| 06:04–06:10 | Audited the build against the grading scope and reported the remaining gaps: quarterly tables, leadership profiles, a cross-quarter promise grid and live research on the static host. |
+| 06:12 | Fixed results filings being relabelled by words in the exchange summary: classification now reads only the filing title, with results ranked ahead of M&A. Added collapse of duplicate results filings so one event yields one priority card. |
+| 06:18 | Extracted and page-verified the ITC consolidated quarterly table (Revenue, PBT, QoQ, YoY); EBITDA and PAT remain unavailable rather than repaired after OCR and absent-figure checks. |
+| 06:24 | Removed static-demo dead ends: research now opens from a saved-brief picker, unsaved symbols explain themselves, and the error action offers a working route back to the shelf. |
+| 06:32 | Re-ran 68 tests, ESLint and both builds, reset saved preferences to defaults, and republished the improved static export. |
 
 ## Key engineering decisions
 
@@ -39,6 +46,8 @@ The agent then worked autonomously through verification, product fixes, the subm
 4. **Coverage is stated.** The briefing shows its snapshot date, holdings on a limited fallback feed, sources that could not refresh, and the document counts behind each research brief.
 5. **Cost and reliability are bounded.** Research uses strict structured outputs, bounded chunk selection, shared rate pacing, response caching and an atomic job queue. Numeric matching and filing previews use no model tokens.
 6. **Static hosting keeps the demo honest.** The Qoder Sites build serves saved data and cached research. It labels live research as unavailable rather than pretending to run a Python job; the full local/Docker build keeps live ingestion enabled.
+7. **A filing is classified by its title.** Exchange summaries appended to headlines describe many things; only the title decides the category, and companions to one results event are visibly grouped instead of inflating the priority desk.
+8. **Every visible control has a working path.** On the static demo, research is a picker of the six saved briefs. An unsaved holding shows a notice with a working "Browse saved briefs" action, never a retry that can only fail.
 
 ## Artifacts
 

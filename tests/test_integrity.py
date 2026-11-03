@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
 from fetch_announcements import parse_screener_date
-from generate_push import classify
+from generate_push import classify, collapse_result_duplicates
 from ground import guard_comparison, verify_citation
 from label_docs import explicit_quarter
 from financial_metrics import metric_key
@@ -32,6 +32,21 @@ class IntegrityTests(unittest.TestCase):
     def test_financial_name_is_not_results(self):
         self.assertEqual(classify('UNI Financial launches branch software')[0], 'other')
         self.assertEqual(classify('Unaudited financial results for quarter ended')[0], 'results')
+
+    def test_summary_text_does_not_relabel_the_filing(self):
+        self.assertEqual(classify('Unaudited Financial Results Of The Company 2 Nov - results approved; Century Pulp acquisition disclosed')[0], 'results')
+        self.assertEqual(classify('Announcement under Regulation 30 (LODR)-Newspaper Publication 2 Nov - company reported Q2 results')[0], 'routine')
+        self.assertEqual(classify('Announcement under Regulation 30 (LODR)-Scheme of Arrangement 2 Nov')[0], 'M&A')
+
+    def test_companion_results_filings_are_tucked(self):
+        digest = [
+            {'id': 'a', 'ticker': 'ITC', 'type': 'results', 'timestamp': '2026-11-02T18:24', 'headline': 'Unaudited Financial Results Of The Company 2 Nov - x', 'priority': 5, 'one_line_why': '', 'enrichment': {'results': {}}},
+            {'id': 'b', 'ticker': 'ITC', 'type': 'results', 'timestamp': '2026-11-02T18:18', 'headline': 'Board Meeting Outcome for Unaudited Financial Results 2 Nov - y', 'priority': 5, 'one_line_why': 'x', 'enrichment': {}},
+            {'id': 'c', 'ticker': 'ITC', 'type': 'results', 'timestamp': '2026-11-01T10:00', 'headline': 'Unaudited Financial Results 1 Nov - z', 'priority': 5, 'one_line_why': 'z', 'enrichment': {}},
+        ]
+        collapse_result_duplicates(digest)
+        self.assertEqual([item['priority'] for item in digest], [5, 2, 5])
+        self.assertIn('Companion filing', digest[1]['one_line_why'])
 
     def test_annual_vs_quarter_never_beat(self):
         metric = {'promise': {'period': 'FY26'}, 'delivery': {'period': 'Q4 FY26', 'status': 'BEAT', 'statement': 'Quarterly growth 4.1%.', 'comparable': True}}

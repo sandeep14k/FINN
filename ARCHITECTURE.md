@@ -29,12 +29,13 @@ Finn/
 ```text
 fetch_prices.py ─┐
 fetch_announcements.py ─┼→ generate_push.py → finn-app/public/data/snapshot.json → GET /api/snapshot → briefing
-enrich_push.py ──┘                                   ↑
-                                        data/filing_evidence.json
+enrich_push.py ──┤                ↑
+filing_analysis.py ─┘   data/filing_evidence.json + data/filing_analysis.json
 ```
 
 - `fetch_prices.py` computes close, day change and volume multiple against the previous 20 sessions. It drops an in-progress intraday row before the 15:30 IST close so a partial bar is never published as EOD.
-- `fetch_announcements.py` collects exchange disclosures per holding. `generate_push.py` classifies each into a material category and priority, computes a stable SHA-256 identity, attaches any verified filing preview and emits one snapshot containing the feed, prices, histories and coverage metadata.
+- `fetch_announcements.py` collects exchange disclosures per holding. `generate_push.py` classifies each into a material category and priority, computes a stable SHA-256 identity, attaches any verified filing preview and emits one snapshot containing the feed, prices, histories and coverage metadata. Classification reads only the filing title (the part before the exchanged summary), and one results event split across several filings keeps its richest filing in the priority desk while companions are demoted with a visible reason.
+- `filing_analysis.py` extracts a quarterly table (Revenue, EBITDA, PBT, PAT for current, previous and year-ago quarters) and management changes from results and leadership filings. A table is published only when period dates agree, the header quote verifies on its page, and every number appears verbatim in the cited row; otherwise the filing stays a link without inferred figures.
 - Partial upstream failures keep the previous company records, list stale tickers explicitly and mark holdings using a limited fallback feed. The interface names them instead of implying complete coverage.
 - `snapshot.json` is also served in-browser; digest filtering (24h/3d/7d/all, holding, category, unreviewed) happens client-side against the snapshot date. Reviewed state is kept in `localStorage` and never leaves the device.
 - `enrich_push.py` downloads the newest material filings and selects one verbatim excerpt per filing, with its page number and a link back to the original PDF. No model tokens are used.
