@@ -6,6 +6,7 @@ __pycache__/
 *.pyc
 data/.cache/
 data/.jobs/
+finn-app/public/data/.cache/
 .DS_Store
 finn-app/node_modules/
 finn-app/.next/
