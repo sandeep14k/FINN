@@ -2,13 +2,13 @@
 
 FINN is a mobile-first portfolio attention desk plus a primary-source management memory. It includes verified guidance revision timelines, delivery checks, filing previews and a persistent reviewed/unreviewed feed. The deliberate scope is two connected workflows: identify a disclosure worth attention, then inspect management's promises and the reported evidence.
 
-Live demo: https://finn-fs9d.vercel.app/ · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
+Live demo: https://finn-4pi0.onrender.com/ · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
 
-The hosted demo serves the saved snapshot and six cached research briefs. Live new-ticker research and scheduled refresh run in the local/Docker build described below, not on the hosted demo.
+The hosted demo runs the full product, not a static export: new-ticker research is executed on the server by the Python pipeline, preferences are saved server-side, and the saved snapshot loads instantly. Scheduled refresh is switched off on the demo host so the briefing cannot turn stale mid-review.
 
 ## Run locally
 
-Use Python 3.13 and Node 20.9+ (the supplied environment uses Python 3.13 / Node 20).
+Use Python 3.13 and Node 20.9+ (the container uses Node 22).
 
 ```sh
 python3.13 -m venv venv
@@ -32,7 +32,7 @@ The server must have access to the root Python virtual environment and `.env`. R
 
 ## Groq setup
 
-Create an API key in https://console.groq.com/keys and set `GROQ_API_KEY` in the root `.env`. Existing Gemini credentials are preserved locally but are no longer used. No extra SDK is required: the client uses the existing `requests` dependency and Groq's strict JSON-schema endpoint.
+Create an API key in https://console.groq.com/keys and set `GROQ_API_KEY` in the root `.env`. No extra SDK is required: the client uses the existing `requests` dependency and Groq's strict JSON-schema endpoint.
 
 ```sh
 venv/bin/python check_groq.py
@@ -65,7 +65,7 @@ venv/bin/python run_pull.py LAURUSLABS
 
 Refresh fetches EOD prices, announcements and republishes the portfolio digest. Classification reads only the filing title, not the appended exchange summary, so a results filing cannot be relabelled by words inside its summary. When one results event arrives as several filings, `generate_push.py` keeps the richest filing in the priority desk and demotes its companions with a "Companion filing" reason. Saved research includes INFY, KPITTECH, ETERNAL, LAURUSLABS, TCS and HCLTECH. INFY shows verified FY27 revenue and operating-margin guidance histories. Its FY26 revenue guidance (3–3.5% constant currency) is **MET** by the reported 3.1%; both sides cite the Q3/Q4 FY26 transcripts and a separately verified annual-report page that fixes consolidated reporting scope. FY26 operating margin remains **NOT COMPARABLE** because the reported observation covers a quarter, not the full year, and FY27 targets remain **PENDING**. KPITTECH currently has annual-report facts but no extracted comparisons. ETERNAL, LAURUSLABS and TCS show verbatim evidence only. TCS was ingested as an unseen-ticker generalisation check. The API returns saved research until it is explicitly regenerated.
 
-Run it after market close using your host's scheduler. No browser push notifications or continuous polling service is included.
+Run it after market close using your host's scheduler. There is no background push service; an open tab checks saved data every minute and can raise a browser notification if permission is granted.
 
 Research discovers up to five recent transcripts and one annual report, extracts text, labels periods, extracts guidance and actuals, matches them, then verifies quotations against extracted pages. Explicit quarter-ended dates override inferred document labels. URL hashes prevent similarly named documents from colliding. Scanned/empty documents are rejected. Each job exposes its current pipeline stage. Annual-report facts are retained only when their quotations verify. Primary-source excerpts and generated outputs are published into `finn-app/public/data/`.
 
@@ -110,19 +110,21 @@ Manual acceptance checks at a 390px mobile width:
 
 Build with `npm run build` inside `finn-app/`, then run `npm start` on a persistent Node/Python host. Keep the complete root directory and virtual environment alongside the app. Set `FINN_ENABLE_RESEARCH=1` and the root API key server-side; never use a `NEXT_PUBLIC_` key. `FINN_ROOT` and `FINN_PYTHON` support custom absolute paths.
 
-For static hosting, run `npm run build:static` inside `finn-app/`. It exports `out/` with the saved snapshot, cached research and published page extracts; the build temporarily parks `app/api`, and the client reads `/data/*.json` directly. Live research, refresh and server-saved preferences are unavailable in this mode, and preferences fall back to `localStorage`. The hosted demo serves the same saved snapshot and cached briefs.
+For static hosting, run `npm run build:static` inside `finn-app/`. It exports `out/` with the saved snapshot, cached research and published page extracts; the build temporarily parks `app/api`, and the client reads `/data/*.json` directly. Live research, refresh and server-saved preferences are unavailable in this mode, and preferences fall back to `localStorage`. The live demo runs the server build below instead.
 
 Alternatively use the included Dockerfile. Supply `GROQ_API_KEY`, `GROQ_FAST_MODEL` and `GROQ_REASONING_MODEL` at runtime. Persist `/app/data` and generated public research if you need it across container replacements. The included job queue is single-process; use one application instance for this prototype.
 
-### Live deployment (Railway)
+### Live deployment (Render)
 
-The live build runs the same container as the local setup, so research, refresh and preferences are real rather than pre-computed. It needs a host that keeps one Node + Python process alive; serverless platforms cannot run the research worker.
+The live demo runs the same container as the local setup, so research and preferences are real rather than pre-computed. It needs a host that keeps one Node + Python process alive; serverless platforms cannot run the research worker.
 
-1. Create a Railway project from this repository. Railway builds the root `Dockerfile` (configured in `railway.json`).
-2. Add variables: `GROQ_API_KEY`, `GROQ_FAST_MODEL`, `GROQ_REASONING_MODEL`, `GROQ_TOKENS_PER_MINUTE=7000` and `FINN_ENABLE_RESEARCH=1`.
-3. Generate a public domain under Settings → Networking. The app reads Railway's `PORT` automatically.
-4. Choose the refresh behaviour: `FINN_MONITOR=1` (default) refreshes prices and announcements every `FINN_REFRESH_INTERVAL` seconds, while `FINN_MONITOR=0` serves the committed snapshot and runs research only on demand. Set `FINN_ENRICH_FILINGS=1` only when the token budget allows background filing enrichment; it is off by default.
-5. The container writes new research and preferences into its own filesystem, so a redeploy resets them to the committed snapshot and the six saved briefs. That is safe for a review window; a persistent volume would need the committed data seeded into it first.
+1. Push the repository to GitHub, then create a **Web Service** on Render from it.
+2. Settings: **Language** `Docker`, **Root Directory** empty, **Dockerfile Path** `./Dockerfile`, **Health Check Path** `/api/snapshot`.
+3. Add variables: `GROQ_API_KEY`, `GROQ_FAST_MODEL`, `GROQ_REASONING_MODEL`, `GROQ_TOKENS_PER_MINUTE=7000`, `FINN_ENABLE_RESEARCH=1`, `FINN_MONITOR=0` and `FINN_ENRICH_FILINGS=0`. Do not set `PORT`; the host injects it and the app reads it.
+4. `FINN_MONITOR=1` refreshes prices and announcements every `FINN_REFRESH_INTERVAL` seconds; `FINN_MONITOR=0` serves the committed snapshot and runs research only on demand. The demo uses `0` so a throttled price source cannot make the briefing look stale during review. `FINN_ENRICH_FILINGS=1` adds background filing enrichment when the token budget allows it.
+5. The container writes new research and preferences into its own filesystem, so a restart or redeploy resets them to the committed snapshot and the six saved briefs. That is safe for a review window; a persistent volume would need the committed data seeded into it first.
+
+The same image runs on Railway (via `railway.json`), Fly.io or any Docker host; only the dashboard fields differ.
 
 ## Known scope limits
 
@@ -136,7 +138,7 @@ The live build runs the same container as the local setup, so research, refresh 
 
 ## Submission
 
-Prototype: https://finn-fs9d.vercel.app/ · Repository: https://github.com/sandeep14k/FINN · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md)
+Prototype: https://finn-4pi0.onrender.com/ · Repository: https://github.com/sandeep14k/FINN · AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md) · Gemini session: https://share.gemini.google/emH3nUzIRlpg
 
 ### Covering note
 
@@ -152,7 +154,9 @@ The research side starts from an NSE symbol, discovers recent earnings-call tran
 
 Research uses Groq with bounded extraction, strict structured outputs, shared rate pacing and response caching to control cost. Numeric comparisons, period matching and citation verification are deterministic; explicit guidance patterns and filing previews need no model tokens. Every quotation is checked against the extracted page before it is published. An interim quarter never counts as annual delivery. The saved snapshot keeps the demo usable without model access, and a missing key or provider failure falls back to clearly labelled verbatim evidence with no verdict.
 
-The hosted demo serves the saved snapshot and six cached research briefs with their page extracts. Live new-ticker research and scheduled refresh run in the local/Docker build described above, not on the hosted demo. I made that trade-off so the assessment link is fast, stable and cannot fail because of a free-tier model quota during review.
+The hosted demo runs the full application in one Node + Python container: the saved snapshot and six cached briefs open instantly, and any other NSE symbol starts a real primary-source research job whose progress is shown stage by stage. Preferences are saved on the server. Scheduled price and announcement refresh is deliberately switched off on the demo host, so the briefing cannot turn stale mid-review because a free-tier source throttled a data-centre IP. The container has no persistent volume, so a restart resets new research to the committed snapshot; the six saved briefs and every citation extract are part of the image.
+
+The build is documented in two places: the initial Gemini session is shared at https://share.gemini.google/emH3nUzIRlpg, and [BUILD_HISTORY.md](BUILD_HISTORY.md) records the Qoder session that continued and completed the build.
 
 I deliberately left out exhaustive exchange pagination, continuous notification delivery and OCR for scanned filings. Quarterly tables and management profiles exist only for filings that passed extraction and page verification, not for every holding. Next I would widen exchange coverage, make research a durable worker queue, and add authentication plus shared rate limits for multi-user use.
 
@@ -161,18 +165,18 @@ Sandeep Kumar Jha
 ### Three-minute demo route
 
 1. Open the briefing: 16 prioritised items (3 disclosures plus 13 market alerts), 9 disclosures in the feed and 5 filing previews. Point out the coverage notices (snapshot date, fallback-feed holdings, stale sources).
-2. Expand the ITC results card for the verified quarterly table, then expand "Inside the filing" on a disclosure and follow "Verify original page" to the exchange PDF.
-3. Open Preferences, lower the price threshold, save, and confirm the digest changes; reload to show preferences persist.
-4. Open INFY research → Overview, then Management memory. Show the FY27 guidance revisions and the FY26 Revenue Growth **MET** card: promise quote, delivery quote, annual-report scope citation and the scope note.
-5. Open the Annual report p.78 citation, show "Quotation matched against this extracted page", and expand the full page extract.
-6. Show FY26 margin **NOT COMPARABLE** and FY27 **PENDING** to make the judgment call explicit, then open an evidence-only company (HCLTECH or TCS) and an unsaved symbol to show the clear notice rather than a failed retry.
+2. Open Research and enter a symbol outside the saved six (for example `WIPRO`). It starts a real job and shows its stage; leave it running while you show the rest.
+3. Expand the ITC results card for the verified quarterly table, then expand "Inside the filing" on a disclosure and follow "Verify original page" to the exchange PDF.
+4. Open Preferences, lower the price threshold, save, and confirm the digest changes; reload to show the preference was saved on the server.
+5. Open INFY research → Overview, then Management memory. Show the FY27 guidance revisions and the FY26 Revenue Growth **MET** card: promise quote, delivery quote, annual-report scope citation and the scope note.
+6. Open the Annual report p.78 citation, show "Quotation matched against this extracted page", and expand the full page extract.
+7. Show FY26 margin **NOT COMPARABLE** and FY27 **PENDING** to make the judgment call explicit, then return to the running symbol to show its progress (a full run takes several minutes; the six saved briefs open instantly).
 
 ### Before sending
 
-- If a Qoder session share link exists, add it next to `BUILD_HISTORY.md`; the committed curated export is sufficient on its own.
-- [TEST_RESULTS.md](TEST_RESULTS.md) records the checks actually run: 68 Python tests, ESLint, production build, static build and browser verification.
+- [TEST_RESULTS.md](TEST_RESULTS.md) records the checks actually run: 68 Python tests, ESLint, production build, static build, and verification of the live deployment.
 - The dedicated repository is public and its tracked files exclude `.env`, `venv/`, `node_modules/`, `.next/`, `out/` and internal planning notes.
-- The live demo is public and was verified in a fresh browser session. A real-phone check is still recommended.
+- The live demo was verified against the deployed container: API responses, the briefing, preferences, a live research run and the citation extract. A real-phone check is still recommended, and the first visit after idle takes about a minute on a free instance.
 - Confirm the displayed snapshot date and coverage notices match the refreshed data.
 
-To submit, send the covering note above from your email address to `assessment@enam.com` with subject `ENAM - IIT screening - 2027`. The user-confirmed extended deadline is **3 November 2026, end of day**.
+To submit, send the covering note above to `assessment@enam.com` with subject `ENAM - IIT screening - 2027`. The deadline is **3 November 2026, end of day**.

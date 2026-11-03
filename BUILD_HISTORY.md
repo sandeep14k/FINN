@@ -1,6 +1,6 @@
 # AI build history
 
-FINN was built in a single AI-assisted session on **3 November 2026** using the Qoder desktop agent (Claude-based coding agent with file, shell, browser and Sites tools). This page is a curated export of that session: the verbatim user requests, the milestones the agent reported, and the engineering decisions behind them. The full session transcript is available from the author on request.
+FINN was built across two AI-assisted sessions. The initial build was done in Gemini; that conversation is shared at https://share.gemini.google/emH3nUzIRlpg. The work was then continued and completed in a Qoder desktop agent session on **3 November 2026** (Claude-based coding agent with file, shell, browser and Sites tools). This page is a curated export of the Qoder session: the verbatim user requests, the milestones the agent reported, and the engineering decisions behind them. The full session transcript is available from the author on request.
 
 ## Verbatim requests
 
@@ -45,13 +45,13 @@ The agent then worked autonomously through verification, product fixes, the subm
 3. **One real verdict is better than several weak ones.** FY26 revenue is `MET` (3–3.5% guidance vs 3.1% reported, constant currency, consolidated). FY26 operating margin stays `NOT COMPARABLE` because the available observation covers a quarter, not the full year.
 4. **Coverage is stated.** The briefing shows its snapshot date, holdings on a limited fallback feed, sources that could not refresh, and the document counts behind each research brief.
 5. **Cost and reliability are bounded.** Research uses strict structured outputs, bounded chunk selection, shared rate pacing, response caching and an atomic job queue. Numeric matching and filing previews use no model tokens.
-6. **Static hosting keeps the demo honest.** The Qoder Sites build serves saved data and cached research. It labels live research as unavailable rather than pretending to run a Python job; the full local/Docker build keeps live ingestion enabled.
+6. **The demo runs the real pipeline.** The live demo runs the same Node + Python container as the local setup: research is executed on demand, preferences are saved server-side, and the saved snapshot and six briefs load instantly. Scheduled refresh is switched off on the demo host so a throttled price source cannot make the briefing look stale during review. The static export remains available for zero-backend hosting, where it labels live research as unavailable rather than pretending to run a Python job.
 7. **A filing is classified by its title.** Exchange summaries appended to headlines describe many things; only the title decides the category, and companions to one results event are visibly grouped instead of inflating the priority desk.
-8. **Every visible control has a working path.** On the static demo, research is a picker of the six saved briefs. An unsaved holding shows a notice with a working "Browse saved briefs" action, never a retry that can only fail.
+8. **Every visible control has a working path.** On the live demo, an unsaved holding starts a real research job and shows its stage. In the static build, research is a picker of the six saved briefs and an unsaved holding shows a notice with a working "Browse saved briefs" action, never a retry that can only fail.
 
 ## Artifacts
 
-- Live demo: https://finn-fs9d.vercel.app/
+- Live demo: https://finn-4pi0.onrender.com/
 - Repository: https://github.com/sandeep14k/FINN
 - Verification log: [TEST_RESULTS.md](TEST_RESULTS.md)
 - Architecture: [ARCHITECTURE.md](ARCHITECTURE.md)

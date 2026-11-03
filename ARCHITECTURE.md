@@ -89,4 +89,4 @@ ingest_ticker.py
 
 ## Deployment boundary
 
-Research requires a process that outlives a single HTTP request and writes to a persistent volume. Serverless functions are explicitly unsupported. The included Dockerfile runs the Next.js server and the Python virtual environment together; persist `/app/data` and generated research across container replacements. `FINN_ROOT` and `FINN_PYTHON` support non-default absolute paths.
+Research requires a process that outlives a single HTTP request and writes to a persistent volume. Serverless functions are explicitly unsupported. The included Dockerfile runs the Next.js server and the Python virtual environment together; persist `/app/data` and generated research across container replacements. `FINN_ROOT` and `FINN_PYTHON` support non-default absolute paths. `FINN_MONITOR=0` starts only the web server, which is how the public demo keeps the committed snapshot stable while still running research on demand; without a mounted volume, newly generated research and saved preferences reset on restart.

@@ -18,14 +18,15 @@
 - **Console**: no browser console messages or exceptions.
 - **Static deployment build**: `npm --prefix finn-app run build:static` produces a static `out/` export. Served locally, it renders the same 16/9/13/5 briefing, the ITC results table, all six saved research briefs, the INFY MET card and scope note, and the verified annual-report page extract. Research entry uses a picker of the six saved briefs; an unsaved holding shows a notice with a "Browse saved briefs" action instead of a retry that cannot succeed. Live research and server-saved preferences are intentionally unavailable in that build; preferences stay in `localStorage`.
 
-## Hosted deployment (Vercel, public)
+## Hosted deployment (Render, public)
 
-- **URL reachable**: `https://finn-fs9d.vercel.app/` returns HTTP 200 in a fresh browser session, and the served HTML contains the product copy ("Less noise").
-- **Same data as local**: the hosted briefing renders 16 priority items (3 disclosures plus 13 market-move alerts), 9 disclosures in the feed, 13 market-move alerts and 5 filing previews from the committed snapshot, including the ITC consolidated results table.
-- **Research**: all six saved briefs load from the deployed data; INFY shows the **MET** FY26 revenue verdict with the scope note, FY26 margin **NOT COMPARABLE** and both FY27 targets **PENDING**.
-- **Citations**: the annual-report citation opens the extracted page from the deployed page extract and shows "Quotation matched against this extracted page".
-- **No console errors** and no horizontal overflow at a 453px mobile viewport.
-- **Disabled by design on this host**: live new-ticker research and server-side refresh. Vercel cannot run the Python research pipeline; the local/Docker build enables it. Server-saved preferences also require a persistent host. The same repository runs them locally and in the Docker image.
+- **URL reachable**: `https://finn-4pi0.onrender.com/` returns HTTP 200 and serves the product.
+- **Same data as local**: `/api/snapshot` reports `as_of` 2026-11-03 with 18 holdings and the committed feed; the interface renders the same 16 priority items (3 disclosures plus 13 market-move alerts), 9 disclosures, 13 market-move alerts and 5 filing previews. KPITTECH, POLYCAB and INDHOTEL are listed as stale with retained previous data, and all 18 holdings carry the limited-feed notice.
+- **Server-saved preferences**: `GET /api/preferences` returns the stored rules and `POST` writes and echoes them with HTTP 200, so saving works on the container filesystem rather than only in `localStorage`.
+- **Citations**: `/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json&page=78` returns the extracted annual-report page from the container.
+- **Live research**: `GET /api/research?symbol=INFY` returns the cached brief, while `POST` for `WIPRO` — outside the saved six — returned 202. In the browser, submitting `WIPRO` opened "COMPANY RESEARCH · WIPRO" and the run advanced through "Discovering annual reports and earnings-call transcripts", "Identifying reporting periods", "Reading the annual report" and "Extracting guidance and reported results", with the note that a run can take several minutes. The Python pipeline runs on the host; this is not a static fallback.
+- **Scheduled refresh off by design**: `FINN_MONITOR=0` keeps the committed snapshot stable during review. The same image runs the 15-minute refresh loop with `FINN_MONITOR=1`.
+- **Host behaviour**: a free instance sleeps after about 15 minutes idle, so the first visit can take roughly a minute; a restart resets newly researched tickers and preferences to the committed state, while the snapshot, six briefs and citation extracts are part of the image.
 
 ## Real source validation
 
@@ -46,8 +47,8 @@
 
 ## Remaining limits
 
-- The hosted deployment and the public GitHub repository were verified from this machine; a real-phone network test and a Docker build on a clean host were not performed.
+- The hosted deployment was verified from this machine; a real-phone network test was not performed. Render built the container image from the committed Dockerfile, so the image itself is proven on a clean host, but its behaviour on a physical phone network is not.
 - Consolidation/accounting scope is source-supported for INFY FY26 revenue only; other saved comparisons remain non-definitive.
-- Exhaustive exchange coverage, browser notifications and OCR remain outside this implementation.
+- Exhaustive exchange coverage, background push notifications (a service worker) and OCR remain outside this implementation. An open tab does poll saved data every minute and can raise a browser notification with permission.
 - Quarterly results tables and management profiles are extracted for the filings in the saved analysis, not for every holding or every historic filing; extraction is model-driven with page and verbatim checks, so an unreadable figure is shown as unavailable rather than repaired.
 - An apparent credential was removed from `.env.example`; provider-side revocation/rotation was not performed.
