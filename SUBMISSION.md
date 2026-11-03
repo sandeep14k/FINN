@@ -8,7 +8,7 @@ I built FINN around one investor workflow: a prioritised portfolio disclosure de
 
 Prototype: https://finn-attention-desk-13oolrbrhrs.qoder.website
 Repository: https://github.com/sandeep14k/FINN
-AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md) and [ADD QODER SHARE LINK]
+AI build history: [BUILD_HISTORY.md](BUILD_HISTORY.md) (curated transcript of the coding-agent session, with the prompts and decisions that shaped the build)
 
 The workspace tracks 18 Indian listed companies. Investors can change the digest window (24h / 3d / 7d / all), filter by holding or category, set price and volume thresholds, mark items reviewed, and inspect original filings. The briefing states its own coverage: the saved snapshot date, holdings on a limited fallback feed, and any sources that could not refresh. Five material filings expose a verbatim "Inside the filing" preview with a page number and a link to the original PDF.
 
@@ -24,7 +24,7 @@ Sandeep Kumar Jha
 
 # Three-minute demo route
 
-1. Open the briefing: 21 prioritised items, 9 disclosures in view, 13 market-move alerts and 5 filing previews. Point out the coverage notices (snapshot date, fallback-feed holdings, stale sources).
+1. Open the briefing: 21 prioritised items, 9 disclosures in the feed, 13 market-move alerts and 5 filing previews. Point out the coverage notices (snapshot date, fallback-feed holdings, stale sources).
 2. Expand "Inside the filing" on an ITC disclosure and follow "Verify original page" to the exchange PDF.
 3. Open Preferences, lower the price threshold, save, and confirm the digest changes; reload to show preferences persist.
 4. Open INFY research → Overview, then Management memory. Show the FY27 guidance revisions and the FY26 Revenue Growth **MET** card: promise quote, delivery quote, annual-report scope citation and the scope note.
@@ -33,7 +33,7 @@ Sandeep Kumar Jha
 
 # Before sending
 
-- Replace `[ADD QODER SHARE LINK]` with the actual session share/export link if one is created; `BUILD_HISTORY.md` is committed as a curated export.
+- If a Qoder session share link exists, add it next to `BUILD_HISTORY.md`; the committed curated export is sufficient on its own.
 - `TEST_RESULTS.md` records the checks actually run: 66 Python tests, ESLint, production build, static build and browser verification.
 - The dedicated repository is public and its tracked files exclude `.env`, `venv/`, `node_modules/`, `.next/`, `out/` and internal planning notes.
 - The live demo is public and was verified in a fresh browser session. A real-phone check is still recommended.
