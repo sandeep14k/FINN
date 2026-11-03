@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "node scripts/styles.mjs --dev",
     "build": "next build",
+    "build:static": "node scripts/build-static.mjs",
     "start": "next start",
     "lint": "eslint",
     "prebuild": "node scripts/styles.mjs"

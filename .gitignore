@@ -9,6 +9,7 @@ data/.jobs/
 .DS_Store
 finn-app/node_modules/
 finn-app/.next/
+finn-app/out/
 finn-app/tsconfig.tsbuildinfo
 hs_err_pid*.log
 replay_pid*.log

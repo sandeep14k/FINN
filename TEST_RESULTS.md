@@ -15,6 +15,7 @@
 - **Citation inspection**: the Annual report p.78 citation opens "Quotation matched against this extracted page", shows the verified quotation, and loads the 5,110-character page extract from `/api/source`.
 - **Layout**: `document.scrollWidth` equals the 568px viewport (no horizontal overflow); the mobile navigation is visible and the desktop sidebar is hidden.
 - **Console**: no browser console messages or exceptions.
+- **Static deployment build**: `npm --prefix finn-app run build:static` produces a static `out/` export. Served locally, it renders the same 21/9/13/5 briefing, all six saved research briefs, the INFY MET card and scope note, and the verified annual-report page extract. Live research and server-saved preferences are intentionally unavailable in that build; preferences stay in `localStorage`.
 
 ## Real source validation
 

@@ -12,6 +12,7 @@ import type { Citation, Price, Research, Rules, Signal, View } from '../lib/type
 
 const navigation = [{ key: 'briefing' as View, title: 'Your briefing', icon: LayoutDashboard }, { key: 'portfolio' as View, title: 'Portfolio', icon: Wallet }, { key: 'research' as View, title: 'Research', icon: Compass }];
 const demoCompanies = ['INFY', 'KPITTECH', 'ETERNAL', 'LAURUSLABS', 'TCS', 'HCLTECH'];
+const STATIC_DATA = process.env.NEXT_PUBLIC_STATIC_DATA === '1';
 
 export default function FinnApp() {
   const [view, setView] = useState<View>('briefing');
@@ -54,7 +55,7 @@ export default function FinnApp() {
     const id = ++reloadId.current;
     setRefreshing(true);
     try {
-      const { feed, eod, holdings, histories, as_of } = await getJSON('/api/snapshot');
+      const { feed, eod, holdings, histories, as_of } = await getJSON(STATIC_DATA ? '/data/snapshot.json' : '/api/snapshot');
       if (id !== reloadId.current) return;
       setFilings(feed); setPrices(eod.data); setPortfolio(holdings.tickers); setHistory(histories);
       setSnapshotDate(as_of);
@@ -74,7 +75,7 @@ export default function FinnApp() {
       try {
         const stored = JSON.parse(localStorage.getItem('finn-seen') || '[]');
         if (Array.isArray(stored)) setSeen(stored.filter(value => typeof value === 'string'));
-        const saved = await getJSON('/api/preferences').catch(() => JSON.parse(localStorage.getItem('finn-rules') || 'null'));
+        const saved = STATIC_DATA ? JSON.parse(localStorage.getItem('finn-rules') || 'null') : await getJSON('/api/preferences').catch(() => JSON.parse(localStorage.getItem('finn-rules') || 'null'));
         if (saved && typeof saved.price === 'number' && saved.price >= 1 && saved.price <= 10 && typeof saved.volume === 'number' && saved.volume >= 1 && saved.volume <= 5) {
           setRules({ price: saved.price, volume: saved.volume, categories: Array.isArray(saved.categories) ? saved.categories.filter((value: string) => categories.includes(value)) : categories.filter(category => !(category === 'results' && saved.results === false) && !(category === 'management_change' && saved.management === false)) });
         }
@@ -143,6 +144,12 @@ export default function FinnApp() {
   const closeCitation = useCallback(() => setCitation(null), []);
   async function saveRules() {
     setSavingRules(true); setRuleError('');
+    if (STATIC_DATA) {
+      setRules(draft);
+      try { localStorage.setItem('finn-rules', JSON.stringify(draft)); } catch { /* Session still works. */ }
+      setSavingRules(false); closeRules();
+      return;
+    }
     try {
       const response = await fetch('/api/preferences', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(draft) });
       if (!response.ok) throw new Error('Could not save workspace preferences. Please retry.');
@@ -157,7 +164,9 @@ export default function FinnApp() {
     setCitation(cite); setSourceText('Loading the original page extract…');
     if (!cite.source_path) { setSourceText('A page extract is unavailable for this source.'); return; }
     try {
-      const pages = await getJSON(`${cite.source_path}&page=${cite.page}`);
+      const params = STATIC_DATA ? new URLSearchParams(cite.source_path.split('?')[1] || '') : null;
+      const url = params ? `/data/docs/${params.get('symbol')}/${params.get('file')}` : `${cite.source_path}&page=${cite.page}`;
+      const pages = await getJSON(url);
       const page = pages.find((page: { page: number }) => page.page === cite.page);
       const normalise = (text: string) => text.toLowerCase().replace(/\s+/g, ' ').trim();
       const text = page && normalise(page.text).includes(normalise(cite.quote)) ? page.text : page?.layout_text || page?.text;
@@ -169,6 +178,15 @@ export default function FinnApp() {
     if (!/^[A-Z0-9][A-Z0-9&-]{0,24}$/.test(symbol)) { setResearchError('Enter a valid NSE symbol, such as INFY or TCS.'); setResearchProgress(''); return; }
     setResearchSymbol(symbol); setResearch(null); setResearchError(''); setResearchProgress('Finding company evidence'); navigate('research');
     const id = ++requestId.current;
+    if (STATIC_DATA) {
+      try {
+        const data = await getJSON(`/data/pull/${symbol}.json`);
+        if (id === requestId.current) { setResearch(data); setResearchProgress(''); }
+      } catch {
+        if (id === requestId.current) setResearchError(`This demo includes saved research for ${demoCompanies.join(', ')}. Live research is available in the full local build.`);
+      }
+      return;
+    }
     try {
       let result = await getResearch(symbol);
       for (let attempt = 0; result.status === 'running' && attempt < 950; attempt++) {

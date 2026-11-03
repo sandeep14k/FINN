@@ -104,6 +104,8 @@ Manual acceptance checks at a 390px mobile width:
 
 Build with `npm run build` inside `finn-app/`, then run `npm start` on a persistent Node/Python host. Keep the complete root directory and virtual environment alongside the app. Set `FINN_ENABLE_RESEARCH=1` and the root API key server-side; never use a `NEXT_PUBLIC_` key. `FINN_ROOT` and `FINN_PYTHON` support custom absolute paths.
 
+For static hosting, run `npm run build:static` inside `finn-app/`. It exports `out/` with the saved snapshot, cached research and published page extracts; the build temporarily parks `app/api`, and the client reads `/data/*.json` directly. Live research, refresh and server-saved preferences are unavailable in this mode, and preferences fall back to `localStorage`. The static build is what the Qoder Sites demo uses.
+
 Alternatively use the included Dockerfile. Supply `GROQ_API_KEY`, `GROQ_FAST_MODEL` and `GROQ_REASONING_MODEL` at runtime. Persist `/app/data` and generated public research if you need it across container replacements. The included job queue is single-process; use one application instance for this prototype.
 
 ## Known scope limits
