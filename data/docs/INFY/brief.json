@@ -1,0 +1,186 @@
+{
+  "sections": [
+    {
+      "key": "business",
+      "title": "The business, in context",
+      "facts": [
+        {
+          "statement": "Infosys Limited provides AI-first business consulting and technology services, to enable organizations to unlock AI value at scale.",
+          "citation": {
+            "document": "Annual report",
+            "quote": "Infosys Limited provides AI-first business consulting and technology services, to enable organizations to unlock AI value at scale.",
+            "page": 143,
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+            "source_path": "/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "financials",
+      "title": "The financial picture",
+      "facts": [
+        {
+          "statement": "Our disciplined execution delivered over US$20 billion in revenue, a strong adjusted operating margin of 21%, and US$3.7 billion in free cash flow \u2013 enabling us to return over US$4 billion to shareholders through dividends (US$2.1 billion) and share buybacks (US$2 billion).",
+          "citation": {
+            "document": "Annual report",
+            "page": 19,
+            "quote": "Our disciplined execution delivered over US$20 billion in revenue, a strong adjusted operating margin of 21%, and US$3.7 billion in free cash flow \u2013 enabling us to return over US$4 billion to shareholders through dividends (US$2.1 billion) and share buybacks (US$2 billion).",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+            "source_path": "/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "Infosys reported second-quarter revenue growth of 1.5% year-over-year and 1.2% sequentially in constant currency terms.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 28 Oct",
+            "page": 4,
+            "quote": "Our revenue growth for Q2 was 1.5% YoY and 1.2% sequentially in constant currency terms.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+            "source_path": "/api/source?symbol=INFY&file=00_earnings_call_transcript_28_oct.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "trajectory",
+      "title": "Direction of travel",
+      "facts": [
+        {
+          "statement": "Last year we had large deals of US$14.9 billion enabling us to set-up a growth foundation for the coming year.",
+          "citation": {
+            "document": "Annual report",
+            "page": 19,
+            "quote": "Last year we had large deals of US$14.9 billion enabling us to set-up a growth foundation for the coming year.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+            "source_path": "/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "Our consolidated revenues in reported currency terms for fiscal 2026 is \u20b91,78,650 crore, a growth of 9.6%.",
+          "citation": {
+            "document": "Annual report",
+            "page": 78,
+            "quote": "Our consolidated revenues in reported currency terms for fiscal 2026 is \u20b91,78,650 crore, a growth of 9.6%.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+            "source_path": "/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "balance_sheet",
+      "title": "Balance-sheet watch",
+      "facts": [
+        {
+          "statement": "As of March 31, 2026, we had `40,794 crore in working capital on a standalone basis, and `51,167 crore on a consolidated basis.",
+          "citation": {
+            "document": "Annual report",
+            "page": 37,
+            "quote": "As of March 31, 2026, we had `40,794 crore in working capital on a standalone basis, and `51,167 crore on a consolidated basis.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+            "source_path": "/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "Trade receivables Days Sales Outstanding (DSO) in USD terms was 67 days for the year ended March 31, 2026, compared to 69 days in the previous year.",
+          "citation": {
+            "document": "Annual report",
+            "page": 77,
+            "quote": "Trade receivables Days Sales Outstanding (DSO) in USD terms was 67 days for the year ended March 31, 2026, compared to 69 days in the previous year.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+            "source_path": "/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cash_quality",
+      "title": "Do earnings turn into cash?",
+      "facts": [
+        {
+          "statement": "The Company has returned approximately 82.1% of the free cash flow for fiscals 2025 and 2026 through dividends and buybacks, in line with the Capital Allocation Policy.",
+          "citation": {
+            "document": "Annual report",
+            "page": 27,
+            "quote": "The Company has returned approximately 82.1% of the free cash flow for fiscals 2025 and 2026 through dividends and buybacks, in line with the Capital Allocation Policy.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+            "source_path": "/api/source?symbol=INFY&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "Infosys generated strong free cash flow of $928 million for the second quarter of the fiscal year.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 28 Oct",
+            "page": 4,
+            "quote": "Free cash flow was strong at $928 mn (Editor\u2019s comment) for the quarter.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+            "source_path": "/api/source?symbol=INFY&file=00_earnings_call_transcript_28_oct.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "narrative",
+      "title": "Management\u2019s narrative",
+      "facts": [
+        {
+          "statement": "Infosys plans to build a team of 6,000 frontier engineers over the next few years to support client work.",
+          "citation": {
+            "document": "Jul 2026 Transcript AI Summary PPT",
+            "page": 29,
+            "quote": "Our plan is to have 6,000 frontier engineers over the next few years.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+            "source_path": "/api/source?symbol=INFY&file=01_jul_2026_transcript_ai_summary_ppt.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "guidance",
+      "title": "What management expects",
+      "facts": [
+        {
+          "statement": "Management guided for full-year revenue growth of 1% to 2% year-over-year and an operating margin of 20% to 22%.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 28 Oct",
+            "page": 4,
+            "quote": "our revenue growth guidance is 1% to 2% YoY.in constant currency terms. Our operating margin guidance remains at 20% to 22% for the year.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+            "source_path": "/api/source?symbol=INFY&file=00_earnings_call_transcript_28_oct.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bull_bear",
+      "title": "Opportunity & risk",
+      "facts": [
+        {
+          "statement": "We have also seen pricing pressure on the back of competitive intensity and higher ask on productivity.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 28 Oct",
+            "page": 6,
+            "quote": "We have also seen pricing pressure on the back of competitive intensity and higher ask on productivity.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+            "source_path": "/api/source?symbol=INFY&file=00_earnings_call_transcript_28_oct.json"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-01T23:47:09.005861+00:00",
+  "model_calls": 4
+}

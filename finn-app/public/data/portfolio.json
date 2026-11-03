@@ -1,0 +1,157 @@
+{
+  "tickers": [
+    "RELIANCE",
+    "INFY",
+    "ITC",
+    "LT",
+    "ICICIBANK",
+    "BHARTIARTL",
+    "TRENT",
+    "POLYCAB",
+    "DIXON",
+    "INDHOTEL",
+    "CUMMINSIND",
+    "CDSL",
+    "TATASTEEL",
+    "ONGC",
+    "NEULANDLAB",
+    "PRAJIND",
+    "JYOTHYLAB",
+    "RKFORGE"
+  ],
+  "generated_at": "2026-11-03T10:49:03.542001+05:30",
+  "stale_announcements": [],
+  "stale_prices": [
+    "KPITTECH.NS",
+    "POLYCAB.NS",
+    "INDHOTEL.NS"
+  ],
+  "limited_feed_holdings": [
+    "INFY",
+    "RELIANCE",
+    "ITC",
+    "LT",
+    "ICICIBANK",
+    "BHARTIARTL",
+    "TRENT",
+    "POLYCAB",
+    "DIXON",
+    "INDHOTEL",
+    "CUMMINSIND",
+    "CDSL",
+    "TATASTEEL",
+    "ONGC",
+    "NEULANDLAB",
+    "PRAJIND",
+    "JYOTHYLAB",
+    "RKFORGE"
+  ],
+  "source_coverage": {
+    "INFY.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "KPITTECH.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ETERNAL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "LAURUSLABS.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "RELIANCE.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ITC.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "LT.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ICICIBANK.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "BHARTIARTL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "TRENT.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "POLYCAB.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "DIXON.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "INDHOTEL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "CUMMINSIND.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "CDSL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "TATASTEEL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ONGC.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "NEULANDLAB.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "PRAJIND.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "JYOTHYLAB.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "RKFORGE.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    }
+  },
+  "last_checked": "2026-11-03T10:40:53.276048+05:30"
+}

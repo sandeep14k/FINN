@@ -1,0 +1,186 @@
+{
+  "sections": [
+    {
+      "key": "business",
+      "title": "The business, in context",
+      "facts": [
+        {
+          "statement": "TCS designs, builds, operates, and continuously modernises these services to meet changing customer expectations and rapid technology shifts.",
+          "citation": {
+            "document": "Annual report",
+            "quote": "TCS designs, builds, operates, and continuously modernises these services to meet changing customer expectations and rapid technology shifts.",
+            "page": 19,
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "financials",
+      "title": "The financial picture",
+      "facts": [
+        {
+          "statement": "TCS achieved a year-over-year revenue growth of 4.6% in FY 2026, driven by focused and effective execution across its business segments.",
+          "citation": {
+            "document": "Annual report",
+            "page": 25,
+            "quote": "In FY 2026, TCS achieved a year-over year revenue growth of 4.6%, led by focused and effective execution.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "TCS reported an operating margin of 25.0% in FY 2026, representing a 70 basis point improvement over FY 2025 and marking a four-year high.",
+          "citation": {
+            "document": "Annual report",
+            "page": 25,
+            "quote": "In FY 2026, TCS reported an operating margin of 25.0%, an improvement of 70 basis points compared to FY 2025, and was at a 4-year high.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "trajectory",
+      "title": "Direction of travel",
+      "facts": [
+        {
+          "statement": "The company reported broad-based client additions across revenue bands, a strong order book, and continued momentum in securing large deals during the fiscal year.",
+          "citation": {
+            "document": "Annual report",
+            "page": 10,
+            "quote": "This translated into broad-based client additions across revenue bands, strong order book, and continued momentum in large deals.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "The company recorded a five-year compound annual growth rate of 10.2% in revenue, highlighting the resilience and scalability of its business model.",
+          "citation": {
+            "document": "Annual report",
+            "page": 25,
+            "quote": "Over the past five financial years, the company recorded a compound annual growth rate (CAGR) of 10.2%, highlighting the resilience and scalability of its business model.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "balance_sheet",
+      "title": "Balance-sheet watch",
+      "facts": [
+        {
+          "statement": "The Group\u2019s exposure to customers is diversified and no single customer contributes to more than 10% of outstanding trade receivables and contract assets as at March 31, 2026 and 2025.",
+          "citation": {
+            "document": "Annual report",
+            "page": 195,
+            "quote": "The Group\u2019s exposure to customers is diversified and no single customer contributes to more than 10% of outstanding trade receivables and contract assets as at March 31, 2026 and 2025.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cash_quality",
+      "title": "Do earnings turn into cash?",
+      "facts": [
+        {
+          "statement": "Our cash conversion remains strong at 102.2% of net income and funds invested at the end of the period stood at $5.98 billion.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 14 Oct - Transc",
+            "page": 6,
+            "quote": "Our cash conversion remains strong at 102.2% of net income and funds invested at the end of the period stood at $5.98 billion.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf",
+            "source_path": "/api/source?symbol=TCS&file=transcript_earnings_call_transcript_14_oct_transc.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "narrative",
+      "title": "Management\u2019s narrative",
+      "facts": [
+        {
+          "statement": "TCS scaled the Government e-Marketplace into the world's largest government e-commerce marketplace, achieving procurement volumes exceeding five lakh crore rupees.",
+          "citation": {
+            "document": "Annual report",
+            "page": 10,
+            "quote": "We scaled the Government e-Marketplace (GeM) into the world\u2019s largest government e-commerce marketplace, with procurement exceeding \u20b9 5 lakh crore.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "The company upgraded State Bank of India\u2019s YONO 2.0 platform to serve twenty crore users across ten different languages.",
+          "citation": {
+            "document": "Annual report",
+            "page": 10,
+            "quote": "We upgraded State Bank of India\u2019s YONO 2.0 to serve 20 crore users in 10 languages.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "guidance",
+      "title": "What management expects",
+      "facts": [
+        {
+          "statement": "We expect the ongoing impact to be minimal, around 10 to 15 basis points.",
+          "citation": {
+            "document": "Jan 2026 Transcript AI Summary PPT REC",
+            "page": 24,
+            "quote": "We expect the ongoing impact to be minimal, around 10 to 15 basis points.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d70edbab-d5b2-47ae-8820-efacc5052d13.pdf",
+            "source_path": "/api/source?symbol=TCS&file=transcript_jan_2026_transcript_ai_summary_ppt_rec.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bull_bear",
+      "title": "Opportunity & risk",
+      "facts": [
+        {
+          "statement": "Such developments could weaken the business outlook for TCS\u2019 customers, leading to demand uncertainty for the Company\u2019s services and a higher cost of doing business.",
+          "citation": {
+            "document": "Annual report",
+            "page": 63,
+            "quote": "Such developments could weaken the business outlook for TCS\u2019 customers, leading to demand uncertainty for the Company\u2019s services and a higher cost of doing business.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "Despite persistent macroeconomic headwinds, customers continued to demonstrate strong conviction in sustained technology investments, reinforcing confidence in the medium- term outlook.",
+          "citation": {
+            "document": "Annual report",
+            "page": 54,
+            "quote": "Despite persistent macroeconomic headwinds, customers continued to demonstrate strong conviction in sustained technology investments, reinforcing confidence in the medium- term outlook.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+            "source_path": "/api/source?symbol=TCS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-01T23:56:09.729102+00:00",
+  "model_calls": 4
+}

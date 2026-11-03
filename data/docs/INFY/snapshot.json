@@ -1,0 +1,23 @@
+{
+  "facts": [
+    {
+      "statement": "(2) Free cash flow is defined as net cash provided by operating activities less capital expenditure as per the Consolidated Statement of Cash Flows prepared under IFRS.",
+      "document": "Annual report",
+      "page": 17,
+      "quote": "(2) Free cash flow is defined as net cash provided by operating activities less capital expenditure as per the Consolidated Statement of Cash Flows prepared under IFRS."
+    },
+    {
+      "statement": "Our strong performance on the back of meticulous execution over the years, as reflected in the combination of high growth, strong cash generation and sustained profitability, has led to building a strong, debt-free, and liquid Balance Sheet.",
+      "document": "Annual report",
+      "page": 27,
+      "quote": "Our strong performance on the back of meticulous execution over the years, as reflected in the combination of high growth, strong cash generation and sustained profitability, has led to building a strong, debt-free, and liquid Balance Sheet."
+    },
+    {
+      "statement": "Free cash flow is defined as net cash provided by operating activities less capital expenditure as per the Consolidated Statement of Cash Flows prepared under IFRS.",
+      "document": "Annual report",
+      "page": 37,
+      "quote": "Free cash flow is defined as net cash provided by operating activities less capital expenditure as per the Consolidated Statement of Cash Flows prepared under IFRS."
+    }
+  ],
+  "mode": "extractive"
+}

@@ -1,0 +1,158 @@
+{
+  "sections": [
+    {
+      "key": "business",
+      "title": "The business, in context",
+      "facts": [
+        {
+          "statement": "The Company manufactures several active pharmaceutical ingredients and intermediates within the Affordable Medicines (Generics) and CDMO divisions.",
+          "citation": {
+            "document": "Annual report",
+            "quote": "The Company manufactures several active pharmaceutical ingredients and intermediates within the Affordable Medicines (Generics) and CDMO divisions.",
+            "page": 54,
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "trajectory",
+      "title": "Direction of travel",
+      "facts": [
+        {
+          "statement": "On standalone basis, the Company has achieved a turnover of ` 6,089 Crores, representing growth of 17% and EBITDA of ` 1,469 Crores representing 46% growth.",
+          "citation": {
+            "document": "Annual report",
+            "page": 56,
+            "quote": "On standalone basis, the Company has achieved a turnover of ` 6,089 Crores, representing growth of 17% and EBITDA of ` 1,469 Crores representing 46% growth.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "On the R&D front, overall R&D spend was at 4.1% of our sales for the 9 months FY\u201926 increased by 8% year-on-year including our spend on the Cell and Gene lab space.",
+          "citation": {
+            "document": "Jan 2026 Transcript AI Summary PPT REC",
+            "page": 5,
+            "quote": "On the R&D front, overall R&D spend was at 4.1% of our sales for the 9 months FY\u201926 increased by 8% year-on-year including our spend on the Cell and Gene lab space.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=733ba0ea-bb83-4bac-b624-0414a23de9e9.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=transcript_jan_2026_transcript_ai_summary_ppt_rec.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "balance_sheet",
+      "title": "Balance-sheet watch",
+      "facts": [
+        {
+          "statement": "Net working capital rose to \u20b93,245 crore from \u20b92,985 crore in the previous year, mainly due to increases in inventories and accounts receivables.",
+          "citation": {
+            "document": "Annual report",
+            "page": 55,
+            "quote": "Net working capital stood at \u20b9 3,245 crore as against \u20b9 2,985 crore for the previous year. Increase mainly due to an increase in inventories and accounts receivables.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "During the year, we invested \u20b9 1,070 crore in capital expenditure, primarily towards expanding our CDMO manufacturing capabilities, while net debt-to-EBITDA improved to 1.3x.",
+          "citation": {
+            "document": "Annual report",
+            "page": 12,
+            "quote": "During the year, we invested \u20b9 1,070 crore in capital expenditure, primarily towards expanding our CDMO manufacturing capabilities, while net debt-to-EBITDA improved to 1.3x.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cash_quality",
+      "title": "Do earnings turn into cash?",
+      "facts": [
+        {
+          "statement": "Operating cash flow improved sharply to \u20b9 1,624 crore, supported by higher EBITDA and improved working capital management.",
+          "citation": {
+            "document": "Annual report",
+            "page": 43,
+            "quote": "Operating cash flow improved sharply to \u20b9 1,624 crore, supported by higher EBITDA and improved working capital management.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "narrative",
+      "title": "Management\u2019s narrative",
+      "facts": [
+        {
+          "statement": "Management attributed the consistent improvement in performance to enhanced capacity efficiency driven by the growth of late-stage clinical and commercial projects.",
+          "citation": {
+            "document": "Jul 2026 Transcript AI Summary PPT REC",
+            "page": 6,
+            "quote": "This is largely on account of improvement in capacity efficiency driven by the growth of late-stage clinical and commercial projects.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4a19b33-9fe2-4bd0-a9a5-6e92fce415d9.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=transcript_jul_2026_transcript_ai_summary_ppt_rec.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "guidance",
+      "title": "What management expects",
+      "facts": [
+        {
+          "statement": "We expect the merger process to be completed by September 2026.",
+          "citation": {
+            "document": "Annual report",
+            "page": 12,
+            "quote": "We expect the merger process to be completed by September 2026.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "We are also spending on formulation facility under our KRKA joint venture in Hyderabad, and we expect Phase 1 to be completed by mid-2027.",
+          "citation": {
+            "document": "Annual report",
+            "page": 55,
+            "quote": "We are also spending on formulation facility under our KRKA joint venture in Hyderabad, and we expect Phase 1 to be completed by mid-2027.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bull_bear",
+      "title": "Opportunity & risk",
+      "facts": [
+        {
+          "statement": "At the same time, the market remains shaped by tender-led procurement, pricing pressure, regulatory timelines and evolving product mix across markets.",
+          "citation": {
+            "document": "Annual report",
+            "page": 14,
+            "quote": "At the same time, the market remains shaped by tender-led procurement, pricing pressure, regulatory timelines and evolving product mix across markets.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf",
+            "source_path": "/api/source?symbol=LAURUSLABS&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-01T23:52:11.924124+00:00",
+  "model_calls": 4
+}

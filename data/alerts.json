@@ -1,0 +1,426 @@
+[
+  {
+    "id": "769bcc42b811b04d",
+    "ticker": "ITC",
+    "headline": "Announcement under Regulation 30 (LODR)-Acquisition",
+    "type": "M&A",
+    "timestamp": "2026-09-28",
+    "observed_at": "2026-11-01T23:41:46.252511+00:00"
+  },
+  {
+    "id": "5778fe3e2350afd0",
+    "ticker": "POLYCAB",
+    "headline": "Corporate Insolvency Resolution Process (CIRP)-Updates - Corporate Insolvency Resolution Process (CIRP)",
+    "type": "litigation",
+    "timestamp": "2026-10-28",
+    "observed_at": "2026-11-01T23:41:46.252518+00:00"
+  },
+  {
+    "id": "d220bea11f45209d",
+    "ticker": "TRENT",
+    "headline": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+    "type": "management_change",
+    "timestamp": "2026-10-29",
+    "observed_at": "2026-11-01T23:41:46.252519+00:00"
+  },
+  {
+    "id": "d2ee3900f0e73448",
+    "ticker": "PRAJIND",
+    "headline": "Announcement under Regulation 30 (LODR)-Change in Management",
+    "type": "management_change",
+    "timestamp": "2026-10-29",
+    "observed_at": "2026-11-01T23:41:46.252521+00:00"
+  },
+  {
+    "id": "01861c0c7a18929f",
+    "ticker": "PRAJIND",
+    "headline": "Announcement under Regulation 30 (LODR)-Updates on Joint Venture",
+    "type": "M&A",
+    "timestamp": "2026-10-29",
+    "observed_at": "2026-11-01T23:41:46.252522+00:00"
+  },
+  {
+    "id": "c9145a8a2e57a370",
+    "ticker": "RELIANCE",
+    "headline": "Unaudited Financial Results (Consolidated And Standalone) For The Quarter And Half Year Ended September 30, 2026.",
+    "type": "results",
+    "timestamp": "2026-10-30",
+    "observed_at": "2026-11-01T23:41:46.252523+00:00"
+  },
+  {
+    "id": "bd1013d5e0e6c2bb",
+    "ticker": "POLYCAB",
+    "headline": "Corporate Insolvency Resolution Process (CIRP)-Updates - Corporate Insolvency Resolution Process (CIRP)",
+    "type": "litigation",
+    "timestamp": "2026-10-30",
+    "observed_at": "2026-11-01T23:41:46.252525+00:00"
+  },
+  {
+    "id": "87f5b35854af4a32",
+    "ticker": "DIXON",
+    "headline": "Announcement under Regulation 30 (LODR)-Change in Management",
+    "type": "management_change",
+    "timestamp": "2026-10-30",
+    "observed_at": "2026-11-01T23:41:46.252526+00:00"
+  },
+  {
+    "id": "6eb494f876305c3f",
+    "ticker": "ONGC",
+    "headline": "Change In Senior Management",
+    "type": "management_change",
+    "timestamp": "2026-11-01",
+    "observed_at": "2026-11-01T23:41:46.252527+00:00"
+  },
+  {
+    "id": "67a43bec3d1fa4b4",
+    "ticker": "ONGC",
+    "headline": "Announcement under Regulation 30 (LODR)-Credit Rating",
+    "type": "credit_rating",
+    "timestamp": "2026-10-09",
+    "observed_at": "2026-11-01T23:41:46.252528+00:00"
+  },
+  {
+    "id": "26738f9a2493618f",
+    "ticker": "ICICIBANK",
+    "headline": "Announcement under Regulation 30 (LODR)-Credit Rating",
+    "type": "credit_rating",
+    "timestamp": "2026-10-24",
+    "observed_at": "2026-11-01T23:41:46.252529+00:00"
+  },
+  {
+    "id": "ed6e296ad219405f",
+    "ticker": "INFY",
+    "headline": "Infosys Announces Expansion Of Pocharam Development Center In Hyderabad",
+    "type": "capex",
+    "timestamp": "2026-10-30",
+    "observed_at": "2026-11-01T23:41:46.252531+00:00"
+  },
+  {
+    "id": "a29c954e65c6503b",
+    "ticker": "ONGC",
+    "headline": "Announcement under Regulation 30 (LODR)-Credit Rating",
+    "type": "credit_rating",
+    "timestamp": "2026-10-30",
+    "observed_at": "2026-11-01T23:41:46.252532+00:00"
+  },
+  {
+    "id": "ef27b5a93a13365f",
+    "ticker": "ICICIBANK",
+    "headline": "Transcripts Of The Call With Media And Of Earnings Call With Analysts And Investors",
+    "type": "earnings_call",
+    "timestamp": "2026-10-23",
+    "observed_at": "2026-11-01T23:41:46.252533+00:00"
+  },
+  {
+    "id": "9bf554e79a04cdac",
+    "ticker": "INFY",
+    "headline": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+    "type": "earnings_call",
+    "timestamp": "2026-10-28",
+    "observed_at": "2026-11-01T23:41:46.252534+00:00"
+  },
+  {
+    "id": "88d5381bad12e67b",
+    "ticker": "INDHOTEL",
+    "headline": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+    "type": "earnings_call",
+    "timestamp": "2026-10-28",
+    "observed_at": "2026-11-01T23:41:46.252535+00:00"
+  },
+  {
+    "id": "3d1d91789af71363",
+    "ticker": "RELIANCE",
+    "headline": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+    "type": "earnings_call",
+    "timestamp": "2026-11-01",
+    "observed_at": "2026-11-01T23:41:46.252536+00:00"
+  },
+  {
+    "id": "price-INFY-2026-10-30",
+    "ticker": "INFY",
+    "type": "price",
+    "headline": "Daily move 3.358%",
+    "timestamp": "2026-10-30T15:30:00+05:30",
+    "observed_at": "2026-11-01T23:41:46.252538+00:00"
+  },
+  {
+    "id": "price-TRENT-2026-10-30",
+    "ticker": "TRENT",
+    "type": "price",
+    "headline": "Daily move 5.4373%",
+    "timestamp": "2026-10-30T15:30:00+05:30",
+    "observed_at": "2026-11-01T23:41:46.252539+00:00"
+  },
+  {
+    "id": "volume-TRENT-2026-10-30",
+    "ticker": "TRENT",
+    "type": "volume",
+    "headline": "Volume 3.8644× the previous 20 sessions",
+    "timestamp": "2026-10-30T15:30:00+05:30",
+    "observed_at": "2026-11-01T23:41:46.252540+00:00"
+  },
+  {
+    "id": "price-DIXON-2026-10-30",
+    "ticker": "DIXON",
+    "type": "price",
+    "headline": "Daily move -4.2479%",
+    "timestamp": "2026-10-30T15:30:00+05:30",
+    "observed_at": "2026-11-01T23:41:46.252542+00:00"
+  },
+  {
+    "id": "price-PRAJIND-2026-10-30",
+    "ticker": "PRAJIND",
+    "type": "price",
+    "headline": "Daily move -4.9174%",
+    "timestamp": "2026-10-30T15:30:00+05:30",
+    "observed_at": "2026-11-01T23:41:46.252543+00:00"
+  },
+  {
+    "id": "price-RKFORGE-2026-10-30",
+    "ticker": "RKFORGE",
+    "type": "price",
+    "headline": "Daily move -3.7638%",
+    "timestamp": "2026-10-30T15:30:00+05:30",
+    "observed_at": "2026-11-01T23:41:46.252544+00:00"
+  },
+  {
+    "id": "afb39ca2da559c47",
+    "ticker": "ITC",
+    "headline": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement 2 Nov - ITC board approved merger of wholly owned subsidiary Sproutlife Foods, effective 1 April 2026, subject to approvals.",
+    "type": "M&A",
+    "timestamp": "2026-11-02T18:44:16+05:30",
+    "observed_at": "2026-11-03T05:11:43.720858+00:00"
+  },
+  {
+    "id": "fbc8a765c824d04b",
+    "ticker": "ITC",
+    "headline": "Unaudited Financial Results - Media Statement And Presentation 2 Nov - ITC announced Q2 FY27 unaudited results, with 19% revenue growth and segment updates.",
+    "type": "results",
+    "timestamp": "2026-11-02T18:31:10+05:30",
+    "observed_at": "2026-11-03T05:11:43.720867+00:00"
+  },
+  {
+    "id": "4af2ce9d5e1a3713",
+    "ticker": "ITC",
+    "headline": "Unaudited Financial Results Of The Company For The Quarter And Six Months Ended 30Th September, 2026 2 Nov - ITC Q2 FY27 results approved; Sproutlife amalgamation and Century Pulp acquisition disclosed.",
+    "type": "M&A",
+    "timestamp": "2026-11-02T18:24:48+05:30",
+    "observed_at": "2026-11-03T05:11:43.720869+00:00"
+  },
+  {
+    "id": "91bc61957a4b153f",
+    "ticker": "ITC",
+    "headline": "Board Meeting Outcome for Unaudited Financial Results Of The Company For The Quarter And Six Months Ended 30Th September, 2026 2 Nov - ITC reported Q2/H1 FY27 results, completed Century Pulp acquisition, and approved Sproutlife amalgamation.",
+    "type": "M&A",
+    "timestamp": "2026-11-02T18:18:23+05:30",
+    "observed_at": "2026-11-03T05:11:43.720871+00:00"
+  },
+  {
+    "id": "75b0d9344c52dc19",
+    "ticker": "TRENT",
+    "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 2 Nov - Newspaper Publication on Unaudited Financial Results(Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
+    "type": "results",
+    "timestamp": "2026-11-02T13:27:38+05:30",
+    "observed_at": "2026-11-03T05:11:43.720872+00:00"
+  },
+  {
+    "id": "7a0149d9834c0bc6",
+    "ticker": "CDSL",
+    "headline": "Copy of Newspaper Publication 1 Nov - Published audited Q2 and H1 FY2026 financial results on November 1, 2026.",
+    "type": "results",
+    "timestamp": "2026-11-01T14:40:47+05:30",
+    "observed_at": "2026-11-03T05:11:43.720874+00:00"
+  },
+  {
+    "id": "2552d78f4f1bd6c5",
+    "ticker": "ICICIBANK",
+    "headline": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015 1 Nov - Telangana GST appellate order confirms ₹6,95,418 penalty; ICICI Bank will appeal.",
+    "type": "litigation",
+    "timestamp": "2026-11-01T09:35:06+05:30",
+    "observed_at": "2026-11-03T05:11:43.720875+00:00"
+  },
+  {
+    "id": "b453d9104b257ff9",
+    "ticker": "DIXON",
+    "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - Announcement under Regulation 30 of SEBI LODR- Copy of Newspaper publication of Un-audited Financial Results (Standalone & Consolidated) of the Company for the quarter and …",
+    "type": "results",
+    "timestamp": "2026-10-31T19:34:28+05:30",
+    "observed_at": "2026-11-03T05:11:43.720876+00:00"
+  },
+  {
+    "id": "5362f640fcf2a90b",
+    "ticker": "CDSL",
+    "headline": "Outcome of Board Meeting 31 Oct - CDSL approved audited Q2 FY27 results; standalone PAT ₹163.34 crore, consolidated PAT ₹173.30 crore.",
+    "type": "results",
+    "timestamp": "2026-10-31T14:16:32+05:30",
+    "observed_at": "2026-11-03T05:11:43.720877+00:00"
+  },
+  {
+    "id": "501ed17db2ca84c4",
+    "ticker": "RKFORGE",
+    "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - We enclose herewith the copies of Extract of Statement of the Unaudited (Standalone & Consolidated) Financial Results of the Company for the Quater and Half …",
+    "type": "results",
+    "timestamp": "2026-10-31T12:48:33+05:30",
+    "observed_at": "2026-11-03T05:11:43.720879+00:00"
+  },
+  {
+    "id": "a9bd338aa298b228",
+    "ticker": "RELIANCE",
+    "headline": "Announcement under Regulation 30 (LODR)-Investor Presentation 30 Oct - Please find attached presentation on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026.",
+    "type": "results",
+    "timestamp": "2026-10-30T19:48:21+05:30",
+    "observed_at": "2026-11-03T05:11:43.720880+00:00"
+  },
+  {
+    "id": "72eec9faeaff26bc",
+    "ticker": "RELIANCE",
+    "headline": "Board Meeting Outcome for Board Meeting Outcome For Unaudited Financial Results (Consolidated And Standalone) For The Quarter And Half Year Ended September 30, 2026 And Issuance Non-Convertible Debentures.",
+    "type": "results",
+    "timestamp": "2026-10-30",
+    "observed_at": "2026-11-03T05:11:43.720881+00:00"
+  },
+  {
+    "id": "e5b11c0f1174323f",
+    "ticker": "TRENT",
+    "headline": "Announcement under Regulation 30 (LODR)-Investor Presentation 29 Oct - Investors'' Presentation on Unaudited Financial Results (Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
+    "type": "results",
+    "timestamp": "2026-10-29T16:39:36+05:30",
+    "observed_at": "2026-11-03T05:11:43.720882+00:00"
+  },
+  {
+    "id": "fffd5b3bc72da478",
+    "ticker": "BHARTIARTL",
+    "headline": "Disclosure Under Regulation 30 Of SEBI (LODR), Regulations, 2015 29 Oct - DoT Karnataka imposed Rs 2.14 lakh penalty on Airtel for alleged subscriber verification norm violations.",
+    "type": "litigation",
+    "timestamp": "2026-10-29T13:42:32+05:30",
+    "observed_at": "2026-11-03T05:11:43.720884+00:00"
+  },
+  {
+    "id": "42cf3cfeba21f616",
+    "ticker": "CUMMINSIND",
+    "headline": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations, 2015. 28 Oct - Jaipur GST authority levies ₹5.19 crore demand and ₹5.19 crore penalty for 2020-21 to 2023-24.",
+    "type": "litigation",
+    "timestamp": "2026-10-28T17:35:04+05:30",
+    "observed_at": "2026-11-03T05:11:43.720885+00:00"
+  },
+  {
+    "id": "ab2480b53a10a2d4",
+    "ticker": "INDHOTEL",
+    "headline": "Announcement under Regulation 30 (LODR)-Newspaper Publication 22 Oct - The newspaper publication of the Un-Audited ( Reviewed) Standalone and Consolidated Financial Results for the quarter ended September 30 , 2026 published in Financial ....",
+    "type": "results",
+    "timestamp": "2026-10-22T13:10:09+05:30",
+    "observed_at": "2026-11-03T05:11:43.720886+00:00"
+  },
+  {
+    "id": "3d3ee4df943bdb53",
+    "ticker": "RKFORGE",
+    "headline": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report 30 Oct - India Ratings report shows no deviation in Q2 FY27 utilization of Rs 199.92 crore preferential warrant proceeds.",
+    "type": "fund_raise",
+    "timestamp": "2026-10-30T17:23:34+05:30",
+    "observed_at": "2026-11-03T05:11:43.720888+00:00"
+  },
+  {
+    "id": "d282c86c5050e714",
+    "ticker": "JYOTHYLAB",
+    "headline": "Update on board meeting 30 Oct - Board will meet on November 4, 2026 to consider equity share buyback proposal.",
+    "type": "fund_raise",
+    "timestamp": "2026-10-30T16:42:15+05:30",
+    "observed_at": "2026-11-03T05:11:43.720889+00:00"
+  },
+  {
+    "id": "ee189a1d11dce9f0",
+    "ticker": "ONGC",
+    "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2 Nov - ONGC to hold Q2 FY27 earnings conference call on 6 November 2026 at 15:30 IST.",
+    "type": "earnings_call",
+    "timestamp": "2026-11-02T19:07:54+05:30",
+    "observed_at": "2026-11-03T05:11:43.720890+00:00"
+  },
+  {
+    "id": "86a46edba3edaa95",
+    "ticker": "CDSL",
+    "headline": "Analysts/Institutional Investor Meet/Con. Call Updates 2 Nov - CDSL uploaded audio recording of its November 2, 2026 conference call.",
+    "type": "earnings_call",
+    "timestamp": "2026-11-02T17:54:30+05:30",
+    "observed_at": "2026-11-03T05:11:43.720891+00:00"
+  },
+  {
+    "id": "c080950f3067e713",
+    "ticker": "LT",
+    "headline": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 2 Nov",
+    "type": "earnings_call",
+    "timestamp": "2026-11-02T17:53:21+05:30",
+    "observed_at": "2026-11-03T05:11:43.720892+00:00"
+  },
+  {
+    "id": "8b2f0708c92878b4",
+    "ticker": "CDSL",
+    "headline": "Analysts/Institutional Investor Meet/Con. Call Updates 31 Oct - CDSL released Q2 and H1 FY2026-27 investor presentation ahead of November 2 conference call.",
+    "type": "earnings_call",
+    "timestamp": "2026-10-31T15:56:44+05:30",
+    "observed_at": "2026-11-03T05:11:43.720894+00:00"
+  },
+  {
+    "id": "e42d8f77fbd5aa68",
+    "ticker": "RKFORGE",
+    "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 31 Oct - Audio link for Q2 and H1 FY27 earnings conference call posted on 31 October 2026.",
+    "type": "earnings_call",
+    "timestamp": "2026-10-31T12:03:41+05:30",
+    "observed_at": "2026-11-03T05:11:43.720895+00:00"
+  },
+  {
+    "id": "97fe57cc7feef58e",
+    "ticker": "DIXON",
+    "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 30 Oct - Audio recording of Dixon’s Q2 FY2027 results conference call uploaded on website.",
+    "type": "earnings_call",
+    "timestamp": "2026-10-30T20:32:54+05:30",
+    "observed_at": "2026-11-03T05:11:43.720896+00:00"
+  },
+  {
+    "id": "6e8364d0262e7f38",
+    "ticker": "RKFORGE",
+    "headline": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association 30 Oct - Board approved Q2 results, ₹2 interim dividend, new independent directors, MOA change, and ₹56.76 crore JV investment.",
+    "type": "dividend",
+    "timestamp": "2026-10-30T20:03:19+05:30",
+    "observed_at": "2026-11-03T05:11:43.720897+00:00"
+  },
+  {
+    "id": "32aa6d241d853780",
+    "ticker": "ONGC",
+    "headline": "Intimation Of Record Date 30 Oct - ONGC fixed 12 November 2026 record date for 1st interim dividend FY27, if declared on 5 November 2026.",
+    "type": "dividend",
+    "timestamp": "2026-10-30T19:29:54+05:30",
+    "observed_at": "2026-11-03T05:11:43.720898+00:00"
+  },
+  {
+    "id": "6214475289fb3738",
+    "ticker": "BHARTIARTL",
+    "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 28 Oct - Pursuant to Regulation 30 of the SEBI (LODR) Regulations, 2015, we are enclosing herewith the schedule of Earnings Call to be held on Friday, ....",
+    "type": "earnings_call",
+    "timestamp": "2026-10-28T19:18:05+05:30",
+    "observed_at": "2026-11-03T05:11:43.720899+00:00"
+  },
+  {
+    "id": "711c7f448a3daeb5",
+    "ticker": "LT",
+    "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 27 Oct - L&T uploaded Q2/H1 FY27 earnings call audio recording on its investor website on October 27, 2026.",
+    "type": "earnings_call",
+    "timestamp": "2026-10-27T22:09:20+05:30",
+    "observed_at": "2026-11-03T05:11:43.720901+00:00"
+  },
+  {
+    "id": "fa0069cdf24a2b7b",
+    "ticker": "INDHOTEL",
+    "headline": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 21 Oct - IHCL posted the audio recording of its global earnings call on October 21, 2026.",
+    "type": "earnings_call",
+    "timestamp": "2026-10-21T21:00:37+05:30",
+    "observed_at": "2026-11-03T05:11:43.720902+00:00"
+  },
+  {
+    "id": "price-CDSL-2026-11-03",
+    "ticker": "CDSL",
+    "type": "price",
+    "headline": "Daily move 5.2716%",
+    "timestamp": "2026-11-03T15:30:00+05:30",
+    "observed_at": "2026-11-03T05:11:43.720903+00:00"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "03_feb_2026_transcript_ai_summary_ppt.json",
+    "quarter": "",
+    "call_date": "2026-02-17",
+    "doc_kind": "other",
+    "is_duplicate": false
+  },
+  {
+    "filename": "04_jan_2026_transcript_ai_summary_ppt.json",
+    "quarter": "Q3 FY26",
+    "call_date": "2026-01-14",
+    "doc_kind": "earnings_call",
+    "is_duplicate": false
+  },
+  {
+    "filename": "02_apr_2026_transcript_ai_summary_ppt_rec.json",
+    "quarter": "Q4 FY26",
+    "call_date": "2026-04-23",
+    "doc_kind": "earnings_call",
+    "is_duplicate": false
+  },
+  {
+    "filename": "01_jul_2026_transcript_ai_summary_ppt.json",
+    "quarter": "Q1 FY27",
+    "call_date": "2026-07-23",
+    "doc_kind": "earnings_call",
+    "is_duplicate": false
+  },
+  {
+    "filename": "00_earnings_call_transcript_28_oct.json",
+    "quarter": "Q2 FY27",
+    "call_date": "2026-10-23",
+    "doc_kind": "earnings_call",
+    "is_duplicate": false
+  },
+  {
+    "filename": "ar_annual_report_2026_from_bse_ai_summary.json",
+    "quarter": "Annual report",
+    "call_date": "",
+    "doc_kind": "annual_report",
+    "is_duplicate": false
+  }
+]

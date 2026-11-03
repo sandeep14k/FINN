@@ -1,0 +1,11 @@
+.env
+.env.*
+venv
+**/node_modules
+**/.next
+**/__pycache__
+data/.jobs
+data/.cache
+.git
+**/.git
+*.pdf

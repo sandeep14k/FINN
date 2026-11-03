@@ -1,0 +1,206 @@
+[
+  {
+    "document": "Q1 FY26",
+    "filename": "transcript_aug_2025_transcript_ai_summary_ppt_rec.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 9,
+    "guidance": [],
+    "actuals": [
+      {
+        "metric": "Revenue Growth (Rupee)",
+        "value": 12.8,
+        "unit": "%",
+        "period": "Q1 FY26",
+        "quote": "year-on-year growth has been 12.8% in rupee terms",
+        "page": 3
+      },
+      {
+        "metric": "Revenue Growth (Dollar)",
+        "value": 7.8,
+        "unit": "%",
+        "period": "Q1 FY26",
+        "quote": "7.8% in dollar terms",
+        "page": 3
+      },
+      {
+        "metric": "EBITDA Growth",
+        "value": 12.4,
+        "unit": "%",
+        "period": "Q1 FY26",
+        "quote": "EBITDA has grown year-on-year by 12.4%",
+        "page": 3
+      },
+      {
+        "metric": "EBITDA Margin",
+        "value": 21.0,
+        "unit": "%",
+        "period": "Q1 FY26",
+        "quote": "EBITDA remained strong at 21%",
+        "page": 3
+      },
+      {
+        "metric": "Fixed-price project mix",
+        "value": 62.5,
+        "unit": "%",
+        "period": "Q1 FY26",
+        "quote": "we are now at 62.5% from 60%",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "document": "Q2 FY26",
+    "filename": "transcript_nov_2025_transcript_ai_summary_ppt_rec.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 8,
+    "guidance": [],
+    "actuals": [
+      {
+        "metric": "YoY Dollar Revenue Growth",
+        "value": 4.4,
+        "unit": "%",
+        "period": "Q2 FY26",
+        "quote": "overall year-on-year dollar revenue grew 4.4% and constant currency revenue grew by 0.4%.",
+        "page": 3
+      },
+      {
+        "metric": "QoQ Dollar Revenue Growth",
+        "value": 1.8,
+        "unit": "%",
+        "period": "Q2 FY26",
+        "quote": "Quarter-on-quarter growth has been 1.8% in dollar terms and 0.3% in terms of constant currency.",
+        "page": 3
+      },
+      {
+        "metric": "EBITDA Margin",
+        "value": 21.1,
+        "unit": "%",
+        "period": "Q2 FY26",
+        "quote": "The EBITDA margin stood at 21.1%.",
+        "page": 3
+      },
+      {
+        "metric": "Organic Dollar Revenue Growth",
+        "value": 0.8,
+        "unit": "%",
+        "period": "Q2 FY26",
+        "quote": "In Organic terms , there has been a degrowth of 0.8% in dollar terms and negative 2.3% in constant currency terms.",
+        "page": 3
+      },
+      {
+        "metric": "Share of loss from associates",
+        "value": 23.0,
+        "unit": "INR Crores",
+        "period": "Q2 FY26",
+        "quote": "This quarter seems to be close to Rs. 23 crores.",
+        "page": 13
+      },
+      {
+        "metric": "One-time expenses in associates",
+        "value": 6.0,
+        "unit": "INR Crores",
+        "period": "Q2 FY26",
+        "quote": "the one-time is about Rs. 6 crores",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "document": "Q3 FY26",
+    "filename": "transcript_feb_2026_transcript_ai_summary_ppt_rec.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 6,
+    "guidance": [],
+    "actuals": [
+      {
+        "metric": "FY26 YoY Revenue Growth (INR)",
+        "value": 9.4,
+        "unit": "%",
+        "period": "FY26",
+        "quote": "FY\u201926 year-on-year growth was 9.4% in rupee terms",
+        "page": 4
+      },
+      {
+        "metric": "Q3 FY26 Constant Currency Growth",
+        "value": 1.5,
+        "unit": "%",
+        "period": "Q3 FY26",
+        "quote": "constant currency growth in Quarter 3 was 1.5%",
+        "page": 4
+      },
+      {
+        "metric": "Q3 FY26 EBITDA Growth",
+        "value": 6.8,
+        "unit": "%",
+        "period": "Q3 FY26",
+        "quote": "EBITDA growth was 6.8% post-absorbing partial increments",
+        "page": 4
+      },
+      {
+        "metric": "Q3 FY26 Net Profit (excl. one-time impact)",
+        "value": 1.53,
+        "unit": "INR Billion",
+        "period": "Q3 FY26",
+        "quote": "net profit excluding the one-time Labor Code impact is 1.53 billion",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "document": "Q4 FY26",
+    "filename": "transcript_may_2026_transcript_ai_summary_ppt.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 15,
+    "guidance": [],
+    "actuals": []
+  },
+  {
+    "document": "Q1 FY27",
+    "filename": "transcript_aug_2026_transcript_ai_summary_ppt_rec.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 10,
+    "guidance": [],
+    "actuals": [
+      {
+        "metric": "Constant Currency Revenue Growth (YoY)",
+        "value": 0.1,
+        "unit": "%",
+        "period": "Q1 FY27",
+        "quote": "year-on-year revenue we had Constant Currency revenue growth of 0.1%",
+        "page": 4
+      },
+      {
+        "metric": "USD Revenue Decline (YoY)",
+        "value": 0.6,
+        "unit": "%",
+        "period": "Q1 FY27",
+        "quote": "year-on-year USD revenue decline of 0.6%",
+        "page": 4
+      },
+      {
+        "metric": "EBITDA Margin",
+        "value": 17.2,
+        "unit": "%",
+        "period": "Q1 FY27",
+        "quote": "the EBITDA was at 17.2%",
+        "page": 4
+      },
+      {
+        "metric": "PAT",
+        "value": 1.17,
+        "unit": "INR billion",
+        "period": "Q1 FY27",
+        "quote": "PAT at INR 1.17 billion",
+        "page": 4
+      },
+      {
+        "metric": "Europe revenue impact",
+        "value": 4.0,
+        "unit": "%",
+        "period": "Q1 FY27",
+        "quote": "we saw a reasonable impact in Europe, which was about 4% for the quarter, about 4% or so.",
+        "page": 7
+      }
+    ]
+  }
+]

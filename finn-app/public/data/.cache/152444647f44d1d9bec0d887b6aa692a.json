@@ -1,0 +1,116 @@
+{
+  "forward_looking_guidance": [
+    {
+      "metric": "revenue growth",
+      "target_low": 1.5,
+      "target_high": 3.5,
+      "unit": "%",
+      "period_covered": "FY27",
+      "basis": "constant currency",
+      "quote": "Our revenue growth guidance for the financial year 2027 is 1.5% to 3.5% growth year-on-year in constant currency terms.",
+      "page": 4
+    },
+    {
+      "metric": "operating margin",
+      "target_low": 20.0,
+      "target_high": 22.0,
+      "unit": "%",
+      "period_covered": "FY27",
+      "basis": "operating",
+      "quote": "Our operating margin guidance for financial year '27 is 20% to 22%.",
+      "page": 4
+    },
+    {
+      "metric": "effective tax rate",
+      "target_low": 29.0,
+      "target_high": 30.0,
+      "unit": "%",
+      "period_covered": "FY27",
+      "basis": "reported",
+      "quote": "We expect effective tax rates for the FY27 to be in the range of 29% to 30%.",
+      "page": 29
+    }
+  ],
+  "reported_actuals": [
+    {
+      "metric": "revenue growth year-on-year",
+      "value": 4.1,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "On Q4, our growth year-on-year was 4.1% in constant currency terms.",
+      "page": 4
+    },
+    {
+      "metric": "sequential revenue decline",
+      "value": -1.3,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "Sequentially, revenues declined 1.3% in constant currency due to seasonality and slower decision making in the month of March.",
+      "page": 28
+    },
+    {
+      "metric": "operating margin",
+      "value": 20.9,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "Q4 operating margins stood at 20.9%, down 0.3% sequentially, adjusted for the Labor Code impact in Q3.",
+      "page": 28
+    },
+    {
+      "metric": "large deals TCV",
+      "value": 3.2,
+      "unit": "USD bn",
+      "period": "Q4 FY26",
+      "quote": "We signed 19 large deals during the quarter with TCV of $3.2 bn.",
+      "page": 29
+    },
+    {
+      "metric": "onsite mix",
+      "value": 22.8,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "Onsite mix further reduced to 22.8% from 23.1% in Q3.",
+      "page": 28
+    },
+    {
+      "metric": "utilization excluding trainees",
+      "value": 83.0,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "Utilization, excluding trainees, was 83% in Q4 and 84.4% in FY26.",
+      "page": 28
+    },
+    {
+      "metric": "reported EPS growth year-on-year",
+      "value": 23.8,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "Reported EPS in INR terms grew 23.8% Y-o-Y in Q4 and 11% in FY26.",
+      "page": 28
+    },
+    {
+      "metric": "adjusted free cash flow",
+      "value": 882.0,
+      "unit": "USD mn",
+      "period": "Q4 FY26",
+      "quote": "Free cash flow adjusted for the Labor Code and income tax refunds stood at $3.5 bn for FY and $882 mn for Q4.",
+      "page": 28
+    },
+    {
+      "metric": "adjusted free cash flow as a percentage of net profit",
+      "value": 111.0,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "Adjusted free cash as a percentage of net profit continue to be well above 100% at 106% for FY26 and 111% for Q4.",
+      "page": 28
+    },
+    {
+      "metric": "yield on cash and investments balance",
+      "value": 6.2,
+      "unit": "%",
+      "period": "Q4 FY26",
+      "quote": "Q4 yield on cash and investments balance was at 6.2% and 6.7% for the year.",
+      "page": 29
+    }
+  ]
+}

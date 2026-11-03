@@ -1,0 +1,179 @@
+{
+  "as_of": "2026-11-02",
+  "data": {
+    "RELIANCE.NS": {
+      "date": "2026-11-02",
+      "close": 1300.0,
+      "volume": 88121121.0,
+      "pct_change": 11.5976,
+      "vol_avg_prev20": 15103496.6,
+      "vol_multiple": 5.8345
+    },
+    "INFY.NS": {
+      "date": "2026-11-02",
+      "close": 1161.0,
+      "volume": 12918064.0,
+      "pct_change": -2.0253,
+      "vol_avg_prev20": 16829532.75,
+      "vol_multiple": 0.7676
+    },
+    "ITC.NS": {
+      "date": "2026-11-02",
+      "close": 266.4,
+      "volume": 13139384.0,
+      "pct_change": 0.3012,
+      "vol_avg_prev20": 23430520.35,
+      "vol_multiple": 0.5608
+    },
+    "LT.NS": {
+      "date": "2026-11-02",
+      "close": 3939.8999,
+      "volume": 2056829.0,
+      "pct_change": 1.7615,
+      "vol_avg_prev20": 2099948.7,
+      "vol_multiple": 0.9795
+    },
+    "ICICIBANK.NS": {
+      "date": "2026-11-02",
+      "close": 1387.4,
+      "volume": 9043608.0,
+      "pct_change": -0.7582,
+      "vol_avg_prev20": 12566731.2,
+      "vol_multiple": 0.7196
+    },
+    "BHARTIARTL.NS": {
+      "date": "2026-11-02",
+      "close": 1989.9,
+      "volume": 6840006.0,
+      "pct_change": 0.8208,
+      "vol_avg_prev20": 8969938.35,
+      "vol_multiple": 0.7625
+    },
+    "TRENT.NS": {
+      "date": "2026-11-02",
+      "close": 3046.3999,
+      "volume": 995547.0,
+      "pct_change": 0.9644,
+      "vol_avg_prev20": 1329060.5,
+      "vol_multiple": 0.7491
+    },
+    "POLYCAB.NS": {
+      "date": "2026-10-30",
+      "close": 7787.0,
+      "volume": 346386.0,
+      "pct_change": 0.5423,
+      "vol_avg_prev20": 461971.2,
+      "vol_multiple": 0.7498
+    },
+    "DIXON.NS": {
+      "date": "2026-11-02",
+      "close": 12319.0,
+      "volume": 1631850.0,
+      "pct_change": 11.9909,
+      "vol_avg_prev20": 274164.95,
+      "vol_multiple": 5.9521
+    },
+    "INDHOTEL.NS": {
+      "date": "2026-10-30",
+      "close": 811.65,
+      "volume": 5966175.0,
+      "pct_change": 0.2037,
+      "vol_avg_prev20": 5277701.8,
+      "vol_multiple": 1.1304
+    },
+    "CUMMINSIND.NS": {
+      "date": "2026-11-02",
+      "close": 4533.0,
+      "volume": 478748.0,
+      "pct_change": 1.8057,
+      "vol_avg_prev20": 487422.3,
+      "vol_multiple": 0.9822
+    },
+    "CDSL.NS": {
+      "date": "2026-11-02",
+      "close": 1252.0,
+      "volume": 2677103.0,
+      "pct_change": -0.8709,
+      "vol_avg_prev20": 885040.75,
+      "vol_multiple": 3.0248
+    },
+    "TATASTEEL.NS": {
+      "date": "2026-11-02",
+      "close": 177.37,
+      "volume": 29908885.0,
+      "pct_change": 5.8293,
+      "vol_avg_prev20": 22493301.65,
+      "vol_multiple": 1.3297
+    },
+    "ONGC.NS": {
+      "date": "2026-11-02",
+      "close": 234.83,
+      "volume": 11864798.0,
+      "pct_change": 4.1883,
+      "vol_avg_prev20": 10362981.2,
+      "vol_multiple": 1.1449
+    },
+    "NEULANDLAB.NS": {
+      "date": "2026-11-02",
+      "close": 19575.0,
+      "volume": 61848.0,
+      "pct_change": -0.6345,
+      "vol_avg_prev20": 44803.65,
+      "vol_multiple": 1.3804
+    },
+    "PRAJIND.NS": {
+      "date": "2026-11-02",
+      "close": 271.13,
+      "volume": 5339116.0,
+      "pct_change": 12.1763,
+      "vol_avg_prev20": 577547.5,
+      "vol_multiple": 9.2445
+    },
+    "JYOTHYLAB.NS": {
+      "date": "2026-11-02",
+      "close": 184.83,
+      "volume": 803755.0,
+      "pct_change": 7.5156,
+      "vol_avg_prev20": 262194.35,
+      "vol_multiple": 3.0655
+    },
+    "RKFORGE.NS": {
+      "date": "2026-11-02",
+      "close": 696.1,
+      "volume": 7249302.0,
+      "pct_change": 7.6055,
+      "vol_avg_prev20": 655176.2,
+      "vol_multiple": 11.0647
+    },
+    "KPITTECH.NS": {
+      "date": "2026-10-30",
+      "close": 530.25,
+      "volume": 1238050.0,
+      "pct_change": -2.4738,
+      "vol_avg_prev20": 2699547.35,
+      "vol_multiple": 0.4586
+    },
+    "ETERNAL.NS": {
+      "date": "2026-11-02",
+      "close": 344.0,
+      "volume": 19042948.0,
+      "pct_change": 0.1018,
+      "vol_avg_prev20": 28455280.55,
+      "vol_multiple": 0.6692
+    },
+    "LAURUSLABS.NS": {
+      "date": "2026-11-02",
+      "close": 2348.0,
+      "volume": 3047249.0,
+      "pct_change": -2.3904,
+      "vol_avg_prev20": 1971994.65,
+      "vol_multiple": 1.5453
+    }
+  },
+  "stale_tickers": [
+    "KPITTECH.NS",
+    "POLYCAB.NS",
+    "INDHOTEL.NS"
+  ],
+  "refreshed_at": "2026-11-03T10:42:45.031683+05:30"
+}

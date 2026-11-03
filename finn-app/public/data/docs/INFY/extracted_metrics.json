@@ -1,0 +1,52 @@
+[
+  {
+    "document": "Q4 FY26",
+    "filename": "02_apr_2026_transcript_ai_summary_ppt_rec.json",
+    "guidance": [
+      {
+        "metric": "Constant Currency Revenue Growth",
+        "target_low": 1.0,
+        "target_high": 3.0,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "Constant Currency",
+        "quote": "For fiscal 27, we expect constant currency revenue growth to be between 1% and 3%.",
+        "page": 5
+      },
+      {
+        "metric": "Operating Margin",
+        "target_low": 20.0,
+        "target_high": 22.0,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "Reported",
+        "quote": "Our operating margin guidance for FY27 is 20% to 22%.",
+        "page": 6
+      }
+    ],
+    "actuals": []
+  },
+  {
+    "document": "Q2 FY27",
+    "filename": "00_earnings_call_transcript_28_oct.json",
+    "guidance": [],
+    "actuals": [
+      {
+        "metric": "Constant Currency Revenue Growth",
+        "value": 3.3,
+        "unit": "%",
+        "period": "FY27",
+        "quote": "We are happy to report a strong constant currency revenue growth of 3.3% for the first half of FY27.",
+        "page": 4
+      },
+      {
+        "metric": "Operating Margin",
+        "value": 21.1,
+        "unit": "%",
+        "period": "FY27",
+        "quote": "Operating margin for the quarter was robust at 21.1%, well within our guided band.",
+        "page": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,426 @@
+[
+  {
+    "document": "Q3 FY26",
+    "filename": "04_jan_2026_transcript_ai_summary_ppt.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 14,
+    "guidance": [
+      {
+        "metric": "Revenue Growth",
+        "target_low": 3.0,
+        "target_high": 3.5,
+        "unit": "%",
+        "period_covered": "FY26",
+        "basis": "constant currency",
+        "scope": "unknown",
+        "quote": "The new revenue growth guidance for this financial year is 3% to 3.5% growth in constant currency.",
+        "page": 4,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": true
+      },
+      {
+        "metric": "Operating Margin",
+        "target_low": 20.0,
+        "target_high": 22.0,
+        "unit": "%",
+        "period_covered": "FY26",
+        "basis": "unknown",
+        "scope": "unknown",
+        "quote": "Our operating margin guidance for the financial year remains the same at 20% to 22%.",
+        "page": 4,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": true
+      }
+    ],
+    "actuals": [
+      {
+        "metric": "Revenue growth",
+        "value": 1.7,
+        "unit": "%",
+        "period": "Q3 FY26",
+        "basis": "constant currency",
+        "scope": "consolidated",
+        "quote": "Our revenue grew 0.6% sequentially and 1.7% year-on-year in constant currency terms.",
+        "page": 3
+      },
+      {
+        "metric": "Large deals",
+        "value": 4.8,
+        "unit": "USD bn",
+        "period": "Q3 FY26",
+        "basis": "unknown",
+        "scope": "consolidated",
+        "quote": "Our large deals were at $4.8 bn, with 57% net new.",
+        "page": 3
+      },
+      {
+        "metric": "Adjusted operating margin",
+        "value": 21.2,
+        "unit": "%",
+        "period": "Q3 FY26",
+        "basis": "unknown",
+        "scope": "consolidated",
+        "quote": "Our adjusted operating margin was 21.2%.",
+        "page": 3
+      },
+      {
+        "metric": "Free cash flow",
+        "value": 915.0,
+        "unit": "USD mn",
+        "period": "Q3 FY26",
+        "basis": "unknown",
+        "scope": "consolidated",
+        "quote": "We generated free cash flow of $915 mn.",
+        "page": 3
+      },
+      {
+        "metric": "Operating Margin",
+        "value": 21.0,
+        "unit": "%",
+        "period": "Q3 FY26 (Nine Months)",
+        "basis": "Consolidated",
+        "scope": "unknown",
+        "quote": "We are now on a nine-month basis at 21% margin",
+        "page": 5
+      },
+      {
+        "metric": "Freshers Onboarded",
+        "value": 18000.0,
+        "unit": "Count",
+        "period": "Q3 FY26 (Year-to-Date)",
+        "basis": "Consolidated",
+        "scope": "unknown",
+        "quote": "We have onboarded roughly around 18,000 freshers",
+        "page": 5
+      },
+      {
+        "metric": "Sales & Marketing Expense Change",
+        "value": 50.0,
+        "unit": "bps",
+        "period": "Q3 FY26 (Nine Months)",
+        "basis": "Consolidated",
+        "scope": "unknown",
+        "quote": "invested in our sales and marketing, which has gone up by 50 basis points on a year-on-year basis",
+        "page": 5
+      },
+      {
+        "metric": "Utilization Change",
+        "value": 1.0,
+        "unit": "%",
+        "period": "Q3 FY26 (Nine Months)",
+        "basis": "Consolidated",
+        "scope": "unknown",
+        "quote": "The lower utilization of almost 1% has been absorbed in our margin",
+        "page": 5
+      },
+      {
+        "metric": "Sequential expansion",
+        "value": 20.0,
+        "unit": "bps",
+        "period": "Q3 FY26",
+        "basis": "Adjusted operating margin",
+        "scope": "unknown",
+        "quote": "adjusted margins have expanded by 20 basis points sequentially",
+        "page": 8
+      },
+      {
+        "metric": "Full year level",
+        "value": 21.0,
+        "unit": "%",
+        "period": "FY26 (YTD)",
+        "basis": "Adjusted operating margin",
+        "scope": "unknown",
+        "quote": "on a full year basis, it has remained 21%",
+        "page": 8
+      },
+      {
+        "metric": "Sales & marketing impact",
+        "value": 50.0,
+        "unit": "bps",
+        "period": "Q3 FY26",
+        "basis": "Operating margin",
+        "scope": "unknown",
+        "quote": "would have impacted margins by 50 basis points",
+        "page": 8
+      },
+      {
+        "metric": "Adjusted EPS growth (9 months FY'26)",
+        "value": 11.5,
+        "unit": "%",
+        "period": "9M FY26",
+        "basis": "INR",
+        "scope": "unknown",
+        "quote": "Adjusted EPS in rupee terms for 9 months FY'26 grew at double digits at 11.5%.",
+        "page": 22
+      },
+      {
+        "metric": "Free cash flow adjusted for labor codes (9 months)",
+        "value": 965.0,
+        "unit": "mn",
+        "period": "9M FY26",
+        "basis": "USD",
+        "scope": "unknown",
+        "quote": "free cash flow generation adjusted for labor codes remained robust at $965 mn",
+        "page": 22
+      },
+      {
+        "metric": "Buyback amount returned to shareholders",
+        "value": 18000.0,
+        "unit": "crores",
+        "period": "Q3 FY26",
+        "basis": "INR",
+        "scope": "unknown",
+        "quote": "successfully completed our largest ever buyback, returning INR18,000 crores to our shareholders",
+        "page": 22
+      },
+      {
+        "metric": "Adjusted operating margin (Q3)",
+        "value": 21.2,
+        "unit": "%",
+        "period": "Q3 FY26",
+        "basis": "Unknown",
+        "scope": "unknown",
+        "quote": "Adjusted operating margins for Q3 expanded by 20 basis points to 21.2% sequentially",
+        "page": 22
+      },
+      {
+        "metric": "Nine-month margin",
+        "value": 21.0,
+        "unit": "percent",
+        "period": "Q3 FY26",
+        "basis": "unknown",
+        "scope": "unknown",
+        "quote": "Our nine-month margin sits at 21%.",
+        "page": 39
+      }
+    ]
+  },
+  {
+    "document": "Q4 FY26",
+    "filename": "02_apr_2026_transcript_ai_summary_ppt_rec.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 17,
+    "guidance": [
+      {
+        "metric": "Revenue Growth",
+        "target_low": 1.5,
+        "target_high": 3.5,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "constant currency",
+        "scope": "unknown",
+        "quote": "Our revenue growth guidance for the financial year 2027 is 1.5% to 3.5% growth year-on-year in constant currency terms.",
+        "page": 4,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": false
+      },
+      {
+        "metric": "Operating Margin",
+        "target_low": 20.0,
+        "target_high": 22.0,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "unknown",
+        "scope": "unknown",
+        "quote": "Our operating margin guidance for financial year '27 is 20% to 22%.",
+        "page": 4,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": false
+      }
+    ],
+    "actuals": [
+      {
+        "metric": "Revenue growth",
+        "value": 4.1,
+        "unit": "%",
+        "period": "Q4 FY26",
+        "basis": "constant currency",
+        "scope": "consolidated",
+        "quote": "On Q4, our growth year-on-year was 4.1% in constant currency terms.",
+        "page": 4
+      },
+      {
+        "metric": "Large deals",
+        "value": 3.2,
+        "unit": "USD bn",
+        "period": "Q4 FY26",
+        "basis": "unknown",
+        "scope": "consolidated",
+        "quote": "Large deals were very good, $14.9 bn for the full year, $3.2 bn for the fourth quarter.",
+        "page": 4
+      },
+      {
+        "metric": "revenue_growth",
+        "value": 3.1,
+        "unit": "percent",
+        "period": "FY26",
+        "basis": "constant-currency",
+        "scope": "unknown",
+        "quote": "We had growth of 3.1% for the full year in constant currency terms.",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "document": "Q1 FY27",
+    "filename": "01_jul_2026_transcript_ai_summary_ppt.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 15,
+    "guidance": [
+      {
+        "metric": "Revenue Growth",
+        "target_low": 1.5,
+        "target_high": 3.0,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "constant currency",
+        "scope": "unknown",
+        "quote": "our revenue growth guidance to 1.5% to 3% Y-on-Y growth in constant currency terms.",
+        "page": 6,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": true
+      },
+      {
+        "metric": "Operating Margin",
+        "target_low": 20.0,
+        "target_high": 22.0,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "unknown",
+        "scope": "unknown",
+        "quote": "Our operating margin guidance remains the same at 20% to 22% operating margin.",
+        "page": 6,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": true
+      }
+    ],
+    "actuals": [
+      {
+        "metric": "Revenue growth Y-o-Y",
+        "value": 2.4,
+        "unit": "%",
+        "period": "Q1 FY27",
+        "basis": "USD, constant currency, consolidated",
+        "scope": "consolidated",
+        "quote": "revenue growth for Q1 was at 2.4% Y-on-Y",
+        "page": 5
+      },
+      {
+        "metric": "AI services revenue % of overall revenue",
+        "value": 8.2,
+        "unit": "%",
+        "period": "Q1 FY27",
+        "basis": "USD, consolidated",
+        "scope": "consolidated",
+        "quote": "AI services revenue was 8.2% of overall revenue in Q1",
+        "page": 5
+      },
+      {
+        "metric": "Operating margin",
+        "value": 21.1,
+        "unit": "%",
+        "period": "Q1 FY27",
+        "basis": "USD, consolidated",
+        "scope": "consolidated",
+        "quote": "operating margin at 21.1%",
+        "page": 5
+      },
+      {
+        "metric": "Free cash flow",
+        "value": 955.0,
+        "unit": "mn",
+        "period": "Q1 FY27",
+        "basis": "USD, consolidated",
+        "scope": "consolidated",
+        "quote": "free cash flow at $955 mn",
+        "page": 5
+      },
+      {
+        "metric": "AI services revenue as % of total revenue",
+        "value": 8.2,
+        "unit": "percent",
+        "period": "Q1 FY27",
+        "basis": "unknown",
+        "scope": "consolidated",
+        "quote": "our AI services revenue, 8.2%, growing across quarters, Q-on-Q, double digit",
+        "page": 48
+      }
+    ]
+  },
+  {
+    "document": "Q2 FY27",
+    "filename": "00_earnings_call_transcript_28_oct.json",
+    "chunks_reviewed": 6,
+    "chunks_available": 22,
+    "guidance": [
+      {
+        "metric": "Revenue Growth",
+        "target_low": 1.0,
+        "target_high": 2.0,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "constant currency",
+        "scope": "unknown",
+        "quote": "our revenue growth guidance is 1% to 2% YoY.in constant currency terms.",
+        "page": 4,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": true
+      },
+      {
+        "metric": "Operating Margin",
+        "target_low": 20.0,
+        "target_high": 22.0,
+        "unit": "%",
+        "period_covered": "FY27",
+        "basis": "unknown",
+        "scope": "unknown",
+        "quote": "Our operating margin guidance remains at 20% to 22% for the year.",
+        "page": 4,
+        "extraction_method": "explicit_source_pattern",
+        "period_inferred_from_call": true
+      }
+    ],
+    "actuals": [
+      {
+        "metric": "Revenue Growth YoY (Constant Currency)",
+        "value": 1.5,
+        "unit": "%",
+        "period": "Q2 FY27",
+        "basis": "USD",
+        "scope": "unknown",
+        "quote": "Our revenue growth for Q2 was 1.5% YoY and 1.2% sequentially in constant currency terms",
+        "page": 4
+      },
+      {
+        "metric": "AI Revenue as % of Total Revenue",
+        "value": 10.5,
+        "unit": "%",
+        "period": "Q2 FY27",
+        "basis": "USD",
+        "scope": "unknown",
+        "quote": "AI revenue was a standout at 10.5% of our revenue",
+        "page": 4
+      },
+      {
+        "metric": "Large Deals",
+        "value": 5.2,
+        "unit": "USD bn",
+        "period": "Q2 FY27",
+        "basis": "USD",
+        "scope": "unknown",
+        "quote": "Large deals were another standout at $5.2 bn for the quarter",
+        "page": 4
+      },
+      {
+        "metric": "Operating Margin",
+        "value": 21.0,
+        "unit": "%",
+        "period": "Q2 FY27",
+        "basis": "USD",
+        "scope": "unknown",
+        "quote": "Operating margin was stable at 21%",
+        "page": 4
+      }
+    ]
+  }
+]

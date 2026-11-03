@@ -1,0 +1,22 @@
+{
+  "facts": [
+    {
+      "statement": "KPIT's core market is the automotive and mobility industry.",
+      "document": "Annual report",
+      "page": 47,
+      "quote": "the automotive and mobility industry, KPIT\u2019s core market that is undergoing the most profound change"
+    },
+    {
+      "statement": "Automotive manufacturers are re-configuring R&D budgets towards AI-first development.",
+      "document": "Annual report",
+      "page": 48,
+      "quote": "manufacturers responded by reviewing and re-configuring their research and development budgets towards AI-first development"
+    },
+    {
+      "statement": "The automotive software market is projected to grow from USD 40 billion in 2025 to USD 71 billion by 2030.",
+      "document": "Annual report",
+      "page": 48,
+      "quote": "the automotive software market is expected to almost double over the second half of this decade, from approximately USD 40 billion in 2025 to approximately USD 71 billion by 2030."
+    }
+  ]
+}

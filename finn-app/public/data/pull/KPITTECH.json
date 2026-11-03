@@ -1,0 +1,236 @@
+{
+  "business_snapshot": [
+    {
+      "statement": "KPIT Technologies Limited provides embedded software for the Automobile and Mobility Industry.",
+      "citation": {
+        "document": "Annual report",
+        "quote": "KPIT Technologies Limited provides embedded software for the Automobile and Mobility Industry.",
+        "page": 176,
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    }
+  ],
+  "symbol": "KPITTECH",
+  "executive_summary": "7 research sections grounded in company reports and earnings calls. No completed promise-to-outcome verdict has been established.",
+  "metrics": [],
+  "guidance_history": [],
+  "coverage": {
+    "transcripts": 5,
+    "annual_reports": 1
+  },
+  "sections": [
+    {
+      "key": "business",
+      "title": "The business, in context",
+      "facts": [
+        {
+          "statement": "KPIT Technologies Limited provides embedded software for the Automobile and Mobility Industry.",
+          "citation": {
+            "document": "Annual report",
+            "quote": "KPIT Technologies Limited provides embedded software for the Automobile and Mobility Industry.",
+            "page": 176,
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "financials",
+      "title": "The financial picture",
+      "facts": [
+        {
+          "statement": "EBITDA margin remained strong at 20.8%, even as we increased technology investments to over 5% of revenue.",
+          "citation": {
+            "document": "Annual report",
+            "page": 9,
+            "quote": "EBITDA margin remained strong at 20.8%, even as we increased technology investments to over 5% of revenue.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "trajectory",
+      "title": "Direction of travel",
+      "facts": [
+        {
+          "statement": "The Company had earlier acquired 26% stake in N-Dream AG and subsequently increased its shareholding to 90% through KPIT Technologies (UK) Limited, wholly-owned subsidiary of the Company.",
+          "citation": {
+            "document": "Annual report",
+            "page": 27,
+            "quote": "The Company had earlier acquired 26% stake in N-Dream AG and subsequently increased its shareholding to 90% through KPIT Technologies (UK) Limited, wholly-owned subsidiary of the Company.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "balance_sheet",
+      "title": "Balance-sheet watch",
+      "facts": [
+        {
+          "statement": "The DSO were at 47 days as at March 31, 2026 as against 44 days as at March 31, 2025 with our continued consistent focus on faster cash conversion.",
+          "citation": {
+            "document": "Annual report",
+            "page": 49,
+            "quote": "The DSO were at 47 days as at March 31, 2026 as against 44 days as at March 31, 2025 with our continued consistent focus on faster cash conversion.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "narrative",
+      "title": "Management\u2019s narrative",
+      "facts": [
+        {
+          "statement": "KPIT demonstrated Agentic AI solutions built on Microsoft AI infrastructure at CES 2026, highlighting its integration of advanced AI capabilities into its engineering portfolio.",
+          "citation": {
+            "document": "Annual report",
+            "page": 12,
+            "quote": "At CES 2026, we also demonstrated Agentic AI solutions built on Microsoft AI infrastructure.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "guidance",
+      "title": "What management expects",
+      "facts": [
+        {
+          "statement": "So we expect the EBITDA to be between 22% to 24% from where we are today.",
+          "citation": {
+            "document": "May 2026 Transcript AI Summary PPT",
+            "page": 18,
+            "quote": "So we expect the EBITDA to be between 22% to 24% from where we are today.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=transcript_may_2026_transcript_ai_summary_ppt.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bull_bear",
+      "title": "Opportunity & risk",
+      "facts": [
+        {
+          "statement": "Profitability improvement\u2013 Company\u2019s profitability is significantly influenced by clients\u2019 spending patterns, competitive pricing pressure and increasing employee and other operational costs.",
+          "citation": {
+            "document": "Annual report",
+            "page": 91,
+            "quote": "Profitability improvement\u2013 Company\u2019s profitability is significantly influenced by clients\u2019 spending patterns, competitive pricing pressure and increasing employee and other operational costs.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        },
+        {
+          "statement": "Over the last six months, these challenges have been further accentuated by supply chain disruptions, and softer market demand in several regions.",
+          "citation": {
+            "document": "Annual report",
+            "page": 9,
+            "quote": "Over the last six months, these challenges have been further accentuated by supply chain disruptions, and softer market demand in several regions.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+            "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-01T23:50:09.448271+00:00",
+  "evidence": [
+    {
+      "statement": "EBITDA margin remained strong at 20.8%, even as we increased technology investments to over 5% of revenue.",
+      "citation": {
+        "document": "Annual report",
+        "page": 9,
+        "quote": "EBITDA margin remained strong at 20.8%, even as we increased technology investments to over 5% of revenue.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    },
+    {
+      "statement": "The Company had earlier acquired 26% stake in N-Dream AG and subsequently increased its shareholding to 90% through KPIT Technologies (UK) Limited, wholly-owned subsidiary of the Company.",
+      "citation": {
+        "document": "Annual report",
+        "page": 27,
+        "quote": "The Company had earlier acquired 26% stake in N-Dream AG and subsequently increased its shareholding to 90% through KPIT Technologies (UK) Limited, wholly-owned subsidiary of the Company.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    },
+    {
+      "statement": "The DSO were at 47 days as at March 31, 2026 as against 44 days as at March 31, 2025 with our continued consistent focus on faster cash conversion.",
+      "citation": {
+        "document": "Annual report",
+        "page": 49,
+        "quote": "The DSO were at 47 days as at March 31, 2026 as against 44 days as at March 31, 2025 with our continued consistent focus on faster cash conversion.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    },
+    {
+      "statement": "KPIT demonstrated Agentic AI solutions built on Microsoft AI infrastructure at CES 2026, highlighting its integration of advanced AI capabilities into its engineering portfolio.",
+      "citation": {
+        "document": "Annual report",
+        "page": 12,
+        "quote": "At CES 2026, we also demonstrated Agentic AI solutions built on Microsoft AI infrastructure.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    },
+    {
+      "statement": "So we expect the EBITDA to be between 22% to 24% from where we are today.",
+      "citation": {
+        "document": "May 2026 Transcript AI Summary PPT",
+        "page": 18,
+        "quote": "So we expect the EBITDA to be between 22% to 24% from where we are today.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=transcript_may_2026_transcript_ai_summary_ppt.json"
+      }
+    },
+    {
+      "statement": "Profitability improvement\u2013 Company\u2019s profitability is significantly influenced by clients\u2019 spending patterns, competitive pricing pressure and increasing employee and other operational costs.",
+      "citation": {
+        "document": "Annual report",
+        "page": 91,
+        "quote": "Profitability improvement\u2013 Company\u2019s profitability is significantly influenced by clients\u2019 spending patterns, competitive pricing pressure and increasing employee and other operational costs.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    },
+    {
+      "statement": "Over the last six months, these challenges have been further accentuated by supply chain disruptions, and softer market demand in several regions.",
+      "citation": {
+        "document": "Annual report",
+        "page": 9,
+        "quote": "Over the last six months, these challenges have been further accentuated by supply chain disruptions, and softer market demand in several regions.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+        "source_path": "/api/source?symbol=KPITTECH&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    }
+  ],
+  "mode": "source_grounded"
+}

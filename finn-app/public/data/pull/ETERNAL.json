@@ -1,0 +1,179 @@
+{
+  "symbol": "ETERNAL",
+  "mode": "source_grounded",
+  "executive_summary": "5 research sections grounded in company reports and earnings calls. No completed promise-to-outcome verdict has been established.",
+  "coverage": {
+    "transcripts": 3,
+    "annual_reports": 1
+  },
+  "business_snapshot": [
+    {
+      "statement": "Eternal Limited (formerly known as Zomato Limited) is a technology platform that provides services to multiple stakeholders.",
+      "citation": {
+        "document": "Annual report",
+        "quote": "Eternal Limited (formerly known as Zomato Limited) is a technology platform that provides services to multiple stakeholders.",
+        "page": 156,
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf",
+        "source_path": "/api/source?symbol=ETERNAL&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "statement": "What we mean is that we went through a period over the last 12 months where I would say the competitive intensity significantly increased in quick commerce, including new players entering and the market becoming a 5 / 6 / 7 player market.",
+      "citation": {
+        "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 27 Oct - Eterna",
+        "page": 7,
+        "quote": "What we mean is that we went through a period over the last 12 months where I would say the competitive intensity significantly increased in quick commerce, including new players entering and the market becoming a 5 / 6 / 7 player market.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+        "source_path": "/api/source?symbol=ETERNAL&file=transcript_earnings_call_transcript_27_oct_eterna.json"
+      }
+    },
+    {
+      "statement": "The maximum exposure to the credit risk at the reporting date is primarily from trade receivables amounting to INR 1,852 crore (March 31, 2025: INR 1,985 crore).",
+      "citation": {
+        "document": "Annual report",
+        "page": 271,
+        "quote": "The maximum exposure to the credit risk at the reporting date is primarily from trade receivables amounting to INR 1,852 crore (March 31, 2025: INR 1,985 crore).",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf",
+        "source_path": "/api/source?symbol=ETERNAL&file=ar_annual_report_2026_from_bse_ai_summary.json"
+      }
+    },
+    {
+      "statement": "It's hard to project or comment on margin trajectory every quarter but broadly, over the next 1 or 2 years, we expect the margins to remain flattish.",
+      "citation": {
+        "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 27 Oct - Eterna",
+        "page": 3,
+        "quote": "It's hard to project or comment on margin trajectory every quarter but broadly, over the next 1 or 2 years, we expect the margins to remain flattish.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+        "source_path": "/api/source?symbol=ETERNAL&file=transcript_earnings_call_transcript_27_oct_eterna.json"
+      }
+    },
+    {
+      "statement": "Generally, the competitive intensity last quarter in food delivery was higher compared to the previous few quarters, and partly also driven by Zomato.",
+      "citation": {
+        "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 27 Oct - Eterna",
+        "page": 3,
+        "quote": "Generally, the competitive intensity last quarter in food delivery was higher compared to the previous few quarters, and partly also driven by Zomato.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+        "source_path": "/api/source?symbol=ETERNAL&file=transcript_earnings_call_transcript_27_oct_eterna.json"
+      }
+    },
+    {
+      "statement": "First quarter, so far, was the peak of competitive intensity that we have seen till date because the number of players is higher and everybody was more aggressive.",
+      "citation": {
+        "document": "Jul 2026 Transcript AI Summary PPT",
+        "page": 4,
+        "quote": "First quarter, so far, was the peak of competitive intensity that we have seen till date because the number of players is higher and everybody was more aggressive.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf",
+        "source_path": "/api/source?symbol=ETERNAL&file=transcript_jul_2026_transcript_ai_summary_ppt.json"
+      }
+    }
+  ],
+  "metrics": [],
+  "sections": [
+    {
+      "key": "business",
+      "title": "The business, in context",
+      "facts": [
+        {
+          "statement": "Eternal Limited (formerly known as Zomato Limited) is a technology platform that provides services to multiple stakeholders.",
+          "citation": {
+            "document": "Annual report",
+            "quote": "Eternal Limited (formerly known as Zomato Limited) is a technology platform that provides services to multiple stakeholders.",
+            "page": 156,
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf",
+            "source_path": "/api/source?symbol=ETERNAL&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "trajectory",
+      "title": "Direction of travel",
+      "facts": [
+        {
+          "statement": "What we mean is that we went through a period over the last 12 months where I would say the competitive intensity significantly increased in quick commerce, including new players entering and the market becoming a 5 / 6 / 7 player market.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 27 Oct - Eterna",
+            "page": 7,
+            "quote": "What we mean is that we went through a period over the last 12 months where I would say the competitive intensity significantly increased in quick commerce, including new players entering and the market becoming a 5 / 6 / 7 player market.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+            "source_path": "/api/source?symbol=ETERNAL&file=transcript_earnings_call_transcript_27_oct_eterna.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "balance_sheet",
+      "title": "Balance-sheet watch",
+      "facts": [
+        {
+          "statement": "The maximum exposure to the credit risk at the reporting date is primarily from trade receivables amounting to INR 1,852 crore (March 31, 2025: INR 1,985 crore).",
+          "citation": {
+            "document": "Annual report",
+            "page": 271,
+            "quote": "The maximum exposure to the credit risk at the reporting date is primarily from trade receivables amounting to INR 1,852 crore (March 31, 2025: INR 1,985 crore).",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf",
+            "source_path": "/api/source?symbol=ETERNAL&file=ar_annual_report_2026_from_bse_ai_summary.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "guidance",
+      "title": "What management expects",
+      "facts": [
+        {
+          "statement": "It's hard to project or comment on margin trajectory every quarter but broadly, over the next 1 or 2 years, we expect the margins to remain flattish.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 27 Oct - Eterna",
+            "page": 3,
+            "quote": "It's hard to project or comment on margin trajectory every quarter but broadly, over the next 1 or 2 years, we expect the margins to remain flattish.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+            "source_path": "/api/source?symbol=ETERNAL&file=transcript_earnings_call_transcript_27_oct_eterna.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bull_bear",
+      "title": "Opportunity & risk",
+      "facts": [
+        {
+          "statement": "Generally, the competitive intensity last quarter in food delivery was higher compared to the previous few quarters, and partly also driven by Zomato.",
+          "citation": {
+            "document": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 27 Oct - Eterna",
+            "page": 3,
+            "quote": "Generally, the competitive intensity last quarter in food delivery was higher compared to the previous few quarters, and partly also driven by Zomato.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+            "source_path": "/api/source?symbol=ETERNAL&file=transcript_earnings_call_transcript_27_oct_eterna.json"
+          }
+        },
+        {
+          "statement": "First quarter, so far, was the peak of competitive intensity that we have seen till date because the number of players is higher and everybody was more aggressive.",
+          "citation": {
+            "document": "Jul 2026 Transcript AI Summary PPT",
+            "page": 4,
+            "quote": "First quarter, so far, was the peak of competitive intensity that we have seen till date because the number of players is higher and everybody was more aggressive.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf",
+            "source_path": "/api/source?symbol=ETERNAL&file=transcript_jul_2026_transcript_ai_summary_ppt.json"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-01T23:51:08.128434+00:00"
+}

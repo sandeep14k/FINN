@@ -1,0 +1,168 @@
+{
+  "metrics": [
+    {
+      "theme": "FY26 \u00b7 Revenue Growth",
+      "promise": {
+        "metric_key": "revenue_growth",
+        "basis": "constant currency",
+        "unit": "%",
+        "scope": "unknown",
+        "target_low": 3.0,
+        "target_high": 3.5,
+        "direction": "higher",
+        "target_type": "range",
+        "period": "FY26",
+        "statement": "The new revenue growth guidance for this financial year is 3% to 3.5% growth in constant currency.",
+        "citations": [
+          {
+            "document": "Q3 FY26",
+            "page": 4,
+            "quote": "The new revenue growth guidance for this financial year is 3% to 3.5% growth in constant currency."
+          }
+        ]
+      },
+      "delivery": {
+        "metric_key": "revenue_growth",
+        "basis": "constant currency",
+        "unit": "%",
+        "scope": "unknown",
+        "actual_value": 3.1,
+        "period": "FY26",
+        "comparable": true,
+        "status": "NOT_COMPARABLE",
+        "statement": "We had growth of 3.1% for the full year in constant currency terms.",
+        "reason": "A complete target-period result on a matched basis is required.",
+        "citations": [
+          {
+            "document": "Q4 FY26",
+            "page": 4,
+            "quote": "We had growth of 3.1% for the full year in constant currency terms."
+          }
+        ]
+      }
+    },
+    {
+      "theme": "FY26 \u00b7 Operating Margin",
+      "promise": {
+        "metric_key": "operating_margin",
+        "basis": "unknown",
+        "unit": "%",
+        "scope": "unknown",
+        "target_low": 20.0,
+        "target_high": 22.0,
+        "direction": "higher",
+        "target_type": "range",
+        "period": "FY26",
+        "statement": "Our operating margin guidance for the financial year remains the same at 20% to 22%.",
+        "citations": [
+          {
+            "document": "Q3 FY26",
+            "page": 4,
+            "quote": "Our operating margin guidance for the financial year remains the same at 20% to 22%."
+          }
+        ]
+      },
+      "delivery": {
+        "metric_key": "operating_margin",
+        "basis": "usd, consolidated",
+        "unit": "%",
+        "scope": "consolidated",
+        "actual_value": 21.1,
+        "period": "Q1 FY27",
+        "comparable": true,
+        "status": "NOT_COMPARABLE",
+        "statement": "operating margin at 21.1%",
+        "reason": "A complete target-period result on a matched basis is required.",
+        "citations": [
+          {
+            "document": "Q1 FY27",
+            "page": 5,
+            "quote": "operating margin at 21.1%"
+          }
+        ]
+      }
+    },
+    {
+      "theme": "FY27 \u00b7 Revenue Growth",
+      "promise": {
+        "metric_key": "revenue_growth",
+        "basis": "constant currency",
+        "unit": "%",
+        "scope": "unknown",
+        "target_low": 1.5,
+        "target_high": 3.5,
+        "direction": "higher",
+        "target_type": "range",
+        "period": "FY27",
+        "statement": "Our revenue growth guidance for the financial year 2027 is 1.5% to 3.5% growth year-on-year in constant currency terms.",
+        "citations": [
+          {
+            "document": "Q4 FY26",
+            "page": 4,
+            "quote": "Our revenue growth guidance for the financial year 2027 is 1.5% to 3.5% growth year-on-year in constant currency terms."
+          }
+        ]
+      },
+      "delivery": {
+        "metric_key": "revenue_growth",
+        "basis": "constant currency",
+        "unit": "%",
+        "scope": "consolidated",
+        "actual_value": 2.4,
+        "period": "Q1 FY27",
+        "comparable": true,
+        "status": "NOT_COMPARABLE",
+        "statement": "revenue growth for Q1 was at 2.4% Y-on-Y",
+        "reason": "A complete target-period result on a matched basis is required.",
+        "citations": [
+          {
+            "document": "Q1 FY27",
+            "page": 5,
+            "quote": "revenue growth for Q1 was at 2.4% Y-on-Y"
+          }
+        ]
+      }
+    },
+    {
+      "theme": "FY27 \u00b7 Operating Margin",
+      "promise": {
+        "metric_key": "operating_margin",
+        "basis": "unknown",
+        "unit": "%",
+        "scope": "unknown",
+        "target_low": 20.0,
+        "target_high": 22.0,
+        "direction": "higher",
+        "target_type": "range",
+        "period": "FY27",
+        "statement": "Our operating margin guidance for financial year '27 is 20% to 22%.",
+        "citations": [
+          {
+            "document": "Q4 FY26",
+            "page": 4,
+            "quote": "Our operating margin guidance for financial year '27 is 20% to 22%."
+          }
+        ]
+      },
+      "delivery": {
+        "metric_key": "operating_margin",
+        "basis": "usd, consolidated",
+        "unit": "%",
+        "scope": "consolidated",
+        "actual_value": 21.1,
+        "period": "Q1 FY27",
+        "comparable": true,
+        "status": "NOT_COMPARABLE",
+        "statement": "operating margin at 21.1%",
+        "reason": "A complete target-period result on a matched basis is required.",
+        "citations": [
+          {
+            "document": "Q1 FY27",
+            "page": 5,
+            "quote": "operating margin at 21.1%"
+          }
+        ]
+      }
+    }
+  ]
+}

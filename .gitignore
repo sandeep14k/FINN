@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+venv/
+__pycache__/
+*.pyc
+data/.cache/
+data/.jobs/
+.DS_Store
+finn-app/node_modules/
+finn-app/.next/
+finn-app/tsconfig.tsbuildinfo
+hs_err_pid*.log
+replay_pid*.log
+# Internal working notes, not part of the submission.
+GRADING_PLAN.md
+COMPLETION_PLAN.md
+CODE_REVIEW.md
+1. ENAM_AI_Engineer_Build_Challenge_Main.pdf
+2. ENAM_AI_Engineer_Build_Challenge_Reference.pdf

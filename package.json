@@ -1,0 +1,14 @@
+{
+  "name": "finn-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix finn-app run dev",
+    "build": "npm --prefix finn-app run build",
+    "start": "npm --prefix finn-app start",
+    "lint": "npm --prefix finn-app run lint",
+    "test": "venv/bin/python -m unittest discover -s tests -v",
+    "refresh": "venv/bin/python monitor.py --once",
+    "monitor": "venv/bin/python monitor.py",
+    "research": "venv/bin/python run_pull.py"
+  }
+}

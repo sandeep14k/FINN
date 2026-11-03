@@ -1,0 +1,135 @@
+{
+  "refreshed_at": "2026-11-03T10:40:53.276048+05:30",
+  "stale_tickers": [],
+  "coverage": {
+    "INFY.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "KPITTECH.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ETERNAL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "LAURUSLABS.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "RELIANCE.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ITC.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "LT.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ICICIBANK.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "BHARTIARTL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "TRENT.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "POLYCAB.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "DIXON.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "INDHOTEL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "CUMMINSIND.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "CDSL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "TATASTEEL.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "ONGC.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "NEULANDLAB.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "PRAJIND.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "JYOTHYLAB.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    },
+    "RKFORGE.NS": {
+      "status": "partial",
+      "source": "Screener",
+      "reason": "Limited latest-announcement list"
+    }
+  },
+  "direct_exchange_tickers": [],
+  "limited_feed_tickers": [
+    "INFY.NS",
+    "KPITTECH.NS",
+    "ETERNAL.NS",
+    "LAURUSLABS.NS",
+    "RELIANCE.NS",
+    "ITC.NS",
+    "LT.NS",
+    "ICICIBANK.NS",
+    "BHARTIARTL.NS",
+    "TRENT.NS",
+    "POLYCAB.NS",
+    "DIXON.NS",
+    "INDHOTEL.NS",
+    "CUMMINSIND.NS",
+    "CDSL.NS",
+    "TATASTEEL.NS",
+    "ONGC.NS",
+    "NEULANDLAB.NS",
+    "PRAJIND.NS",
+    "JYOTHYLAB.NS",
+    "RKFORGE.NS"
+  ]
+}

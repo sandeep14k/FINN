@@ -1,0 +1,301 @@
+{
+  "symbol": "HCLTECH",
+  "mode": "evidence_only",
+  "executive_summary": "7 research sections grounded in company reports and earnings calls. No completed promise-to-outcome verdict has been established.",
+  "coverage": {
+    "transcripts": 5,
+    "annual_reports": 1
+  },
+  "business_snapshot": [
+    {
+      "statement": "HCLTech operates in a fast-paced industry with rapid innovation in tech offerings.",
+      "citation": {
+        "document": "Annual report",
+        "quote": "HCLTech operates in a fast-paced industry with rapid innovation in tech offerings.",
+        "page": 124,
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "statement": "Net profit ratio Net profit ratio has decreased to 13.9% in FY 25-26 from 24.0% in FY 24-25, due to decrease net profit on account of exceptional items during the year.",
+      "citation": {
+        "document": "Annual report",
+        "page": 386,
+        "quote": "Net profit ratio Net profit ratio has decreased to 13.9% in FY 25-26 from 24.0% in FY 24-25, due to decrease net profit on account of exceptional items during the year.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+      }
+    },
+    {
+      "statement": "More importantly, we ended the year with $620 million in Advanced AI revenue, a measure of our fast-maturing AI play.",
+      "citation": {
+        "document": "Annual report",
+        "page": 27,
+        "quote": "More importantly, we ended the year with $620 million in Advanced AI revenue, a measure of our fast-maturing AI play.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+      }
+    },
+    {
+      "statement": "Net capital turnover ratio Net capital turnover ratio has increased to 6.4 times in FY 25-26 from 3.4 times in FY 24-25, due to decrease in working capital (increased current liabilities on account of exceptional items against decreased current assets) during the year.",
+      "citation": {
+        "document": "Annual report",
+        "page": 386,
+        "quote": "Net capital turnover ratio Net capital turnover ratio has increased to 6.4 times in FY 25-26 from 3.4 times in FY 24-25, due to decrease in working capital (increased current liabilities on account of exceptional items against decreased current assets) during the year.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+      }
+    },
+    {
+      "statement": "Services grew 3% sequentially and 4% YoY, with growth of 2.3% sequentially.",
+      "citation": {
+        "document": "Oct 2026 Transcript AI Summary PPT REC",
+        "page": 4,
+        "quote": "Services grew 3% sequentially and 4% YoY, with growth of 2.3% sequentially.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+      }
+    },
+    {
+      "statement": "No single customer accounted for more than 10% of trade receivables, unbilled receivables and finance lease receivables.",
+      "citation": {
+        "document": "Annual report",
+        "page": 449,
+        "quote": "No single customer accounted for more than 10% of trade receivables, unbilled receivables and finance lease receivables.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+      }
+    },
+    {
+      "statement": "Total DSO, including unbilled receivables, is at 84 days, representing a decrease of 2 days QoQ.",
+      "citation": {
+        "document": "Oct 2026 Transcript AI Summary PPT REC",
+        "page": 15,
+        "quote": "Total DSO, including unbilled receivables, is at 84 days, representing a decrease of 2 days QoQ.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+      }
+    },
+    {
+      "statement": "The company continued to have a very healthy balance sheet with robust free cash flow of \u20b918,553 crores, which is 107% of net income.",
+      "citation": {
+        "document": "Annual report",
+        "page": 31,
+        "quote": "The company continued to have a very healthy balance sheet with robust free cash flow of \u20b918,553 crores, which is 107% of net income.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+      }
+    },
+    {
+      "statement": "In terms of cash generation, over the last 12 months, Free Cash Flow has been at $1.78 billion, whereas Operating Cash Flow is at $1.96 billion.",
+      "citation": {
+        "document": "Oct 2026 Transcript AI Summary PPT REC",
+        "page": 15,
+        "quote": "In terms of cash generation, over the last 12 months, Free Cash Flow has been at $1.78 billion, whereas Operating Cash Flow is at $1.96 billion.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+      }
+    },
+    {
+      "statement": "The full-year revenue growth guidance now includes inorganic contribution of 62 basis points for Services and 87 basis points for the Company.",
+      "citation": {
+        "document": "Oct 2026 Transcript AI Summary PPT REC",
+        "page": 15,
+        "quote": "The full-year revenue growth guidance now includes inorganic contribution of 62 basis points for Services and 87 basis points for the Company.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+      }
+    },
+    {
+      "statement": "Looking ahead We remain confident in our ability to execute our AI growth strategy and to continue creating long-term shareholder value, even as we recognize the headwinds that may arise from technology transformation and geopolitical uncertainty.",
+      "citation": {
+        "document": "Annual report",
+        "page": 31,
+        "quote": "Looking ahead We remain confident in our ability to execute our AI growth strategy and to continue creating long-term shareholder value, even as we recognize the headwinds that may arise from technology transformation and geopolitical uncertainty.",
+        "verified": true,
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+        "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+      }
+    }
+  ],
+  "metrics": [],
+  "sections": [
+    {
+      "key": "business",
+      "title": "The business, in context",
+      "facts": [
+        {
+          "statement": "HCLTech operates in a fast-paced industry with rapid innovation in tech offerings.",
+          "citation": {
+            "document": "Annual report",
+            "quote": "HCLTech operates in a fast-paced industry with rapid innovation in tech offerings.",
+            "page": 124,
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "financials",
+      "title": "The financial picture",
+      "facts": [
+        {
+          "statement": "Net profit ratio Net profit ratio has decreased to 13.9% in FY 25-26 from 24.0% in FY 24-25, due to decrease net profit on account of exceptional items during the year.",
+          "citation": {
+            "document": "Annual report",
+            "page": 386,
+            "quote": "Net profit ratio Net profit ratio has decreased to 13.9% in FY 25-26 from 24.0% in FY 24-25, due to decrease net profit on account of exceptional items during the year.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+          }
+        },
+        {
+          "statement": "More importantly, we ended the year with $620 million in Advanced AI revenue, a measure of our fast-maturing AI play.",
+          "citation": {
+            "document": "Annual report",
+            "page": 27,
+            "quote": "More importantly, we ended the year with $620 million in Advanced AI revenue, a measure of our fast-maturing AI play.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "trajectory",
+      "title": "Direction of travel",
+      "facts": [
+        {
+          "statement": "Net capital turnover ratio Net capital turnover ratio has increased to 6.4 times in FY 25-26 from 3.4 times in FY 24-25, due to decrease in working capital (increased current liabilities on account of exceptional items against decreased current assets) during the year.",
+          "citation": {
+            "document": "Annual report",
+            "page": 386,
+            "quote": "Net capital turnover ratio Net capital turnover ratio has increased to 6.4 times in FY 25-26 from 3.4 times in FY 24-25, due to decrease in working capital (increased current liabilities on account of exceptional items against decreased current assets) during the year.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+          }
+        },
+        {
+          "statement": "Services grew 3% sequentially and 4% YoY, with growth of 2.3% sequentially.",
+          "citation": {
+            "document": "Oct 2026 Transcript AI Summary PPT REC",
+            "page": 4,
+            "quote": "Services grew 3% sequentially and 4% YoY, with growth of 2.3% sequentially.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "balance_sheet",
+      "title": "Balance-sheet watch",
+      "facts": [
+        {
+          "statement": "No single customer accounted for more than 10% of trade receivables, unbilled receivables and finance lease receivables.",
+          "citation": {
+            "document": "Annual report",
+            "page": 449,
+            "quote": "No single customer accounted for more than 10% of trade receivables, unbilled receivables and finance lease receivables.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+          }
+        },
+        {
+          "statement": "Total DSO, including unbilled receivables, is at 84 days, representing a decrease of 2 days QoQ.",
+          "citation": {
+            "document": "Oct 2026 Transcript AI Summary PPT REC",
+            "page": 15,
+            "quote": "Total DSO, including unbilled receivables, is at 84 days, representing a decrease of 2 days QoQ.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cash_quality",
+      "title": "Do earnings turn into cash?",
+      "facts": [
+        {
+          "statement": "The company continued to have a very healthy balance sheet with robust free cash flow of \u20b918,553 crores, which is 107% of net income.",
+          "citation": {
+            "document": "Annual report",
+            "page": 31,
+            "quote": "The company continued to have a very healthy balance sheet with robust free cash flow of \u20b918,553 crores, which is 107% of net income.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+          }
+        },
+        {
+          "statement": "In terms of cash generation, over the last 12 months, Free Cash Flow has been at $1.78 billion, whereas Operating Cash Flow is at $1.96 billion.",
+          "citation": {
+            "document": "Oct 2026 Transcript AI Summary PPT REC",
+            "page": 15,
+            "quote": "In terms of cash generation, over the last 12 months, Free Cash Flow has been at $1.78 billion, whereas Operating Cash Flow is at $1.96 billion.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "guidance",
+      "title": "What management expects",
+      "facts": [
+        {
+          "statement": "The full-year revenue growth guidance now includes inorganic contribution of 62 basis points for Services and 87 basis points for the Company.",
+          "citation": {
+            "document": "Oct 2026 Transcript AI Summary PPT REC",
+            "page": 15,
+            "quote": "The full-year revenue growth guidance now includes inorganic contribution of 62 basis points for Services and 87 basis points for the Company.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccce0001-ff5d-4875-b1e5-5c558669f49c.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=transcript_oct_2026_transcript_ai_summary_ppt_rec_46abcaa05b.json"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bull_bear",
+      "title": "Opportunity & risk",
+      "facts": [
+        {
+          "statement": "Looking ahead We remain confident in our ability to execute our AI growth strategy and to continue creating long-term shareholder value, even as we recognize the headwinds that may arise from technology transformation and geopolitical uncertainty.",
+          "citation": {
+            "document": "Annual report",
+            "page": 31,
+            "quote": "Looking ahead We remain confident in our ability to execute our AI growth strategy and to continue creating long-term shareholder value, even as we recognize the headwinds that may arise from technology transformation and geopolitical uncertainty.",
+            "verified": true,
+            "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc45f66-7fb5-4fab-a87a-b32321b63059.pdf",
+            "source_path": "/api/source?symbol=HCLTECH&file=ar_annual_report_2026_from_bse_ai_summary_55e205d50b.json"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-02T15:22:32.261834+00:00"
+}

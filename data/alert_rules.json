@@ -1,0 +1,16 @@
+{
+  "price": 3,
+  "volume": 2.5,
+  "categories": [
+    "results",
+    "management_change",
+    "M&A",
+    "litigation",
+    "credit_rating",
+    "capex",
+    "fund_raise",
+    "earnings_call",
+    "dividend",
+    "pledging"
+  ]
+}
